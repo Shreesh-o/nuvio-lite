@@ -1,0 +1,405 @@
+{
+  "name": "Nuvio-Lite",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "4khdhub",
+      "name": "4khdhub",
+      "description": "4khdhub provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "cinevibe",
+      "name": "Cinevibe",
+      "description": "Cinevibe provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cinevibe.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "dahmermovies",
+      "name": "Dahmermovies",
+      "description": "Dahmermovies provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dahmermovies.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hdhub4u",
+      "name": "Hdhub4u",
+      "description": "Hdhub4u provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hdhub4u.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "hdrezka",
+      "name": "Hdrezka",
+      "description": "Hdrezka provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hdrezka.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "idlix",
+      "name": "Idlix",
+      "description": "Idlix provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/idlix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "mallumv",
+      "name": "Mallumv",
+      "description": "Mallumv provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/mallumv.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "moviesmod",
+      "name": "Moviesmod",
+      "description": "Moviesmod provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/moviesmod.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "netmirror",
+      "name": "Netmirror",
+      "description": "Netmirror provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/netmirror.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "uhdmovies",
+      "name": "Uhdmovies",
+      "description": "Uhdmovies provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/uhdmovies.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "vixsrc",
+      "name": "Vixsrc",
+      "description": "Vixsrc provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vixsrc.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "adimoviebox",
+      "name": "Adimoviebox",
+      "description": "Adimoviebox provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/adimoviebox.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "tamilmv",
+      "name": "TamilMV",
+      "description": "TamilMV provider for Nuvio.",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/tamilmv.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ta",
+        "en"
+      ],
+      "logo": "https://www.1tamilmv.band/uploads/monthly_2025_02/logo.png.bcc33561bc1d7345f7c6237a80238992.png"
+    },
+    {
+      "id": "tamilblasters",
+      "name": "Tamilblasters",
+      "description": "Tamilblasters provider for Nuvio.",
+      "version": "1.0.1",
+      "author": "User",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/tamilblasters.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ta",
+        "en"
+      ],
+      "logo": "https://1tamilblasters.bz/uploads/monthly_2025_10/169356039_TBLwhitelogo.png.50e3c98229dab88b167074a68df15caf.png"
+    },
+    {
+      "id": "tamilian",
+      "name": "Tamilian",
+      "description": "Tamilian provider for Nuvio.",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/tamilian.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ta",
+        "en"
+      ]
+    },
+    {
+      "id": "moviesda",
+      "name": "Moviesda",
+      "description": "Moviesda provider for Nuvio.",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/moviesda.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ta",
+        "en"
+      ]
+    },
+    {
+      "id": "movies4u",
+      "name": "Movies4u",
+      "description": "Movies4u provider for Nuvio.",
+      "version": "1.0.1",
+      "author": "User",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/movies4u.js",
+      "enabled": true,
+      "contentLanguage": [
+        "en",
+        "ta",
+        "hi"
+      ]
+    },
+    {
+      "id": "isaidub",
+      "name": "Isaidub",
+      "description": "Isaidub provider for Nuvio",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/isaidub.js",
+      "enabled": true,
+      "contentLanguage": [
+        "ta",
+        "en"
+      ]
+    },
+    {
+      "id": "toonhub",
+      "name": "ToonHub",
+      "description": "ToonHub provider for Nuvio (Animes & Cartoons)",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/toonhub.js",
+      "enabled": true,
+      "contentLanguage": [
+        "hi",
+        "en"
+      ],
+      "logo": "https://toonhub4u.co/wp-content/uploads/2024/02/Untitled.png"
+    },
+    {
+      "id": "animelok",
+      "name": "Animelok",
+      "description": "Animelok provider for Nuvio (Anime in multiple languages)",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "tv",
+        "movie"
+      ],
+      "filename": "providers/animelok.js",
+      "enabled": true,
+      "contentLanguage": [
+        "hi",
+        "ta",
+        "te",
+        "ml",
+        "en",
+        "ja"
+      ],
+      "logo": "https://animelok.to/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.5c53cc50.png&w=384&q=75"
+    },
+    {
+      "id": "xdmovies",
+      "name": "XDmovies",
+      "description": "XDmovies provider for Nuvio (Movies and TV Shows)",
+      "version": "1.0.0",
+      "author": "User",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/xdmovies.js",
+      "enabled": true,
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "logo": "https://xdmovies.site/assets/logo1.png"
+    }
+  ]
+}
