@@ -1,10 +1,6 @@
 # Nuvio-Lite
 
-A curated, QuickJS-compatible Nuvio plugin repository (`manifest.json`) consolidating working providers from three audited Nuvio repositories:
-
-- `michat88/nuvio-providers`
-- `PirateZoro9/asura-providers`
-- `Abinanthankv/NuvioRepo`
+A curated, QuickJS-compatible Nuvio plugin repository (`manifest.json` v1.1.0, **35 providers**) consolidating live-tested English, Hindi, and regional providers for Nuvio Mobile, Desktop, and TV.
 
 > **Pure native Nuvio plugins only:** No AIOStreams, Debrid, Docker, or backend server required.
 
@@ -17,21 +13,23 @@ A curated, QuickJS-compatible Nuvio plugin repository (`manifest.json`) consolid
    ```
 3. **Recommended on mobile/ISP networks:** Enable Android **Private DNS** (`one.one.one.one` or `dns.adguard-dns.com`) so ISP DNS/TLS resets don't block TMDB or provider domains.
 
-## Curation Summary (57 → 27 Providers)
+## Included Providers (`35` Total)
 
-| Category | Count | Details |
-| --- | ---: | --- |
-| **Original entries audited** | 57 | `30` (`michat88`) + `17` (`asura`) + `10` (`abinanthankv`) |
-| **Duplicates removed** | 5 | `4` duplicate IDs (`asura`: `4khdhub`, `hdhub4u`, `kisskh`, `uhdmovies`) + `1` functional duplicate (`michat88/myflixer-extractor`) |
-| **Broken / Incompatible / Disabled removed** | 9 | `moviebox` (404), `vidsrc` (`process.env`), `dvdplay` (`AbortSignal.timeout`), `streamflix` (`WebSocket`), `vidrock` (`localhost:3050`), `showbox` (`uiToken`), `dramafull` (`axios`), `animekai` (broken movie support), `videasy` (disabled in `NuvioTV` + dead `api2.videasy.net`) |
-| **Dead domains / 403 / 404 pruned** | 16 | `adimoviebox`, `castle`, `cinefreak`, `cinemm`, `hdrezka`, `idlix`, `mallumv`, `mapple`, `peachify`, `tamilmv`, `vidnest`, `vidnest-anime`, `vixsrc`, `watch32`, `xprime`, `yflix` |
-| **Final providers in `manifest.json`** | **27** | `9` (`michat88`) + `10` (`asura`) + `8` (`abinanthankv`) |
+### Newly Added & Upgraded Live-Tested Providers (`12`)
+- **New (`9`, non-obfuscated):** `bingr` (`flix-dlp` v1.6.1, `en/hi/ja/multi`), `cinejoy` (`Skywave22` v1.0.9, `en/hi`), `movy` (`phuanh004` v1.0.4, `en`), `redflix` (`SA7ANI` v1.0.0, `en`), `castle` (`flix-dlp` v1.6.1, `hi/en/ta/te`), `movieblast` (`yoruix` v1.0.0, `te/hi/en`), `net77` (`flix-dlp` v1.6.1, `en/hi/multi` — replaces slow `netmirror`), `7movies` (`phuanh004` v1.0.6, `en`), `reanime` (`NuvioPlugin` v1.0.0, `en` anime)
+- **Upgraded (`3`, non-obfuscated):** `4khdhub` (`yoruix` v1.0.2), `hdhub4u` (`SA7ANI` v1.1.0), `uhdmovies` (`NuvioPlugin` v1.2.1)
 
-## Retained Providers (`27`)
+### Base Curated Providers (`23`)
+- `michat88/nuvio-providers`: `kisskh`, `cinevibe`, `dahmermovies`, `moviesmod`, `vidlink`
+- `PirateZoro9/asura-providers`: `vegamovies`, `movieshunt`, `biavox`, `moviesdrive`, `animetsu`, `anikototv`, `zinkmovies`, `hdfilme`, `playimdb`, `hindmovie`
+- `Abinanthankv/NuvioRepo`: `tamilblasters`, `tamilian`, `moviesda`, `movies4u`, `isaidub`, `toonhub` *(QuickJS `atob` patch)*, `animelok`, `xdmovies`
 
-- **`michat88/nuvio-providers` (`9`):** `kisskh`, `4khdhub`, `cinevibe`, `dahmermovies`, `hdhub4u`, `moviesmod`, `netmirror`, `uhdmovies`, `vidlink`
-- **`PirateZoro9/asura-providers` (`10`):** `vegamovies`, `movieshunt`, `biavox`, `moviesdrive`, `animetsu`, `anikototv`, `zinkmovies`, `hdfilme`, `playimdb`, `hindmovie`
-- **`Abinanthankv/NuvioRepo` (`8`):** `tamilblasters`, `tamilian`, `moviesda`, `movies4u`, `isaidub`, `toonhub` *(patched `Buffer.from` → `atob` for QuickJS)*, `animelok`, `xdmovies`
+## Optional Stremio HTTP Addons (Separate from `manifest.json`)
+
+Nuvio's `manifest.json` only loads local QuickJS JS plugins (**Settings → Plugins**). If you want even more stream sources alongside `nuvio-lite`, you can add standard Stremio HTTP addons separately in **Settings → Addons**:
+- **WebStreamr** — HTTPS direct streams (no Debrid or torrents needed).
+- **NuvioStreams** — Stremio HTTP addon companion.
+- **Torrentio** — Only recommended if you have a Debrid key (without Debrid, raw P2P torrents often stall on mobile).
 
 ## Compatibility Testing & Audit Data
 

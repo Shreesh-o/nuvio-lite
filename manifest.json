@@ -1,6 +1,6 @@
 {
   "name": "Nuvio-Lite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scrapers": [
     {
       "id": "kisskh",
@@ -25,10 +25,10 @@
     },
     {
       "id": "4khdhub",
-      "name": "4khdhub",
-      "description": "4khdhub provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
+      "name": "4KHDHub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.2",
+      "author": "Nuvio Team",
       "supportedTypes": [
         "movie",
         "tv"
@@ -36,12 +36,12 @@
       "filename": "providers/4khdhub.js",
       "enabled": true,
       "formats": [
-        "mp4",
-        "m3u8"
+        "mkv"
       ],
       "contentLanguage": [
         "en"
-      ]
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=4khdhub.click&sz=128"
     },
     {
       "id": "cinevibe",
@@ -85,10 +85,10 @@
     },
     {
       "id": "hdhub4u",
-      "name": "Hdhub4u",
-      "description": "Hdhub4u provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
+      "name": "HDHub4u",
+      "description": "Direct links from HDHub4u with high-speed download support",
+      "version": "1.1.0",
+      "author": "Chole Bhature",
       "supportedTypes": [
         "movie",
         "tv"
@@ -100,8 +100,10 @@
         "m3u8"
       ],
       "contentLanguage": [
-        "en"
-      ]
+        "en",
+        "hi"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=new6.hdhub4u.fo&sz=128"
     },
     {
       "id": "moviesmod",
@@ -124,31 +126,11 @@
       ]
     },
     {
-      "id": "netmirror",
-      "name": "Netmirror",
-      "description": "Netmirror provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/netmirror.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
       "id": "uhdmovies",
-      "name": "Uhdmovies",
-      "description": "Uhdmovies provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
+      "name": "UHDMovies",
+      "description": "UHD Movies streaming with multiple resolution",
+      "version": "1.2.1",
+      "author": "Nuvio Team",
       "supportedTypes": [
         "movie",
         "tv"
@@ -156,12 +138,12 @@
       "filename": "providers/uhdmovies.js",
       "enabled": true,
       "formats": [
-        "mp4",
-        "m3u8"
+        "mkv"
       ],
       "contentLanguage": [
         "en"
-      ]
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=uhdmovies.pink&sz=128"
     },
     {
       "id": "vidlink",
@@ -551,6 +533,209 @@
         "hi"
       ],
       "logo": "https://xdmovies.site/assets/logo1.png"
+    },
+    {
+      "id": "bingr",
+      "name": "⚡ Bingr Multi-Source",
+      "description": "Multi-source streaming provider for movies, TV shows, and anime aggregated from Bingr endpoints with multi-audio support",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/bingr.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "ja",
+        "hi",
+        "multi"
+      ],
+      "logo": "https://img.icons8.com/color/96/film-reel.png"
+    },
+    {
+      "id": "cinejoy",
+      "name": "CineJoy",
+      "description": "CineJoy (cinejoy.pk) — movies & series from a TMDB catalog (Netflix/Prime rows) with many servers per title: Nitro multi-audio, MhPly/AwsPly Hindi, HDHub, VidAPI, MovieBox, Rock HLS. Links are checked before they are shown.",
+      "version": "1.0.9",
+      "author": "TJ-Plugins",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/cinejoy.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=cinejoy.pk&sz=128"
+    },
+    {
+      "id": "movy",
+      "name": "Movy",
+      "description": "movy.sx sources (wecollege API, mvm1-decrypted) - direct HLS up to 4K with subtitles",
+      "version": "1.0.4",
+      "author": "Anh Pham",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/movy.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=movy.sx&sz=128"
+    },
+    {
+      "id": "redflix",
+      "name": "RedFlix",
+      "description": "RedFlix stream provider",
+      "version": "1.0.0",
+      "author": "Chole Bhature",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/redflix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "castle",
+      "name": "🏰 Castle VIP Streams",
+      "description": "Direct Castle VIP Bollywood, Hollywood & TV series in 1080p with Multi-Audio (Hindi, English, Tamil, Telugu, etc.)",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/castle.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "hi",
+        "en",
+        "ta",
+        "te"
+      ],
+      "logo": "https://img.icons8.com/color/96/castle.png"
+    },
+    {
+      "id": "movieblast",
+      "name": "MovieBlast",
+      "description": "Direct links via MovieBlast API with multi-language support",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/movieblast.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "contentLanguage": [
+        "te",
+        "hi",
+        "en"
+      ],
+      "logo": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/movieblast.png"
+    },
+    {
+      "id": "net77",
+      "name": "🌐 NetMirror (Net77)",
+      "description": "Multi-OTT streaming provider aggregating adaptive master HLS streams from Netflix, Prime Video, and Hotstar with multi-audio",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/net77.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi",
+        "ta",
+        "te",
+        "es",
+        "fr",
+        "de",
+        "ja",
+        "multi"
+      ],
+      "logo": "https://net77.cc/favicon.ico"
+    },
+    {
+      "id": "7movies",
+      "name": "7Movies",
+      "description": "7movies.ac sources (VidLink upstream) - direct MP4/HLS with subtitles",
+      "version": "1.0.6",
+      "author": "Anh Pham",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/7movies.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=7movies.ac&sz=128"
+    },
+    {
+      "id": "reanime",
+      "name": "Reanime",
+      "description": "Reanime anime streaming with automated AniList mapping and subtitle support",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/reanime.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=reanime.to&sz=128"
     }
   ]
 }
