@@ -11,31 +11,27 @@ A curated, QuickJS-compatible Nuvio plugin repository (`manifest.json`) consolid
 ## Usage in Nuvio
 
 1. Open **Nuvio** (**Settings → Plugins**).
-2. Add the raw `manifest.json` URL from your GitHub repository:
+2. Add the raw `manifest.json` URL:
    ```text
-   https://raw.githubusercontent.com/<username>/<repo>/main/manifest.json
+   https://raw.githubusercontent.com/Shreesh-o/nuvio-lite/main/manifest.json
    ```
-   Or test locally over LAN without any extra dependencies:
-   ```bash
-   python3 -m http.server 3000
-   # Then add: http://<your-lan-ip>:3000/manifest.json
-   ```
+3. **Recommended on mobile/ISP networks:** Enable Android **Private DNS** (`one.one.one.one` or `dns.adguard-dns.com`) so ISP DNS/TLS resets don't block TMDB or provider domains.
 
-## Curation Summary (57 → 43 Providers)
+## Curation Summary (57 → 27 Providers)
 
 | Category | Count | Details |
 | --- | ---: | --- |
 | **Original entries audited** | 57 | `30` (`michat88`) + `17` (`asura`) + `10` (`abinanthankv`) |
-| **Duplicates removed** | 5 | `4` duplicate IDs (`asura`: `4khdhub`, `hdhub4u`, `kisskh`, `uhdmovies` — retained `michat88`'s non-obfuscated implementations) + `1` functional duplicate (`michat88/myflixer-extractor` overlapping `watch32`) |
-| **Broken / Incompatible removed** | 7 | `moviebox` (404), `vidsrc` (`process.env`), `dvdplay` (`AbortSignal.timeout`), `streamflix` (`WebSocket`/`ws`), `vidrock` (`localhost:3050`), `showbox` (`uiToken` cookie + `febapi.nuvioapp.space`), `dramafull` (`require('axios')`) |
-| **Partially broken / Disabled removed** | 2 | `michat88/animekai` (returns `[]` for movies despite declaring `movie`+`tv`), `michat88/videasy` (disabled by default in `NuvioTV` `PluginSafety`) |
-| **Final providers in `manifest.json`** | **43** | `21` (`michat88`) + `13` (`asura`) + `9` (`abinanthankv`) |
+| **Duplicates removed** | 5 | `4` duplicate IDs (`asura`: `4khdhub`, `hdhub4u`, `kisskh`, `uhdmovies`) + `1` functional duplicate (`michat88/myflixer-extractor`) |
+| **Broken / Incompatible / Disabled removed** | 9 | `moviebox` (404), `vidsrc` (`process.env`), `dvdplay` (`AbortSignal.timeout`), `streamflix` (`WebSocket`), `vidrock` (`localhost:3050`), `showbox` (`uiToken`), `dramafull` (`axios`), `animekai` (broken movie support), `videasy` (disabled in `NuvioTV` + dead `api2.videasy.net`) |
+| **Dead domains / 403 / 404 pruned** | 16 | `adimoviebox`, `castle`, `cinefreak`, `cinemm`, `hdrezka`, `idlix`, `mallumv`, `mapple`, `peachify`, `tamilmv`, `vidnest`, `vidnest-anime`, `vixsrc`, `watch32`, `xprime`, `yflix` |
+| **Final providers in `manifest.json`** | **27** | `9` (`michat88`) + `10` (`asura`) + `8` (`abinanthankv`) |
 
-## Retained Providers (`43`)
+## Retained Providers (`27`)
 
-- **`michat88/nuvio-providers` (`21`):** `4khdhub`, `adimoviebox`, `castle`, `cinevibe`, `dahmermovies`, `hdhub4u`, `hdrezka`, `idlix`, `kisskh`, `mallumv`, `mapple`, `moviesmod`, `netmirror`, `uhdmovies`, `vidlink`, `vidnest`, `vidnest-anime`, `vixsrc`, `watch32`, `xprime`, `yflix`
-- **`PirateZoro9/asura-providers` (`13`):** `vegamovies`, `movieshunt`, `biavox`, `cinemm`, `peachify`, `moviesdrive`, `animetsu`, `anikototv`, `zinkmovies`, `cinefreak`, `hdfilme`, `playimdb`, `hindmovie` *(note: upstream scripts use `_0x` obfuscation)*
-- **`Abinanthankv/NuvioRepo` (`9`):** `tamilmv`, `tamilblasters`, `tamilian`, `moviesda`, `movies4u`, `isaidub`, `toonhub`, `animelok`, `xdmovies`
+- **`michat88/nuvio-providers` (`9`):** `kisskh`, `4khdhub`, `cinevibe`, `dahmermovies`, `hdhub4u`, `moviesmod`, `netmirror`, `uhdmovies`, `vidlink`
+- **`PirateZoro9/asura-providers` (`10`):** `vegamovies`, `movieshunt`, `biavox`, `moviesdrive`, `animetsu`, `anikototv`, `zinkmovies`, `hdfilme`, `playimdb`, `hindmovie`
+- **`Abinanthankv/NuvioRepo` (`8`):** `tamilblasters`, `tamilian`, `moviesda`, `movies4u`, `isaidub`, `toonhub` *(patched `Buffer.from` → `atob` for QuickJS)*, `animelok`, `xdmovies`
 
 ## Compatibility Testing & Audit Data
 

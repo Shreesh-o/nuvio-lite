@@ -44,26 +44,6 @@
       ]
     },
     {
-      "id": "castle",
-      "name": "Castle",
-      "description": "Castle provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/castle.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
       "id": "cinevibe",
       "name": "Cinevibe",
       "description": "Cinevibe provider for Nuvio-Lite (from michat88/nuvio-providers).",
@@ -114,86 +94,6 @@
         "tv"
       ],
       "filename": "providers/hdhub4u.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "hdrezka",
-      "name": "Hdrezka",
-      "description": "Hdrezka provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/hdrezka.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "idlix",
-      "name": "Idlix",
-      "description": "Idlix provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/idlix.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "mallumv",
-      "name": "Mallumv",
-      "description": "Mallumv provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/mallumv.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "mapple",
-      "name": "Mapple",
-      "description": "Mapple provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/mapple.js",
       "enabled": true,
       "formats": [
         "mp4",
@@ -284,146 +184,6 @@
       ]
     },
     {
-      "id": "vidnest-anime",
-      "name": "Vidnest-anime",
-      "description": "Vidnest-anime provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/vidnest-anime.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "vidnest",
-      "name": "Vidnest",
-      "description": "Vidnest provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/vidnest.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "vixsrc",
-      "name": "Vixsrc",
-      "description": "Vixsrc provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/vixsrc.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "watch32",
-      "name": "Watch32",
-      "description": "Watch32 provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/watch32.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "xprime",
-      "name": "Xprime",
-      "description": "Xprime provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/xprime.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "yflix",
-      "name": "Yflix",
-      "description": "Yflix provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/yflix.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "adimoviebox",
-      "name": "Adimoviebox",
-      "description": "Adimoviebox provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/adimoviebox.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
       "id": "vegamovies",
       "name": "VegaMovies",
       "description": "Indian & Hollywood movies/series from vegamovies.mq",
@@ -491,50 +251,6 @@
         "fr"
       ],
       "logo": "https://www.google.com/s2/favicons?domain=biavox.com&sz=256"
-    },
-    {
-      "id": "cinemm",
-      "name": "CineMM",
-      "description": "Direct MP4 streams from cinemm.com",
-      "version": "1.0.0",
-      "author": "piratezoro9",
-      "supportedTypes": [
-        "movie",
-        "tv",
-        "series"
-      ],
-      "filename": "providers/cinemm.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "mkv"
-      ],
-      "contentLanguage": [
-        "en"
-      ],
-      "logo": "https://www.google.com/s2/favicons?domain=cinemm.com&sz=256"
-    },
-    {
-      "id": "peachify",
-      "name": "Peachify",
-      "description": "Streams from peachify.top",
-      "version": "1.0.1",
-      "author": "piratezoro9",
-      "supportedTypes": [
-        "movie",
-        "tv",
-        "series"
-      ],
-      "filename": "providers/peachify.js",
-      "enabled": true,
-      "formats": [
-        "m3u8",
-        "mp4"
-      ],
-      "contentLanguage": [
-        "en"
-      ],
-      "logo": "https://www.google.com/s2/favicons?domain=peachify.top&sz=256"
     },
     {
       "id": "moviesdrive",
@@ -629,29 +345,6 @@
       "logo": "https://zinkmovies.monster/wp-content/uploads/2025/02/cropped-photo_5022038112150335812_x-192x192.jpg"
     },
     {
-      "id": "cinefreak",
-      "name": "CineFreak",
-      "description": "Direct MKV streams from cinefreak.nl",
-      "version": "1.0.0",
-      "author": "piratezoro9",
-      "supportedTypes": [
-        "movie",
-        "tv",
-        "series"
-      ],
-      "filename": "providers/cinefreak.js",
-      "enabled": true,
-      "formats": [
-        "mkv",
-        "mp4"
-      ],
-      "contentLanguage": [
-        "en",
-        "hi"
-      ],
-      "logo": "https://cinefreak.nl/wp-content/uploads/2024/08/cropped-cgk-192x192.png"
-    },
-    {
       "id": "hdfilme",
       "name": "HDFilme",
       "description": "German TV series & movies from hdfilme.win via meinecloud",
@@ -716,23 +409,6 @@
         "hi"
       ],
       "logo": "https://hindmovie.icu/wp-content/themes/generate-pro/images/favicon.ico"
-    },
-    {
-      "id": "tamilmv",
-      "name": "TamilMV",
-      "description": "TamilMV provider for Nuvio.",
-      "version": "1.0.0",
-      "author": "User",
-      "supportedTypes": [
-        "movie"
-      ],
-      "filename": "providers/tamilmv.js",
-      "enabled": true,
-      "contentLanguage": [
-        "ta",
-        "en"
-      ],
-      "logo": "https://www.1tamilmv.band/uploads/monthly_2025_02/logo.png.bcc33561bc1d7345f7c6237a80238992.png"
     },
     {
       "id": "tamilblasters",
