@@ -1,0 +1,3847 @@
+[
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "allmovieland",
+    "name": "AllMovieLand",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__allmovieland.js",
+    "bytes": 11637,
+    "hash": "156b6bddb69e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "hdmovie2",
+    "name": "🎬 HDMovie2",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__hdmovie2.js",
+    "bytes": 8944,
+    "hash": "ff9eb1c75fd5",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "streamflix",
+    "name": "Streamflix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__streamflix.js",
+    "bytes": 6951,
+    "hash": "203465ede3fe",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "movies4u",
+    "name": "Movies4u",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__movies4u.js",
+    "bytes": 18706,
+    "hash": "5c7f08e32ef4",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "4khdhub",
+    "name": "4khdhub",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__4khdhub.js",
+    "bytes": 38779,
+    "hash": "960824fde4c6",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "moviebox",
+    "name": "MovieBox",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__moviebox.js",
+    "bytes": 7843,
+    "hash": "07c32ed2d7d1",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "cinestream",
+    "name": "CineStream",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__cinestream.js",
+    "bytes": 2881,
+    "hash": "a67ceab40202",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "hindmoviez",
+    "name": "HindMoviez",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__hindmoviez.js",
+    "bytes": 5025,
+    "hash": "3a858f438d3c",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "netmirror",
+    "name": "Netmirror",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__netmirror.js",
+    "bytes": 6208,
+    "hash": "802363a78c3d",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "cinemacity",
+    "name": "CinemaCity",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ar"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__cinemacity.js",
+    "bytes": 8503,
+    "hash": "89932970f6ad",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "D3adlyRocket_Hindi",
+    "id": "movieblast",
+    "name": "MovieBlast",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/D3adlyRocket_Hindi__movieblast.js",
+    "bytes": 9763,
+    "hash": "7b84c12a13e2",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "hdhub4u",
+    "name": "HDHub4u",
+    "version": "1.1.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__hdhub4u.js",
+    "bytes": 44531,
+    "hash": "12f2fde20a9a",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "redflix",
+    "name": "RedFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__redflix.js",
+    "bytes": 19650,
+    "hash": "8f6de05476c9",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "castle",
+    "name": "Castle",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__castle.js",
+    "bytes": 28417,
+    "hash": "1785abcfead8",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "torrentio",
+    "name": "Torrentio",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__torrentio.js",
+    "bytes": 10254,
+    "hash": "b1487eb6013d",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": true,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "playimdb",
+    "name": "PlayIMDb",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__playimdb.js",
+    "bytes": 27322,
+    "hash": "d81bbbbb384e",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "topcartoons",
+    "name": "TopCartoons",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__topcartoons.js",
+    "bytes": 20608,
+    "hash": "38141b1601ea",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "moviebox",
+    "name": "MovieBox",
+    "version": "1.1.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__moviebox.js",
+    "bytes": 37065,
+    "hash": "20d5f81e0ddf",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "anizone",
+    "name": "AniZone",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__anizone.js",
+    "bytes": 15220,
+    "hash": "e3b9d5ca0134",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "desiflix",
+    "name": "DesiFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__desiflix.js",
+    "bytes": 29907,
+    "hash": "1e5abd25dd14",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "reanime",
+    "name": "Reanime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__reanime.js",
+    "bytes": 33878,
+    "hash": "7762161ca804",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "anizen",
+    "name": "AniZen",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__anizen.js",
+    "bytes": 22535,
+    "hash": "7a430b16e90e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "animeworld",
+    "name": "AnimeWorld",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__animeworld.js",
+    "bytes": 18825,
+    "hash": "6bb7b614595a",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "anikage",
+    "name": "AniKage",
+    "version": "2.4.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__anikage.js",
+    "bytes": 9926,
+    "hash": "4f4e9ebd709c",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "einthusan",
+    "name": "Einthusan",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "ml",
+      "kn",
+      "bn",
+      "mr",
+      "pa"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__einthusan.js",
+    "bytes": 34972,
+    "hash": "8b991cd974dc",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "SA7ANI_cb",
+    "id": "animesalt",
+    "name": "AnimeSalt",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "anime",
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/SA7ANI_cb__animesalt.js",
+    "bytes": 13151,
+    "hash": "b31d042e3ab3",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "bingr",
+    "name": "Bingr",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te",
+      "kn"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__bingr.js",
+    "bytes": 55648,
+    "hash": "6fd546a576b8",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "cinejoy",
+    "name": "CineJoy",
+    "version": "1.0.9",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__cinejoy.js",
+    "bytes": 64573,
+    "hash": "69e4608eeb5d",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "anihype",
+    "name": "AniHype",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__anihype.js",
+    "bytes": 67414,
+    "hash": "686139657ad1",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "cinehd",
+    "name": "CineHD",
+    "version": "1.0.10",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__cinehd.js",
+    "bytes": 62382,
+    "hash": "3b7c0134c0f5",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "cinezo",
+    "name": "Cinezo",
+    "version": "1.0.12",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__cinezo.js",
+    "bytes": 70932,
+    "hash": "5c7824c64bb2",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "histream",
+    "name": "HiStream",
+    "version": "1.0.8",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te",
+      "ko",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__histream.js",
+    "bytes": 65066,
+    "hash": "d4f23d74c1e6",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "katmoviehd",
+    "name": "KatMovieHD",
+    "version": "1.0.12",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__katmoviehd.js",
+    "bytes": 65823,
+    "hash": "baffe1242f39",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "katdrama",
+    "name": "KatDrama",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ko",
+      "zh"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__katdrama.js",
+    "bytes": 72248,
+    "hash": "c38dea686581",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "hicine",
+    "name": "HiCine",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__hicine.js",
+    "bytes": 60797,
+    "hash": "620d198428eb",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "fmovies",
+    "name": "FMovies",
+    "version": "1.0.8",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__fmovies.js",
+    "bytes": 65489,
+    "hash": "2b14611f8c62",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "kdmaza",
+    "name": "KDMaza",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ur"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__kdmaza.js",
+    "bytes": 55678,
+    "hash": "0417b7ad82ce",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "desidubanime",
+    "name": "DesiDubAnime",
+    "version": "1.0.7",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__desidubanime.js",
+    "bytes": 61697,
+    "hash": "e31c9c3f160e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "movieshubhd",
+    "name": "MoviesHubHD",
+    "version": "1.0.7",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__movieshubhd.js",
+    "bytes": 60259,
+    "hash": "4a8edcc3ebc7",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "nxsha",
+    "name": "Nxsha",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__nxsha.js",
+    "bytes": 60895,
+    "hash": "9d69b39a0385",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "kmmovies",
+    "name": "KMMovies",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__kmmovies.js",
+    "bytes": 52807,
+    "hash": "ca1bcac4a8c6",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "pikahd",
+    "name": "PikaHD",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__pikahd.js",
+    "bytes": 68867,
+    "hash": "b7c9d0d85648",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "net77",
+    "name": "Net77",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__net77.js",
+    "bytes": 70195,
+    "hash": "e154db53fcaf",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "rareanimes",
+    "name": "RareAnimes",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "ml"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__rareanimes.js",
+    "bytes": 76567,
+    "hash": "e2c45739ac20",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "rivestream",
+    "name": "RiveStream",
+    "version": "1.0.8",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te",
+      "ur",
+      "mal",
+      "bn"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__rivestream.js",
+    "bytes": 59305,
+    "hash": "4ba57d40d1f2",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "ssrmovies",
+    "name": "SSR Movies",
+    "version": "1.0.6",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__ssrmovies.js",
+    "bytes": 58832,
+    "hash": "6c326f40ee81",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "vidbox",
+    "name": "Vidbox",
+    "version": "1.0.8",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te",
+      "ur",
+      "mal",
+      "bn"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__vidbox.js",
+    "bytes": 58992,
+    "hash": "8d5fa3f811ef",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "4khdhub",
+    "name": "4KHDHub",
+    "version": "1.0.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__4khdhub.js",
+    "bytes": 15572,
+    "hash": "65e7dabe9629",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "uhdmovies",
+    "name": "UHDMovies",
+    "version": "1.2.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__uhdmovies.js",
+    "bytes": 16022,
+    "hash": "910588acb9a4",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "zenix",
+    "name": "Zenix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__zenix.js",
+    "bytes": 60628,
+    "hash": "32d5864c2289",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "subdubanime",
+    "name": "SubDubAnime",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__subdubanime.js",
+    "bytes": 50691,
+    "hash": "1fd696f60c2b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "zxcstream",
+    "name": "ZXCStream",
+    "version": "1.0.8",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__zxcstream.js",
+    "bytes": 61471,
+    "hash": "6ee901b01d9e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "Skywave22_TJ",
+    "id": "screenscape",
+    "name": "ScreenScape",
+    "version": "1.0.10",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te",
+      "ko",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/Skywave22_TJ__screenscape.js",
+    "bytes": 64280,
+    "hash": "f5ca4d66330f",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "phuanh004_direct",
+    "id": "flystream",
+    "name": "FlyStream",
+    "version": "1.0.7",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/phuanh004_direct__flystream.js",
+    "bytes": 29905,
+    "hash": "0b343654432e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "moviesmod",
+    "name": "MoviesMod",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__moviesmod.js",
+    "bytes": 13881,
+    "hash": "98aeea26aa45",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "phuanh004_direct",
+    "id": "movy",
+    "name": "Movy",
+    "version": "1.0.4",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/phuanh004_direct__movy.js",
+    "bytes": 24465,
+    "hash": "9ec46f9744be",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "animepahe",
+    "name": "AnimePahe",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__animepahe.js",
+    "bytes": 19173,
+    "hash": "3b567b1e8e83",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "netmirror",
+    "name": "NetMirror",
+    "version": "1.0.3",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__netmirror.js",
+    "bytes": 10531,
+    "hash": "30c207564c1b",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "dahmermovies",
+    "name": "DahmerMovies",
+    "version": "1.0.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__dahmermovies.js",
+    "bytes": 16573,
+    "hash": "469a6a06dc8a",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "phuanh004_direct",
+    "id": "7movies",
+    "name": "7Movies",
+    "version": "1.0.6",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/phuanh004_direct__7movies.js",
+    "bytes": 14239,
+    "hash": "4aa513f5015f",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "moviebox",
+    "name": "MovieBox",
+    "version": "1.1.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin",
+      "tam",
+      "tel"
+    ],
+    "file": "sources/discovered/providers/yoruix__moviebox.js",
+    "bytes": 18767,
+    "hash": "5b3d2c649dc4",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "vixsrc",
+    "name": "Vixsrc",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__vixsrc.js",
+    "bytes": 8706,
+    "hash": "c91c43aedb5b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "yflix",
+    "name": "YFlix",
+    "version": "1.1.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__yflix.js",
+    "bytes": 13332,
+    "hash": "ca1223b5ee78",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "vidlink",
+    "name": "Vidlink",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__vidlink.js",
+    "bytes": 16304,
+    "hash": "00389aa68899",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "videasy",
+    "name": "VIDEASY",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "de",
+      "it",
+      "fr",
+      "hi",
+      "es",
+      "pt"
+    ],
+    "file": "sources/discovered/providers/yoruix__videasy.js",
+    "bytes": 22332,
+    "hash": "3e554771641b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "mallumv",
+    "name": "MalluMV",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "ta",
+      "te",
+      "hi",
+      "ml",
+      "kn"
+    ],
+    "file": "sources/discovered/providers/yoruix__mallumv.js",
+    "bytes": 53328,
+    "hash": "bd2eb51b581f",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "vidnest-anime",
+    "name": "VidnestAnime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/yoruix__vidnest-anime.js",
+    "bytes": 21523,
+    "hash": "7613343c5da6",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "cinemacity",
+    "name": "CinemaCity",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te",
+      "id",
+      "pl",
+      "ar"
+    ],
+    "file": "sources/discovered/providers/yoruix__cinemacity.js",
+    "bytes": 11848,
+    "hash": "e3a5ca37785b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "castle",
+    "name": "Castle",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te",
+      "ml",
+      "kn"
+    ],
+    "file": "sources/discovered/providers/yoruix__castle.js",
+    "bytes": 19511,
+    "hash": "43c70c0cad61",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "showbox",
+    "name": "ShowBox",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__showbox.js",
+    "bytes": 15968,
+    "hash": "95a080c30f77",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "hdhub4u",
+    "name": "HDHub4u",
+    "version": "1.1.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin"
+    ],
+    "file": "sources/discovered/providers/yoruix__hdhub4u.js",
+    "bytes": 35500,
+    "hash": "9c1149723e46",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "allmovieland",
+    "name": "AllMovieLand",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/yoruix__allmovieland.js",
+    "bytes": 11638,
+    "hash": "d1b156dffd03",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "hianime",
+    "name": "HiAnime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__hianime.js",
+    "bytes": 11451,
+    "hash": "d6b79c8d8e8e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "movieblast",
+    "name": "MovieBlast",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "te",
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__movieblast.js",
+    "bytes": 9879,
+    "hash": "8fc6c9c3b021",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "anizone",
+    "name": "AniZone",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__anizone.js",
+    "bytes": 12503,
+    "hash": "0dbdc78b2480",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "flix_dlp_AiO",
+    "id": "net77",
+    "name": "🌐 NetMirror (Net77)",
+    "version": "1.6.1",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te",
+      "es",
+      "fr",
+      "de",
+      "ja",
+      "multi"
+    ],
+    "file": "sources/discovered/providers/flix_dlp_AiO__net77.js",
+    "bytes": 26031,
+    "hash": "a61cfe1f2e11",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "flix_dlp_AiO",
+    "id": "bingr",
+    "name": "⚡ Bingr Multi-Source",
+    "version": "1.6.1",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja",
+      "hi",
+      "multi"
+    ],
+    "file": "sources/discovered/providers/flix_dlp_AiO__bingr.js",
+    "bytes": 25445,
+    "hash": "1b570d22e9ba",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "moviesdrive",
+    "name": "MoviesDrive",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin"
+    ],
+    "file": "sources/discovered/providers/yoruix__moviesdrive.js",
+    "bytes": 12670,
+    "hash": "73098d13964f",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "dooflix",
+    "name": "DooFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/yoruix__dooflix.js",
+    "bytes": 3893,
+    "hash": "0e8ad342ffe9",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "flix_dlp_AiO",
+    "id": "castle",
+    "name": "🏰 Castle VIP Streams",
+    "version": "1.6.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/flix_dlp_AiO__castle.js",
+    "bytes": 237753,
+    "hash": "5b1ed209a3cc",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "mayurgj_nama",
+    "id": "animesalt",
+    "name": "AnimeSalt",
+    "version": "1.2.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/mayurgj_nama__animesalt.js",
+    "bytes": 26753,
+    "hash": "ef2933f7287a",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "yoruix",
+    "id": "kurage",
+    "name": "Kurage",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/yoruix__kurage.js",
+    "bytes": 10387,
+    "hash": "87bbb1d8359c",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "mayurgj_nama",
+    "id": "watchanimeworld",
+    "name": "WatchAnimeWorld",
+    "version": "1.2.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "ml",
+      "bn",
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/mayurgj_nama__watchanimeworld.js",
+    "bytes": 26777,
+    "hash": "c81e39ce144c",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "mayurgj_nama",
+    "id": "multimovies",
+    "name": "MultiMovies",
+    "version": "1.3.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/mayurgj_nama__multimovies.js",
+    "bytes": 58023,
+    "hash": "c1dadbd591b8",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "allanime",
+    "name": "AllAnime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__allanime.js",
+    "bytes": 19281,
+    "hash": "25fb224e2ac0",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "4khdhub",
+    "name": "4KHDHub",
+    "version": "1.0.3",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__4khdhub.js",
+    "bytes": 18427,
+    "hash": "b15a2919b7d7",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "1shows",
+    "name": "1Shows",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__1shows.js",
+    "bytes": 53784,
+    "hash": "9d8e329755b0",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "allwish",
+    "name": "🌟 All-Wish",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__allwish.js",
+    "bytes": 28680,
+    "hash": "647edc750491",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "animekai",
+    "name": "AnimeKai",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__animekai.js",
+    "bytes": 24743,
+    "hash": "15ea49f3f86b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "anizone",
+    "name": "AniZone",
+    "version": "1.0.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__anizone.js",
+    "bytes": 29139,
+    "hash": "f466a0a57eca",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "animeworld",
+    "name": "🗡️ AnimeWorld",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__animeworld.js",
+    "bytes": 11348,
+    "hash": "bb241938cc73",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "animepahe",
+    "name": "AnimePahe",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__animepahe.js",
+    "bytes": 22879,
+    "hash": "d9193dfaf16d",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "anikototv",
+    "name": "AnikotoTV",
+    "version": "1.0.5",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__anikototv.js",
+    "bytes": 20160,
+    "hash": "4b75a13ad9f3",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "anidb",
+    "name": "AniDB",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja",
+      "ko"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__anidb.js",
+    "bytes": 14663,
+    "hash": "60ec5bba1e6d",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "animetsu",
+    "name": "Animetsu",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__animetsu.js",
+    "bytes": 22545,
+    "hash": "243edd8c76b0",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "animezey",
+    "name": "AnimeZeY",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "pt"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__animezey.js",
+    "bytes": 47757,
+    "hash": "46e83c8d7108",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "desiflix",
+    "name": "DesiFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__desiflix.js",
+    "bytes": 14487,
+    "hash": "89d80b0ac5aa",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "allmovieland",
+    "name": "AllMovieLand",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__allmovieland.js",
+    "bytes": 14517,
+    "hash": "0b4533ed32c8",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "castle",
+    "name": "🏰 Castle",
+    "version": "2.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__castle.js",
+    "bytes": 23481,
+    "hash": "1b23fb0b7740",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "Cineby",
+    "name": "Cineby",
+    "version": "1.9.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ar",
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__cineby.js",
+    "bytes": 19736,
+    "hash": "06a14293c93a",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "cinefreak",
+    "name": "CineFreak",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__cinefreak.js",
+    "bytes": 30232,
+    "hash": "422d7f2fc6c5",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "moonflix",
+    "name": "MoonFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__moonflix.js",
+    "bytes": 13210,
+    "hash": "e4928ad7affd",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "dahmermovies",
+    "name": "Dahmermovies",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__dahmermovies.js",
+    "bytes": 8460,
+    "hash": "891e5d0661a5",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "fibwatch",
+    "name": "FibWatch",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "bn",
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__fibwatch.js",
+    "bytes": 8078,
+    "hash": "44c70f6199f0",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "ctgmovies",
+    "name": "CTGMovies",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__ctgmovies.js",
+    "bytes": 24912,
+    "hash": "29128d8b2dac",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "einthusan",
+    "name": "Einthustan",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "ba"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__einthusan.js",
+    "bytes": 18591,
+    "hash": "34adb013fbac",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "dooflix",
+    "name": "DooFlix",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "es"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__dooflix.js",
+    "bytes": 6343,
+    "hash": "2691befa44f5",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "dahmermovies-tv",
+    "name": "Dahmermovies-TV",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__dahmermovies-tv.js",
+    "bytes": 7831,
+    "hash": "aa7da3b571ac",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "cinemacity",
+    "name": "CinemaCity",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ar"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__cinemacity.js",
+    "bytes": 49137,
+    "hash": "faccc3793883",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "goated",
+    "name": "🐐 Goated",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ru",
+      "es"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__goated.js",
+    "bytes": 21610,
+    "hash": "b4966c7fd788",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "gramcinema",
+    "name": "GramCinema",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "ru"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__gramcinema.js",
+    "bytes": 16964,
+    "hash": "03865cdddc4b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "hdhub4u",
+    "name": "HDHub4u",
+    "version": "1.1.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__hdhub4u.js",
+    "bytes": 35551,
+    "hash": "790a4dd3367e",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "hdghartv",
+    "name": "HDGharTV",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__hdghartv.js",
+    "bytes": 10325,
+    "hash": "8f6931a418a4",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "hianime",
+    "name": "HiAnime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ja",
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__hianime.js",
+    "bytes": 16859,
+    "hash": "11124b38985b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "hindmoviez",
+    "name": "HindMoviez",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__hindmoviez.js",
+    "bytes": 30942,
+    "hash": "86b8c3a4dff3",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "moviebox",
+    "name": "MovieBox",
+    "version": "1.2.3",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin",
+      "tam",
+      "tel"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__moviebox.js",
+    "bytes": 29677,
+    "hash": "874dc691ce22",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "movieblast",
+    "name": "MovieBlast",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__movieblast.js",
+    "bytes": 13423,
+    "hash": "d3b04a5ee1a1",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "movieshunt",
+    "name": "🎬 MoviesHunt",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__movieshunt.js",
+    "bytes": 34606,
+    "hash": "6796beaa02d5",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "nakios",
+    "name": "Nakios",
+    "version": "3.8.2",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "fr",
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__nakios.js",
+    "bytes": 10266,
+    "hash": "450b43a5eaeb",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "movies4u",
+    "name": "Movies4u",
+    "version": "1.0.2",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__movies4u.js",
+    "bytes": 30661,
+    "hash": "bc4308578b53",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "movix",
+    "name": "Movix VF",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "fr"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__movix.js",
+    "bytes": 13369,
+    "hash": "7b658f1f8d14",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "netmirror",
+    "name": "NetMirror",
+    "version": "1.0.10",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__netmirror.js",
+    "bytes": 18395,
+    "hash": "95ea2e460b6e",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "kurage",
+    "name": "Kurage",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__kurage.js",
+    "bytes": 16384,
+    "hash": "668797edb270",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "moviesmod",
+    "name": "MoviesMod",
+    "version": "1.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__moviesmod.js",
+    "bytes": 20499,
+    "hash": "ed4b69ec3bd2",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "persianstremio",
+    "name": "🌸 PersianStremio",
+    "version": "1.4.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "pe"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__persianstremio.js",
+    "bytes": 12617,
+    "hash": "04c8664fd397",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "playimdb",
+    "name": "PlayIMDb",
+    "version": "2.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__playimdb.js",
+    "bytes": 11827,
+    "hash": "e00e7b0d65b1",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "purstream",
+    "name": "Purstream",
+    "version": "3.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "fr"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__purstream.js",
+    "bytes": 15864,
+    "hash": "02173d75d873",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "peachify",
+    "name": "🍑 Peachify",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "te",
+      "ta",
+      "pt"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__peachify.js",
+    "bytes": 720713,
+    "hash": "0f9f52a4c69b",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "showbox",
+    "name": "ShowBox",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__showbox.js",
+    "bytes": 27182,
+    "hash": "b90ce3c9acec",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "topcartoons",
+    "name": "TopCartoons",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__topcartoons.js",
+    "bytes": 6234,
+    "hash": "df33f490a737",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "moviesdrive",
+    "name": "MoviesDrive",
+    "version": "3.0.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hin"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__moviesdrive.js",
+    "bytes": 19020,
+    "hash": "d0e4e1b65490",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "uhdmovies",
+    "name": "UHDMovies",
+    "version": "1.2.1",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__uhdmovies.js",
+    "bytes": 19147,
+    "hash": "192f464e50f8",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vidrock",
+    "name": "🪨 VidRock",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vidrock.js",
+    "bytes": 21355,
+    "hash": "9513cf00755e",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "torrentio",
+    "name": "🧲 Torrentio",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__torrentio.js",
+    "bytes": 12707,
+    "hash": "f3262aeda6ee",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": true,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "videasy",
+    "name": "VidEasy",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__videasy.js",
+    "bytes": 23206,
+    "hash": "8fb7fbc12e23",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vidsrc",
+    "name": "VidSrc",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vidsrc.js",
+    "bytes": 21611,
+    "hash": "c83b23943f97",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vidlink",
+    "name": "VidLink",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vidlink.js",
+    "bytes": 14359,
+    "hash": "bedc41b8caf7",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vidfast",
+    "name": "VidFast",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vidfast.js",
+    "bytes": 12838,
+    "hash": "9750c41a72fe",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vegamovies",
+    "name": "VegaMovies",
+    "version": "2.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vegamovies.js",
+    "bytes": 50232,
+    "hash": "0641a31d6068",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vidlove",
+    "name": "❤️ VidLove",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vidlove.js",
+    "bytes": 12742,
+    "hash": "a8516b7fcc81",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "vixsrc",
+    "name": "VixSrc",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "Ita"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__vixsrc.js",
+    "bytes": 1083892,
+    "hash": "b38a464f826f",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "xpass",
+    "name": "XPass",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__xpass.js",
+    "bytes": 8150,
+    "hash": "ad02f9faf838",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "zinkmovies",
+    "name": "ZinkMovies",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__zinkmovies.js",
+    "bytes": 28372,
+    "hash": "5989f97be6cc",
+    "alreadyInManifestId": true,
+    "syntaxOk": true,
+    "obf": true,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "reanime",
+    "name": "Reanime",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__reanime.js",
+    "bytes": 26336,
+    "hash": "14492eb5a9ed",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  },
+  {
+    "repo": "NuvioPlugin_AiO",
+    "id": "mapple",
+    "name": "Mapple",
+    "version": "1.0.0",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "file": "sources/discovered/providers/NuvioPlugin_AiO__mapple.js",
+    "bytes": 16208,
+    "hash": "e729a36b0d3f",
+    "alreadyInManifestId": false,
+    "syntaxOk": true,
+    "obf": false,
+    "usesProcess": false,
+    "usesAxios": false,
+    "usesWS": false,
+    "usesAbortTO": false,
+    "usesMagnet": false,
+    "aliases": []
+  }
+]

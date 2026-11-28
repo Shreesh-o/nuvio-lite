@@ -1,0 +1,367 @@
+{
+  "mp4_fast_s01e02": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/Show.Alpha.S01E02.1080p.WEB-DL.x264.AAC.Hindi-English.mp4",
+    "fileSizeBytes": 22829476,
+    "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+    "durationSec": 2649.365333,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "Show Alpha - S01E02 - The Signal",
+      "encoder": "Lavf63.1.102",
+      "comment": "imdb:tt1234567 tmdb:999001",
+      "show": "Show Alpha",
+      "episode_id": "S01E02",
+      "episode_sort": "2",
+      "season_number": "1"
+    },
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "hin",
+        "title": null
+      },
+      {
+        "index": 2,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "eng",
+        "title": null
+      }
+    ],
+    "subtitles": [
+      {
+        "index": 3,
+        "codec": "mov_text",
+        "language": "hin",
+        "title": null
+      },
+      {
+        "index": 4,
+        "codec": "mov_text",
+        "language": "eng",
+        "title": null
+      }
+    ]
+  },
+  "mp4_moov_end_mar": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/Show.Alpha.720p.Marathi.moov_end.mp4",
+    "fileSizeBytes": 12026524,
+    "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+    "durationSec": 2649.365333,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "encoder": "Lavf63.1.102"
+    },
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "mar",
+        "title": null
+      }
+    ],
+    "subtitles": [
+      {
+        "index": 2,
+        "codec": "mov_text",
+        "language": "mar",
+        "title": null
+      }
+    ]
+  },
+  "mp4_trailer": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/Show.Alpha.Official.Trailer.1080p.mp4",
+    "fileSizeBytes": 616752,
+    "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+    "durationSec": 120.405333,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "Show Alpha - Official Season 1 Trailer",
+      "encoder": "Lavf63.1.102"
+    },
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "eng",
+        "title": null
+      }
+    ],
+    "subtitles": []
+  },
+  "mkv_multi_h265": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/Show.Alpha.S01E02.720p.HEVC.MultiAudio.mkv",
+    "fileSizeBytes": 48322113,
+    "formatName": "matroska,webm",
+    "durationSec": 2649.386,
+    "tags": {
+      "title": "Show Alpha S01E02 [HEVC Multi]",
+      "SEASON": "1",
+      "EPISODE": "2",
+      "SHOW": "Show Alpha",
+      "ENCODER": "Lavf63.1.102"
+    },
+    "video": [
+      {
+        "codec": "hevc",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "codec": "opus",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "hin",
+        "title": "Hindi"
+      },
+      {
+        "index": 2,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "eng",
+        "title": "English"
+      },
+      {
+        "index": 3,
+        "codec": "ac3",
+        "channels": 6,
+        "channelLayout": "5.1(side)",
+        "sampleRate": "48000",
+        "language": "mar",
+        "title": "Marathi 5.1"
+      },
+      {
+        "index": 4,
+        "codec": "opus",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": null,
+        "title": "Track 4 Unlabelled"
+      }
+    ],
+    "subtitles": [
+      {
+        "index": 5,
+        "codec": "subrip",
+        "language": "hin",
+        "title": "Hindi"
+      },
+      {
+        "index": 6,
+        "codec": "subrip",
+        "language": "eng",
+        "title": "English"
+      },
+      {
+        "index": 7,
+        "codec": "subrip",
+        "language": "mar",
+        "title": "Marathi"
+      }
+    ]
+  },
+  "mkv_unlabelled_wrong_ep": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/Show.Alpha.S01E03.1080p.x264.Unlabelled.mkv",
+    "fileSizeBytes": 21885550,
+    "formatName": "matroska,webm",
+    "durationSec": 2649.386,
+    "tags": {
+      "title": "Show Alpha S01E03 - Wrong Episode Same Runtime",
+      "ENCODER": "Lavf63.1.102"
+    },
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": null,
+        "title": "Audio 1"
+      },
+      {
+        "index": 2,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": null,
+        "title": "Audio 2"
+      }
+    ],
+    "subtitles": []
+  },
+  "hls_multi_master": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/hls_multi/master.m3u8",
+    "fileSizeBytes": 970,
+    "formatName": "hls",
+    "durationSec": 2640.0,
+    "tags": {},
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "audio": [
+      {
+        "index": 0,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "hi",
+        "title": null
+      },
+      {
+        "index": 1,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "en",
+        "title": null
+      },
+      {
+        "index": 2,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "mr",
+        "title": null
+      }
+    ],
+    "subtitles": [
+      {
+        "index": 3,
+        "codec": "webvtt",
+        "language": "hi",
+        "title": null
+      },
+      {
+        "index": 4,
+        "codec": "webvtt",
+        "language": "en",
+        "title": null
+      },
+      {
+        "index": 5,
+        "codec": "webvtt",
+        "language": "mr",
+        "title": null
+      }
+    ]
+  },
+  "hls_unlabelled_master": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/hls_unlabelled/master.m3u8",
+    "fileSizeBytes": 268,
+    "formatName": "hls",
+    "durationSec": 2640.0,
+    "tags": {},
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "audio": [
+      {
+        "index": 0,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "und",
+        "title": null
+      }
+    ],
+    "subtitles": []
+  },
+  "hls_trailer_master": {
+    "path": "/home/shreesh/nuvio-audit/audit/fixtures/media/hls_trailer/master.m3u8",
+    "fileSizeBytes": 272,
+    "formatName": "hls",
+    "durationSec": 120.0,
+    "tags": {},
+    "video": [
+      {
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "audio": [
+      {
+        "index": 0,
+        "codec": "aac",
+        "channels": 2,
+        "channelLayout": "stereo",
+        "sampleRate": "48000",
+        "language": "en",
+        "title": null
+      }
+    ],
+    "subtitles": []
+  }
+}

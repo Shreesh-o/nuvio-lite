@@ -1,0 +1,572 @@
+[
+  {
+    "repo": "michat88",
+    "id": "kisskh",
+    "filename": "providers/kisskh.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/kisskh.js",
+    "status": 200,
+    "size": 5884,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/kisskh.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "4khdhub",
+    "filename": "providers/4khdhub.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/4khdhub.js",
+    "status": 200,
+    "size": 12687,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/4khdhub.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "animekai",
+    "filename": "providers/animekai.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/animekai.js",
+    "status": 200,
+    "size": 20705,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/animekai.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "castle",
+    "filename": "providers/castle.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/castle.js",
+    "status": 200,
+    "size": 23597,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/castle.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "cinevibe",
+    "filename": "providers/cinevibe.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/cinevibe.js",
+    "status": 200,
+    "size": 16086,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/cinevibe.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "dahmermovies",
+    "filename": "providers/dahmermovies.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/dahmermovies.js",
+    "status": 200,
+    "size": 12923,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/dahmermovies.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "dvdplay",
+    "filename": "providers/dvdplay.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/dvdplay.js",
+    "status": 200,
+    "size": 40679,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/dvdplay.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "hdhub4u",
+    "filename": "providers/hdhub4u.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/hdhub4u.js",
+    "status": 200,
+    "size": 59747,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/hdhub4u.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "hdrezka",
+    "filename": "providers/hdrezka.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/hdrezka.js",
+    "status": 200,
+    "size": 16795,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/hdrezka.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "idlix",
+    "filename": "providers/idlix.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/idlix.js",
+    "status": 200,
+    "size": 5380,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/idlix.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "mallumv",
+    "filename": "providers/mallumv.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/mallumv.js",
+    "status": 200,
+    "size": 53488,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/mallumv.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "mapple",
+    "filename": "providers/mapple.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/mapple.js",
+    "status": 200,
+    "size": 17856,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/mapple.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "moviebox",
+    "filename": "providers/moviebox.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/moviebox.js",
+    "status": 404,
+    "size": 0,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/moviebox.js",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repo": "michat88",
+    "id": "moviesmod",
+    "filename": "providers/moviesmod.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/moviesmod.js",
+    "status": 200,
+    "size": 40252,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/moviesmod.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "myflixer-extractor",
+    "filename": "providers/myflixer-extractor.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/myflixer-extractor.js",
+    "status": 200,
+    "size": 18931,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/myflixer-extractor.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "netmirror",
+    "filename": "providers/netmirror.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/netmirror.js",
+    "status": 200,
+    "size": 31407,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/netmirror.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "showbox",
+    "filename": "providers/showbox.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/showbox.js",
+    "status": 200,
+    "size": 12230,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/showbox.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "streamflix",
+    "filename": "providers/streamflix.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/streamflix.js",
+    "status": 200,
+    "size": 16201,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/streamflix.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "uhdmovies",
+    "filename": "providers/uhdmovies.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/uhdmovies.js",
+    "status": 200,
+    "size": 46278,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/uhdmovies.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "videasy",
+    "filename": "providers/videasy.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/videasy.js",
+    "status": 200,
+    "size": 21980,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/videasy.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vidlink",
+    "filename": "providers/vidlink.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vidlink.js",
+    "status": 200,
+    "size": 21614,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidlink.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vidnest-anime",
+    "filename": "providers/vidnest-anime.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vidnest-anime.js",
+    "status": 200,
+    "size": 21545,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidnest-anime.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vidnest",
+    "filename": "providers/vidnest.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vidnest.js",
+    "status": 200,
+    "size": 18214,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidnest.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vidrock",
+    "filename": "providers/vidrock.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vidrock.js",
+    "status": 200,
+    "size": 19783,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidrock.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vidsrc",
+    "filename": "providers/vidsrc.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vidsrc.js",
+    "status": 200,
+    "size": 22458,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidsrc.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "vixsrc",
+    "filename": "providers/vixsrc.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/vixsrc.js",
+    "status": 200,
+    "size": 12214,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vixsrc.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "watch32",
+    "filename": "providers/watch32.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/watch32.js",
+    "status": 200,
+    "size": 26487,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/watch32.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "xprime",
+    "filename": "providers/xprime.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/xprime.js",
+    "status": 200,
+    "size": 36936,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/xprime.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "yflix",
+    "filename": "providers/yflix.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/yflix.js",
+    "status": 200,
+    "size": 13331,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/yflix.js",
+    "error": null
+  },
+  {
+    "repo": "michat88",
+    "id": "adimoviebox",
+    "filename": "providers/adimoviebox.js",
+    "url": "https://raw.githubusercontent.com/michat88/nuvio-providers/refs/heads/main/providers/adimoviebox.js",
+    "status": 200,
+    "size": 5551,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/adimoviebox.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "vegamovies",
+    "filename": "providers/vegamovies.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/vegamovies.js",
+    "status": 200,
+    "size": 14030,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/vegamovies.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "movieshunt",
+    "filename": "providers/movieshunt.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/movieshunt.js",
+    "status": 200,
+    "size": 19707,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/movieshunt.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "biavox",
+    "filename": "providers/biavox.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/biavox.js",
+    "status": 200,
+    "size": 17476,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/biavox.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "cinemm",
+    "filename": "providers/cinemm.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/cinemm.js",
+    "status": 200,
+    "size": 17297,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/cinemm.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "peachify",
+    "filename": "providers/peachify.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/peachify.js",
+    "status": 200,
+    "size": 545720,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/peachify.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "moviesdrive",
+    "filename": "providers/moviesdrive.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/moviesdrive.js",
+    "status": 200,
+    "size": 16684,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/moviesdrive.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "animetsu",
+    "filename": "providers/animetsu.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/animetsu.js",
+    "status": 200,
+    "size": 15515,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/animetsu.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "anikototv",
+    "filename": "providers/anikototv.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/anikototv.js",
+    "status": 200,
+    "size": 14257,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/anikototv.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "zinkmovies",
+    "filename": "providers/zinkmovies.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/zinkmovies.js",
+    "status": 200,
+    "size": 15197,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/zinkmovies.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "kisskh",
+    "filename": "providers/kisskh.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/kisskh.js",
+    "status": 200,
+    "size": 16850,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/kisskh.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "cinefreak",
+    "filename": "providers/cinefreak.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/cinefreak.js",
+    "status": 200,
+    "size": 17217,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/cinefreak.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "hdfilme",
+    "filename": "providers/hdfilme.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hdfilme.js",
+    "status": 200,
+    "size": 10918,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hdfilme.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "playimdb",
+    "filename": "providers/playimdb.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/playimdb.js",
+    "status": 200,
+    "size": 4485,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/playimdb.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "4khdhub",
+    "filename": "providers/4khdhub.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/4khdhub.js",
+    "status": 200,
+    "size": 10275,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/4khdhub.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "hindmovie",
+    "filename": "providers/hindmovie.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hindmovie.js",
+    "status": 200,
+    "size": 21129,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hindmovie.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "hdhub4u",
+    "filename": "providers/hdhub4u.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/hdhub4u.js",
+    "status": 200,
+    "size": 21919,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hdhub4u.js",
+    "error": null
+  },
+  {
+    "repo": "asura",
+    "id": "uhdmovies",
+    "filename": "providers/uhdmovies.js",
+    "url": "https://raw.githubusercontent.com/PirateZoro9/asura-providers/refs/heads/main/providers/uhdmovies.js",
+    "status": 200,
+    "size": 22325,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/uhdmovies.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "tamilmv",
+    "filename": "src/providers/tamilmv.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilmv.js",
+    "status": 200,
+    "size": 7672,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilmv.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "tamilblasters",
+    "filename": "src/providers/tamilblasters.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilblasters.js",
+    "status": 200,
+    "size": 14062,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilblasters.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "tamilian",
+    "filename": "src/providers/tamilian.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/tamilian.js",
+    "status": 200,
+    "size": 5400,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilian.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "moviesda",
+    "filename": "src/providers/moviesda.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/moviesda.js",
+    "status": 200,
+    "size": 14965,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/moviesda.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "movies4u",
+    "filename": "src/providers/movies4u.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/movies4u.js",
+    "status": 200,
+    "size": 9167,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/movies4u.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "isaidub",
+    "filename": "src/providers/isaidub.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/isaidub.js",
+    "status": 200,
+    "size": 13815,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/isaidub.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "toonhub",
+    "filename": "src/providers/toonhub.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/toonhub.js",
+    "status": 200,
+    "size": 14440,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/toonhub.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "animelok",
+    "filename": "src/providers/animelok.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/animelok.js",
+    "status": 200,
+    "size": 7141,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/animelok.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "xdmovies",
+    "filename": "src/providers/xdmovies.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/xdmovies.js",
+    "status": 200,
+    "size": 12096,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/xdmovies.js",
+    "error": null
+  },
+  {
+    "repo": "abinanthankv",
+    "id": "dramafull",
+    "filename": "src/providers/dramafull.js",
+    "url": "https://raw.githubusercontent.com/Abinanthankv/NuvioRepo/refs/heads/master/src/providers/dramafull.js",
+    "status": 200,
+    "size": 5499,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/dramafull.js",
+    "error": null
+  }
+]

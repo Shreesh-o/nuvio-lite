@@ -310,13 +310,33 @@ function loadCheerio(html) {
     return ch(html);
   return null;
 }
+function isStrictRedFlixTitleMatch(targetTitle, candText) {
+  const normTarget = normalizeTitle(targetTitle);
+  const cNorm = normalizeTitle(String(candText || "").replace(/\(\s*(?:19|20)\d{2}\s*\)/g, " "));
+  if (!normTarget || !cNorm)
+    return false;
+  if (cNorm === normTarget)
+    return true;
+  const isBoundedPrefix = cNorm.indexOf(normTarget + " ") === 0 || normTarget.indexOf(cNorm + " ") === 0;
+  const lenRatio = Math.min(normTarget.length, cNorm.length) / Math.max(normTarget.length, cNorm.length);
+  if (isBoundedPrefix && lenRatio >= 0.72)
+    return true;
+  const tWords = normTarget.split(" ").filter(Boolean);
+  const cWords = cNorm.split(" ").filter(Boolean);
+  if (tWords.length > 0 && tWords.length === cWords.length) {
+    const cSet = new Set(cWords);
+    return tWords.every((w) => cSet.has(w));
+  }
+  return false;
+}
 function searchRedFlix(baseUrl, title, year, mediaType) {
   return __async(this, null, function* () {
+    const isTv = mediaType === "tv" || mediaType === "series";
     const searchUrl = `${baseUrl}/search?q=${encodeURIComponent(title)}`;
     const res = yield httpGet(searchUrl);
     const html = res.text || (typeof res.data === "string" ? res.data : "");
     const $ = loadCheerio(html);
-    const typeFilter = mediaType === "tv" ? "/tv/" : "/movie/";
+    const typeFilter = isTv ? "/tv/" : "/movie/";
     const candidates = [];
     $(`a[href*="${typeFilter}"]`).each((i, el) => {
       const href = $(el).attr("href");
@@ -330,19 +350,13 @@ function searchRedFlix(baseUrl, title, year, mediaType) {
     });
     if (candidates.length === 0)
       return null;
-    const normTarget = normalizeTitle(title);
     if (year) {
-      const yearMatch = candidates.find((c) => c.year === year && (normalizeTitle(c.text).includes(normTarget) || normTarget.includes(normalizeTitle(c.text))));
+      const yearMatch = candidates.find((c) => c.year && Math.abs(c.year - year) <= 1 && isStrictRedFlixTitleMatch(title, c.text));
       if (yearMatch)
         return yearMatch;
     }
-    const titleMatch = candidates.find((c) => {
-      const cNorm = normalizeTitle(c.text);
-      return cNorm.includes(normTarget) || normTarget.includes(cNorm);
-    });
-    if (titleMatch)
-      return titleMatch;
-    return candidates[0];
+    const titleMatch = candidates.find((c) => (!year || !c.year || Math.abs(c.year - year) <= 1) && isStrictRedFlixTitleMatch(title, c.text));
+    return titleMatch || null;
   });
 }
 function extractMovieStreams(pageUrl, mediaInfo) {
@@ -449,26 +463,28 @@ function extractTVStreams(baseUrl, pageUrl, season, episode, mediaInfo) {
     } catch (err) {
       console.warn(`[RedFlix] Episode API error: ${err.message}`);
     }
-    return yield extractMovieStreams(pageUrl, mediaInfo);
+    return [];
   });
 }
 function extractStreams(_0, _1, _2, _3) {
   return __async(this, arguments, function* (id, mediaType, season, episode, userConfig = {}) {
+    const isTv = mediaType === "tv" || mediaType === "series";
+    const normType = isTv ? "tv" : "movie";
     const domainOverride = userConfig.baseUrl || userConfig.domain || BASE_URL;
     const baseUrl = domainOverride.startsWith("http") ? domainOverride.replace(/\/+$/, "") : `https://${domainOverride}`;
-    const mediaInfo = yield getMediaMetadata(id, mediaType, userConfig);
+    const mediaInfo = yield getMediaMetadata(id, normType, userConfig);
     if (!mediaInfo || !mediaInfo.title) {
       console.warn(`[RedFlix] Could not resolve metadata for ID: ${id}`);
       return [];
     }
-    console.log(`[RedFlix] Scraping "${mediaInfo.title}" (${mediaInfo.year || "N/A"}) - ${mediaType}`);
-    const match = yield searchRedFlix(baseUrl, mediaInfo.title, mediaInfo.year, mediaType);
+    console.log(`[RedFlix] Scraping "${mediaInfo.title}" (${mediaInfo.year || "N/A"}) - ${normType}`);
+    const match = yield searchRedFlix(baseUrl, mediaInfo.title, mediaInfo.year, normType);
     if (!match) {
       console.warn(`[RedFlix] No match found on RedFlix for "${mediaInfo.title}"`);
       return [];
     }
     console.log(`[RedFlix] Found page: ${match.href}`);
-    if (mediaType === "tv") {
+    if (isTv) {
       return yield extractTVStreams(baseUrl, match.href, season, episode, mediaInfo);
     } else {
       return yield extractMovieStreams(match.href, mediaInfo);

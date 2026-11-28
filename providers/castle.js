@@ -6751,75 +6751,94 @@ var CryptoJS = (function () {
     return plain.replace(/:\s*(\d{15,})\b/g, ':"$1"');
   }
 
-  function resolveCastleTmdb(tmdbId, isTv, tType) {
-    var endpoint = TMDB_BASE_URL + '/' + tType + '/' + tmdbId + '?api_key=' + TMDB_API_KEY;
-    return request(endpoint).then(function (r) {
-      if (!r.ok) throw new Error('TMDB primary returned ' + r.status);
-      return r.json();
-    }).then(function (data) {
-      var title = isTv ? data.name : data.title;
-      var dateStr = isTv ? data.first_air_date : data.release_date;
-      var year = dateStr ? parseInt(dateStr.split('-')[0]) : null;
-      var isAnime = false;
-      if (data.genres && Array.isArray(data.genres)) {
-        isAnime = data.genres.some(function (g) {
-          return g.id === 16 || (g.name && g.name.toLowerCase() === 'animation');
-        });
+  var TMDB_BASES = [
+    'https://api.themoviedb.org/3',
+    'https://api.tmdb.org/3',
+    'https://db.wecollege.net/3'
+  ];
+
+  function extractTmdbMeta(data, tmdbId, isTv) {
+    var title = isTv ? data.name : data.title;
+    var dateStr = isTv ? data.first_air_date : data.release_date;
+    var year = dateStr ? parseInt(dateStr.split('-')[0], 10) : null;
+    var isAnime = false;
+    if (data.genres && Array.isArray(data.genres)) {
+      isAnime = data.genres.some(function (g) {
+        return g.id === 16 || (g.name && g.name.toLowerCase() === 'animation');
+      });
+    }
+    if (data.original_language === 'ja') isAnime = true;
+    var originCountries = Array.isArray(data.origin_country) ? data.origin_country.slice() : [];
+    if (originCountries.length === 0 && Array.isArray(data.production_countries)) {
+      originCountries = data.production_countries.map(function (c) { return c.iso_3166_1; }).filter(Boolean);
+    }
+    return {
+      title: title,
+      year: year || null,
+      tmdbId: data.id ? String(data.id) : String(tmdbId),
+      isAnime: isAnime,
+      originalLanguage: data.original_language || '',
+      originCountries: originCountries
+    };
+  }
+
+  function fetchTmdbJsonWithFallback(pathSuffix) {
+    var idx = 0;
+    function tryNext(lastErr) {
+      if (idx >= TMDB_BASES.length) {
+        return Promise.reject(lastErr || new Error('TMDB lookup failed'));
       }
-      if (data.original_language === 'ja') isAnime = true;
-      return {
-        title: title,
-        year: year,
-        tmdbId: tmdbId,
-        isAnime: isAnime,
-        originalLanguage: data.original_language || ''
-      };
-    }).catch(function () {
-      var mirrorUrl = 'https://db.wecollege.net/3/' + tType + '/' + tmdbId + '?language=en-US';
-      return request(mirrorUrl).then(function (r) {
-        if (!r.ok) throw new Error('TMDB mirror error');
+      var base = TMDB_BASES[idx++];
+      var sep = pathSuffix.indexOf('?') >= 0 ? '&' : '?';
+      var url = base + pathSuffix + (base.indexOf('wecollege') >= 0 ? '' : sep + 'api_key=' + TMDB_API_KEY);
+      return request(url).then(function (r) {
         return r.json();
       }).then(function (data) {
-        var title = isTv ? data.name : data.title;
-        var dateStr = isTv ? data.first_air_date : data.release_date;
-        var year = dateStr ? parseInt(dateStr.split('-')[0]) : null;
-        var isAnime = false;
-        if (data.genres && Array.isArray(data.genres)) {
-          isAnime = data.genres.some(function (g) {
-            return g.id === 16 || (g.name && g.name.toLowerCase() === 'animation');
-          });
-        }
-        if (data.original_language === 'ja') isAnime = true;
-        return {
-          title: title,
-          year: year,
-          tmdbId: tmdbId,
-          isAnime: isAnime,
-          originalLanguage: data.original_language || ''
-        };
+        if (!data || data.success === false) throw new Error('Invalid TMDB payload');
+        return data;
+      }).catch(function (err) {
+        return tryNext(err);
       });
-    });
+    }
+    return tryNext(null);
+  }
+
+  function resolveCastleTmdb(tmdbId, isTv, tType) {
+    var idStr = String(tmdbId || '').trim();
+    if (idStr.indexOf('tt') === 0) {
+      return fetchTmdbJsonWithFallback('/find/' + encodeURIComponent(idStr) + '?external_source=imdb_id')
+        .then(function (data) {
+          var list = isTv ? (data.tv_results || []) : (data.movie_results || []);
+          if (!list.length) throw new Error('IMDb ID not found on TMDB');
+          return extractTmdbMeta(list[0], list[0].id, isTv);
+        });
+    }
+    return fetchTmdbJsonWithFallback('/' + tType + '/' + encodeURIComponent(idStr) + '?language=en-US')
+      .then(function (data) {
+        return extractTmdbMeta(data, idStr, isTv);
+      });
   }
 
   function getTMDBDetails(tmdbId, mediaType) {
     var isTv = mediaType === 'tv' || mediaType === 'series';
     var tType = isTv ? 'tv' : 'movie';
     if (typeof tmdbId === 'string' && tmdbId.startsWith('tt')) {
-      var cUrl = 'https://v3-cinemeta.strem.io/meta/' + (isTv ? 'series' : 'movie') + '/' + tmdbId + '.json';
-      return request(cUrl).then(function (r) { return r.json(); }).then(function (c) {
-        if (c && c.meta && c.meta.name) {
-          var isAnime = (c.meta.genres || []).indexOf('Animation') >= 0;
-          return {
-            title: c.meta.name,
-            year: parseInt(c.meta.year) || null,
-            tmdbId: tmdbId,
-            isAnime: isAnime,
-            originalLanguage: ''
-          };
-        }
-        throw new Error('Cinemeta title not found');
-      }).catch(function () {
-        return resolveCastleTmdb(tmdbId, isTv, tType);
+      return resolveCastleTmdb(tmdbId, isTv, tType).catch(function () {
+        var cUrl = 'https://v3-cinemeta.strem.io/meta/' + (isTv ? 'series' : 'movie') + '/' + tmdbId + '.json';
+        return request(cUrl).then(function (r) { return r.json(); }).then(function (c) {
+          if (c && c.meta && c.meta.name) {
+            var isAnime = (c.meta.genres || []).indexOf('Animation') >= 0;
+            return {
+              title: c.meta.name,
+              year: parseInt(c.meta.year, 10) || null,
+              tmdbId: tmdbId,
+              isAnime: isAnime,
+              originalLanguage: '',
+              originCountries: []
+            };
+          }
+          throw new Error('Cinemeta title not found');
+        });
       });
     }
     return resolveCastleTmdb(tmdbId, isTv, tType);
@@ -7011,8 +7030,123 @@ var CryptoJS = (function () {
     });
   }
 
+  function normalizeTitleForMatch(str) {
+    return String(str || '')
+      .toLowerCase()
+      .replace(/\[[^\]]*\]/g, ' ')
+      .replace(/\((?:19|20)\d{2}\)/g, ' ')
+      .replace(/[:\-_'"`.,!?&]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function significantWords(normStr) {
+    var stop = { the: 1, a: 1, an: 1, of: 1, in: 1, on: 1, at: 1, to: 1, and: 1 };
+    var all = normStr ? normStr.split(' ').filter(Boolean) : [];
+    var filtered = all.filter(function (w) { return !stop[w]; });
+    return filtered.length > 0 ? filtered : all;
+  }
+
+  function scoreCastleTitle(targetTitle, candTitle) {
+    var tNorm = normalizeTitleForMatch(targetTitle);
+    var cNorm = normalizeTitleForMatch(candTitle);
+    if (!tNorm || !cNorm) return 0;
+    if (cNorm === tNorm) return 100;
+
+    // Allow suffix/prefix only when titles share most of their length and words
+    var isBoundedPrefix =
+      cNorm.indexOf(tNorm + ' ') === 0 ||
+      tNorm.indexOf(cNorm + ' ') === 0;
+    var lenRatio = Math.min(tNorm.length, cNorm.length) / Math.max(tNorm.length, cNorm.length);
+
+    var tWords = significantWords(tNorm);
+    var cWords = significantWords(cNorm);
+    if (tWords.length === 0 || cWords.length === 0) return 0;
+
+    var cSet = {};
+    cWords.forEach(function (w) { cSet[w] = true; });
+    var tInC = tWords.filter(function (w) { return cSet[w]; }).length;
+    var tCov = tInC / tWords.length;
+
+    var tSet = {};
+    tWords.forEach(function (w) { tSet[w] = true; });
+    var cInT = cWords.filter(function (w) { return tSet[w]; }).length;
+    var cCov = cInT / cWords.length;
+
+    if (tCov === 1 && cCov === 1) return 85;
+    if (isBoundedPrefix && lenRatio >= 0.72 && Math.min(tCov, cCov) >= 0.8) return 65;
+    return 0;
+  }
+
+  function hasMediaTypeConflict(rowOrDet, isTv) {
+    var mt = String(rowOrDet && rowOrDet.movieTypeName || '').toLowerCase().trim();
+    if (!mt) return false;
+    if (isTv && (mt === 'movies' || mt === 'movie')) return true;
+    if (!isTv && (mt === 'tv shows' || mt === 'tv series' || mt === 'series' || mt === 'short dramas')) return true;
+    return false;
+  }
+
+  function hasCountryConflict(rowOrDet, parsedTmdb) {
+    var countries = Array.isArray(rowOrDet && rowOrDet.countries)
+      ? rowOrDet.countries.map(function (c) { return String(c).toLowerCase().trim(); }).filter(Boolean)
+      : [];
+    if (countries.length === 0) return false;
+
+    var lang = String(parsedTmdb.originalLanguage || '').toLowerCase();
+    var origins = Array.isArray(parsedTmdb.originCountries)
+      ? parsedTmdb.originCountries.map(function (c) { return String(c).toUpperCase(); })
+      : [];
+
+    var expected = null;
+    if (lang === 'ko' || origins.indexOf('KR') >= 0) expected = 'south korea';
+    else if (lang === 'zh' || origins.indexOf('CN') >= 0) expected = 'china';
+    else if (lang === 'ja' || origins.indexOf('JP') >= 0) expected = 'japan';
+    else if (origins.indexOf('IN') >= 0 || ['hi', 'ta', 'te', 'ml', 'kn', 'mr', 'bn', 'pa', 'gu'].indexOf(lang) >= 0) expected = 'india';
+
+    if (expected) {
+      if (expected === 'china' && (countries.indexOf('china') >= 0 || countries.indexOf('taiwan') >= 0 || countries.indexOf('hong kong') >= 0)) {
+        return false;
+      }
+      return countries.indexOf(expected) < 0;
+    }
+
+    // For non-Indian languages (e.g., English/European), reject pure India-only results
+    if (lang && countries.length === 1 && countries[0] === 'india') return true;
+    return false;
+  }
+
+  function extractCastleYear(detData) {
+    var pt = detData && (detData.publishTime || detData.year);
+    if (!pt) return null;
+    var num = Number(pt);
+    if (isFinite(num) && num > 1000000000) {
+      var ms = num > 1e12 ? num : num * 1000;
+      var y = new Date(ms).getUTCFullYear();
+      return (y >= 1900 && y <= 2100) ? y : null;
+    }
+    var m = String(pt).match(/\b(19\d\d|20\d\d)\b/);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  function isDetailsVerified(detData, parsedTmdb, isTv, season) {
+    if (!detData || (!detData.title && !detData.name && !detData.episodes)) return false;
+    if (hasMediaTypeConflict(detData, isTv)) return false;
+    if (hasCountryConflict(detData, parsedTmdb)) return false;
+
+    var titleScore = scoreCastleTitle(parsedTmdb.title, detData.title || detData.name || '');
+    if (titleScore < 65) return false;
+
+    var castleYear = extractCastleYear(detData);
+    var sNum = season ? parseInt(season, 10) : 1;
+    if (parsedTmdb.year && castleYear && (!isTv || sNum <= 1)) {
+      if (Math.abs(castleYear - parsedTmdb.year) > 2) return false;
+    }
+    return true;
+  }
+
   function getStreams(tmdbId, mediaType, season, episode) {
     mediaType = mediaType || 'movie';
+    var isTv = mediaType === 'tv' || mediaType === 'series';
     var parsedTmdb = null;
     var secKey = null;
 
@@ -7021,32 +7155,25 @@ var CryptoJS = (function () {
       return getSecurityKey();
     }).then(function (key) {
       secKey = key;
-      // Search with clean title to avoid year indexing issues on Castle
       var q = parsedTmdb.title;
       return searchCastle(secKey, q);
     }).then(function (searchRes) {
       var rows = extractDataBlock(searchRes).rows || [];
       if (rows.length === 0) throw new Error('No match found on Castle');
 
-      var targetId = null;
-      var lowerTitle = (parsedTmdb.title || '').toLowerCase().trim();
       var scoredRows = [];
-
       for (var i = 0; i < rows.length; i++) {
         var r = rows[i];
-        var rName = (r.title || r.name || '').toLowerCase().trim();
+        var rowTitle = r.title || r.name || '';
         var rowId = r.id || r.redirectId || r.redirectIdStr;
-        if (!rowId) continue;
+        if (!rowId || !rowTitle) continue;
+        if (hasMediaTypeConflict(r, isTv)) continue;
+        if (hasCountryConflict(r, parsedTmdb)) continue;
 
-        var score = 0;
-        if (rName === lowerTitle) {
-          score += 50;
-        } else if (rName.indexOf(lowerTitle) >= 0 || lowerTitle.indexOf(rName) >= 0) {
-          score += 30;
-        } else {
-          continue;
-        }
+        var titleScore = scoreCastleTitle(parsedTmdb.title, rowTitle);
+        if (titleScore < 65) continue;
 
+        var score = titleScore;
         var isRowAnime = (r.movieTypeName === 'Anime' || r.movieType === 5);
         if (!isRowAnime && r.tags && Array.isArray(r.tags)) {
           isRowAnime = r.tags.some(function (t) {
@@ -7055,7 +7182,7 @@ var CryptoJS = (function () {
           });
         }
         var intro = (r.briefIntroduction || '').toLowerCase();
-        var isRowLiveAction = intro.indexOf('live-action') >= 0 || intro.indexOf('live action') >= 0 || rName.indexOf('live action') >= 0;
+        var isRowLiveAction = intro.indexOf('live-action') >= 0 || intro.indexOf('live action') >= 0 || rowTitle.toLowerCase().indexOf('live action') >= 0;
 
         if (parsedTmdb.isAnime) {
           if (isRowAnime) score += 60;
@@ -7064,31 +7191,47 @@ var CryptoJS = (function () {
           if (r.countries && r.countries.indexOf('Japan') >= 0) score += 20;
         } else {
           if (isRowLiveAction) score += 60;
-          if (isRowAnime) score -= 80;
+          if (isRowAnime) score -= 120;
         }
 
-        scoredRows.push({ id: rowId, score: score, row: r });
+        if (score >= 65) {
+          scoredRows.push({ id: rowId.toString(), score: score, row: r });
+        }
       }
 
       scoredRows.sort(function (a, b) { return b.score - a.score; });
-      if (scoredRows.length > 0 && scoredRows[0].score > 0) {
-        targetId = scoredRows[0].id;
-      } else if (rows[0]) {
-        targetId = rows[0].id || rows[0].redirectId || rows[0].redirectIdStr;
+      if (scoredRows.length === 0) {
+        throw new Error('No verified match found on Castle');
       }
-      if (!targetId) throw new Error('Could not resolve Castle movie ID');
 
-      return getDetails(secKey, targetId.toString()).then(function (det) {
-        return { movieId: targetId.toString(), details: det };
-      });
+      // Verify top candidates (up to 3) against full Castle details before accepting
+      var candidates = scoredRows.slice(0, 3);
+      var cIdx = 0;
+      function tryCandidate() {
+        if (cIdx >= candidates.length) {
+          throw new Error('No verified Castle details matched title/year/type');
+        }
+        var cand = candidates[cIdx++];
+        return getDetails(secKey, cand.id).then(function (det) {
+          var detData = extractDataBlock(det);
+          if (!isDetailsVerified(detData, parsedTmdb, isTv, season)) {
+            return tryCandidate();
+          }
+          return { movieId: cand.id, details: det };
+        });
+      }
+      return tryCandidate();
     }).then(function (match) {
       var detData = extractDataBlock(match.details);
       var currentMovieId = match.movieId;
 
-      // Handle TV Show Season
-      if (mediaType === 'tv' && season) {
+      // Handle TV Show Season (supports both 'tv' and 'series')
+      if (isTv && season) {
         var seasons = detData.seasons || [];
-        var sMatch = seasons.find(function (s) { return s.number == season; });
+        var sMatch = seasons.find(function (s) { return Number(s.number) === Number(season); });
+        if (seasons.length > 0 && !sMatch) {
+          throw new Error('Requested season ' + season + ' not found');
+        }
         if (sMatch && sMatch.movieId && String(sMatch.movieId) !== String(currentMovieId)) {
           currentMovieId = sMatch.movieId.toString();
           return getDetails(secKey, currentMovieId).then(function (sDet) {
@@ -7101,10 +7244,12 @@ var CryptoJS = (function () {
       var detData = extractDataBlock(resolved.details);
       var episodes = detData.episodes || [];
       var ep = null;
-      if (mediaType === 'tv' && season && episode) {
-        ep = episodes.find(function (e) { return e.number == episode; });
+      if (isTv && episode) {
+        ep = episodes.find(function (e) { return Number(e.number) === Number(episode); });
+        if (!ep) throw new Error('Requested episode ' + episode + ' not found');
+      } else if (!isTv && episodes.length > 0) {
+        ep = episodes[0];
       }
-      if (!ep && episodes.length > 0) ep = episodes[0];
       if (!ep || !ep.id) throw new Error('Episode ID not found');
 
       var epId = ep.id.toString();
@@ -7119,7 +7264,7 @@ var CryptoJS = (function () {
           trackPromises.push(
             getVideoV1(secKey, movieId, epId, t.languageId, 2)
               .then(function (vRes) {
-                return processVideoResponse(vRes, parsedTmdb, season, episode, '[' + langName + ']');
+                return processVideoResponse(vRes, parsedTmdb, isTv ? season : null, isTv ? episode : null, '[' + langName + ']');
               })
               .catch(function () { return []; })
           );
@@ -7136,20 +7281,20 @@ var CryptoJS = (function () {
 
         // Fallback to shared video (v2)
         return getVideo2(secKey, movieId, epId, 2).then(function (v2Res) {
-          return processVideoResponse(v2Res, parsedTmdb, season, episode, '[Shared]');
+          return processVideoResponse(v2Res, parsedTmdb, isTv ? season : null, isTv ? episode : null, '[Shared]');
         });
       });
     }).then(function (streams) {
       if (!streams || streams.length === 0) {
-        return tryLocalhostFallback(tmdbId, mediaType, season, episode);
+        return [];
       }
       streams.sort(function (a, b) {
         return getQualityValue(b.quality) - getQualityValue(a.quality);
       });
       return streams;
     }).catch(function (err) {
-      console.error('[Nuvio Castle Provider] Extraction failed: ' + err.message + ', trying local fallback...');
-      return tryLocalhostFallback(tmdbId, mediaType, season, episode);
+      console.error('[Nuvio Castle Provider] ' + err.message);
+      return [];
     });
   }
 

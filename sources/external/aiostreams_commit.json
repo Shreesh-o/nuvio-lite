@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "89f03f6f1e6696dcee032e47c06ca5211249e776",
+    "node_id": "C_kwDONhGh6NoAKDg5ZjAzZjZmMWU2Njk2ZGNlZTAzMmU0N2MwNmNhNTIxMTI0OWU3NzY",
+    "commit": {
+      "author": {
+        "name": "webstreamr",
+        "email": "210764791+webstreamr@users.noreply.github.com",
+        "date": "2026-11-24T20:41:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-24T20:41:54Z"
+      },
+      "message": "feat(builtins): add M3U addon (#1955)\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "d6792fea4ecf010f60c560d27de1f5ba7a338397",
+        "url": "https://api.github.com/repos/Viren070/AIOStreams/git/trees/d6792fea4ecf010f60c560d27de1f5ba7a338397"
+      },
+      "url": "https://api.github.com/repos/Viren070/AIOStreams/git/commits/89f03f6f1e6696dcee032e47c06ca5211249e776",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBfaSCRC1aQ7uu5UhlAAAnfYQACQ4ZXTmbPopQvlLWph70Ee9\nvJkGa0WiTVsYTx2VRWM1WwZMnFrBJMCjVySouUZa0c+n5aSCjqkFowu2xGNs+GCx\nFt3nVlDgO9OqHuzZmmj85A9CbeHEmQyuuyZ8olqJpL+DFfl5eGA9LDDzfaG48Mss\n8ggapzjW+tA+3ClMXe5BYjmSkmMCpa01uog2OecYMuMsVIntfyNJklwNfNSwAjwf\ngqmENbqICBOHKYCRS/jCRDMDCFXjf80ujrnfCcDb6RcXLAI/1rOUFk2nRSuBVAVP\nvaBVpxkcmuO0Kv/rBxB6spBVmhZFcPYCFpTUKKWLJW34eu3lX9kpEWeCOOlV6k2a\nAVgEjeF8nOUO188fw/dE8lvVtb0a/U/+SQRxNkACwPdZ1BxHwUMLGamOYpO1g0Se\nDMFafOoooPmTiB6vB5eyqMsRegnrqoInXO1KxUtsy7A+H/aLdKVqOD7WwX/knDnI\nQR8yPH597O+I1F2V2uYWmMk4NK+eP6Lsk4PemRTTHhDA/QOYjk+6UQACS8X9zC4l\noPLW+PwJKMJjZJGn0b+yAWUhPwE5VeBjOmFvV7pxYsjt6BLPuoo2+GUN07DCiB7i\n0Rut+d2V35pK3tTekqtX3KUFCQ8myL7m6CAZQZvm2m1CYjtQFavmH+dBS+RyazBa\nHzB4RgxEamAe1yMi60AE\n=Ht2g\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d6792fea4ecf010f60c560d27de1f5ba7a338397\nparent dfe604462cd5a7227a4100c170f4297c695cf233\nauthor webstreamr <210764791+webstreamr@users.noreply.github.com> 1795552914 +0100\ncommitter GitHub <noreply@github.com> 1795552914 +0000\n\nfeat(builtins): add M3U addon (#1955)\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+        "verified_at": "2026-11-24T20:41:54Z"
+      }
+    },
+    "url": "https://api.github.com/repos/Viren070/AIOStreams/commits/89f03f6f1e6696dcee032e47c06ca5211249e776",
+    "html_url": "https://github.com/Viren070/AIOStreams/commit/89f03f6f1e6696dcee032e47c06ca5211249e776",
+    "comments_url": "https://api.github.com/repos/Viren070/AIOStreams/commits/89f03f6f1e6696dcee032e47c06ca5211249e776/comments",
+    "author": {
+      "login": "webstreamr",
+      "id": 210764791,
+      "node_id": "U_kgDODJAD9w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210764791?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/webstreamr",
+      "html_url": "https://github.com/webstreamr",
+      "followers_url": "https://api.github.com/users/webstreamr/followers",
+      "following_url": "https://api.github.com/users/webstreamr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/webstreamr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/webstreamr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/webstreamr/subscriptions",
+      "organizations_url": "https://api.github.com/users/webstreamr/orgs",
+      "repos_url": "https://api.github.com/users/webstreamr/repos",
+      "events_url": "https://api.github.com/users/webstreamr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/webstreamr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dfe604462cd5a7227a4100c170f4297c695cf233",
+        "url": "https://api.github.com/repos/Viren070/AIOStreams/commits/dfe604462cd5a7227a4100c170f4297c695cf233",
+        "html_url": "https://github.com/Viren070/AIOStreams/commit/dfe604462cd5a7227a4100c170f4297c695cf233"
+      }
+    ]
+  }
+]

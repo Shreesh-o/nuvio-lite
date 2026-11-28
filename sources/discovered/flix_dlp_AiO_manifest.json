@@ -1,0 +1,99 @@
+{
+  "name": "All-in-One-Nuvio",
+  "version": "1.6.1",
+  "description": "High-speed Bollywood, Hollywood & TV Series streams with Castle VIP, NetMirror (Net77) & Bingr Multi-Source - Standalone Zero-Server",
+  "scrapers": [
+    {
+      "id": "castle",
+      "name": "🏰 Castle VIP Streams",
+      "description": "Direct Castle VIP Bollywood, Hollywood & TV series in 1080p with Multi-Audio (Hindi, English, Tamil, Telugu, etc.)",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/castle.js",
+      "main": "providers/castle.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://img.icons8.com/color/96/castle.png",
+      "contentLanguage": ["hi", "en", "ta", "te"]
+    },
+    {
+      "id": "net77",
+      "name": "🌐 NetMirror (Net77)",
+      "description": "Multi-OTT streaming provider aggregating adaptive master HLS streams from Netflix, Prime Video, and Hotstar with multi-audio",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "providers/net77.js",
+      "main": "providers/net77.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8"],
+      "logo": "https://net77.cc/favicon.ico",
+      "contentLanguage": ["en", "hi", "ta", "te", "es", "fr", "de", "ja", "multi"]
+    },
+    {
+      "id": "bingr",
+      "name": "⚡ Bingr Multi-Source",
+      "description": "Multi-source streaming provider for movies, TV shows, and anime aggregated from Bingr endpoints with multi-audio support",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "providers/bingr.js",
+      "main": "providers/bingr.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://img.icons8.com/color/96/film-reel.png",
+      "contentLanguage": ["en", "ja", "hi", "multi"]
+    }
+  ],
+  "providers": [
+    {
+      "id": "castle",
+      "name": "🏰 Castle VIP Streams",
+      "description": "Direct Castle VIP Bollywood, Hollywood & TV series in 1080p with Multi-Audio (Hindi, English, Tamil, Telugu, etc.)",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/castle.js",
+      "main": "providers/castle.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://img.icons8.com/color/96/castle.png",
+      "contentLanguage": ["hi", "en", "ta", "te"]
+    },
+    {
+      "id": "net77",
+      "name": "🌐 NetMirror (Net77)",
+      "description": "Multi-OTT streaming provider aggregating adaptive master HLS streams from Netflix, Prime Video, and Hotstar with multi-audio",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "providers/net77.js",
+      "main": "providers/net77.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8"],
+      "logo": "https://net77.cc/favicon.ico",
+      "contentLanguage": ["en", "hi", "ta", "te", "es", "fr", "de", "ja", "multi"]
+    },
+    {
+      "id": "bingr",
+      "name": "⚡ Bingr Multi-Source",
+      "description": "Multi-source streaming provider for movies, TV shows, and anime aggregated from Bingr endpoints with multi-audio support",
+      "version": "1.6.1",
+      "author": "ModFlix Team",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "providers/bingr.js",
+      "main": "providers/bingr.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://img.icons8.com/color/96/film-reel.png",
+      "contentLanguage": ["en", "ja", "hi", "multi"]
+    }
+  ]
+}

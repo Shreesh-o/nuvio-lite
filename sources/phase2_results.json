@@ -1,0 +1,3810 @@
+[
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "kisskh",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 106.41,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://kisskh.ovh/api/DramaList/Search?q=Fight%20Club&type=0"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 27.02,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://kisskh.ovh/api/DramaList/Search?q=Fight%20Club&type=0"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 20.2,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2208.14,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "4khdhub",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 69.22,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://4khdhub.fans/?s=Fight%20Club%201999"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 22.67,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://4khdhub.fans/?s=Fight%20Club%201999"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 15.29,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.4,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "animekai",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 26.13,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.06,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.06,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "castle",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 72.52,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://api.fstcy.com/v0.1/system/getSecurityKey/1?channel=IndiaA&clientType=1&lang=en-US"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 23.66,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://api.fstcy.com/v0.1/system/getSecurityKey/1?channel=IndiaA&clientType=1&lang=en-US"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 15.87,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.72,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "cinevibe",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 138.03,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 1,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinevibe.asia/api/stream/fetch?server=cinebox-1&type=movie&mediaId=550&title=Fight%20Club&releaseYear=1999&_token=PXgycWN5UlpXRUhNbFJSRUNFd0RkNXhyV3kyR2NFbUlua3pGbXh5clh5S004V0dCNFZHQjVWUXMyWkpCek1KWmtMUXM4eUdCNVJRc3ZJVW93RVVuYXl6TThPR0ExalVCM0xhTGNxS25XT0dGUklUbzZXVEEwQTNwbTV2TGxXbXF4V0dBa0RVbmFjVHA&_ts=1795735622802",
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 21.87,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 1,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinevibe.asia/api/stream/fetch?server=cinebox-1&type=movie&mediaId=550&title=Fight%20Club&releaseYear=1999&_token=PXgycWN5UlpXRUhNbFJSRUNFd0RkNXhyV3kyR2NFbUlua3pGbXh5clh5S004V0dCNFZHQjVWUXMyWkpCek1KWmtMUXM4eUdCNVJRc3ZJVW93RVVuYXl6TThPR0ExalVCM0xhTGNxS25XT0dGUklUbzZXVEEwQTNwbTV2TGxXbXF4V0dBa0RVbmFjVHA&_ts=1795735622886",
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.6,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2211.91,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "dahmermovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 81.71,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 2,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://a.111477.xyz/movies/Fight%20Club%20(1999)/"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 31.06,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 2,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://a.111477.xyz/movies/Fight%20Club%20(1999)/"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.25,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.6,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "dvdplay",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 86.24,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://dvdplay.skin/search.php?q=Fight+Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 27.9,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://dvdplay.skin/search.php?q=Fight+Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 20.53,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2205.19,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "hdhub4u",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 123.16,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://hdhub4u.frl/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 27.17,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://hdhub4u.frl/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.49,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2210.87,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "hdrezka",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 79.32,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://hdrezka.ag/engine/ajax/search.php?q=Fight+Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 35.01,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://hdrezka.ag/engine/ajax/search.php?q=Fight+Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.04,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2211.12,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "idlix",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 14.95,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://tv10.idlixku.com/movie/fight-club-1999"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.12,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://tv10.idlixku.com/movie/fight-club-1999"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 11.47,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.02,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "mallumv",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.2,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 12.57,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.48,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.2,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "mapple",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 25.67,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://enc-dec.app/api/enc-mapple"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 58.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://enc-dec.app/api/enc-mapple"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 65.89,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://enc-dec.app/api/enc-mapple"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2202.57,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "moviesmod",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 68.46,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://moviesmod.chat/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 20.96,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://moviesmod.chat/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.25,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.2,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "myflixer-extractor",
+    "nuvio_fast": {
+      "load_ok": false,
+      "load_err": "SyntaxError: Invalid or unexpected token",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "SyntaxError: Invalid or unexpected token",
+      "latency_ms": 0.51,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "node_fast": {
+      "load_ok": false,
+      "load_err": "SyntaxError: Invalid or unexpected token",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "SyntaxError: Invalid or unexpected token",
+      "latency_ms": 0.25,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_fail": {
+      "load_ok": false,
+      "load_err": "SyntaxError: Invalid or unexpected token",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "SyntaxError: Invalid or unexpected token",
+      "latency_ms": 0.18,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_slow": {
+      "load_ok": false,
+      "load_err": "SyntaxError: Invalid or unexpected token",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "SyntaxError: Invalid or unexpected token",
+      "latency_ms": 0.17,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "netmirror",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 157.69,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 16,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 21.08,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 16,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php",
+        "https://net51.cc//tv/p.php"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.97,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.59,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "showbox",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.68,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.06,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.06,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "streamflix",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 47.98,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://api.streamflix.app/data.json"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 11.71,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://api.streamflix.app/data.json"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.04,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.39,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "uhdmovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 93.99,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://uhdmovies.email/search/Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 38.7,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://uhdmovies.email/search/Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.87,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.82,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "videasy",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 87.93,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 35,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=d131017ccc6e5462a81c9304d21476de&append_to_response=external_ids",
+        "https://api.videasy.net/myflixerzupcloud/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/1movies/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/moviebox/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/cdn/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 61.37,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 35,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=d131017ccc6e5462a81c9304d21476de&append_to_response=external_ids",
+        "https://api.videasy.net/myflixerzupcloud/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/1movies/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/moviebox/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523",
+        "https://api.videasy.net/cdn/sources-with-title?title=Fight%20Club&mediaType=movie&year=1999&tmdbId=550&imdbId=tt0137523"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 1.82,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=d131017ccc6e5462a81c9304d21476de&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2199.72,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=d131017ccc6e5462a81c9304d21476de&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidlink",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 11.31,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706",
+        "https://enc-dec.app/api/enc-vidlink?text=550"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.08,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706",
+        "https://enc-dec.app/api/enc-vidlink?text=550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.89,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.06,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidnest-anime",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.7,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://graphql.anilist.co"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 6.24,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://graphql.anilist.co"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.9,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2202.97,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidnest",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 20.09,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://backend.vidnest.fun/allmovies/movie/550",
+        "https://backend.vidnest.fun/hollymoviehd/movie/550"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 24.74,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://backend.vidnest.fun/allmovies/movie/550",
+        "https://backend.vidnest.fun/hollymoviehd/movie/550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.34,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.56,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidrock",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 44.78,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://aesdec.nuvioapp.space/encrypt",
+        "https://vidrock.net/api/movie/NTUw"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 19.45,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://aesdec.nuvioapp.space/encrypt",
+        "https://vidrock.net/api/movie/NTUw"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.58,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.87,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidsrc",
+    "nuvio_fast": {
+      "load_ok": false,
+      "load_err": "ReferenceError: process is not defined",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "ReferenceError: process is not defined",
+      "latency_ms": 1.86,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.17,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://vidsrc.xyz/embed/movie/550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": false,
+      "load_err": "ReferenceError: process is not defined",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "ReferenceError: process is not defined",
+      "latency_ms": 0.61,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_slow": {
+      "load_ok": false,
+      "load_err": "ReferenceError: process is not defined",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "ReferenceError: process is not defined",
+      "latency_ms": 0.44,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vixsrc",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.37,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706",
+        "https://vixsrc.to/movie/550"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 11.24,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706",
+        "https://vixsrc.to/movie/550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.97,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.46,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=68e094699525b18a70bab2f86b1fa706"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "watch32",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.25,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://watch32.sx/search/Fight-Club-1999"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.95,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://watch32.sx/search/Fight-Club-1999"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.37,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2202.31,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "xprime",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 12.99,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://enc-dec.app/api/enc-xprime"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.09,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/domains.json",
+        "https://enc-dec.app/api/enc-xprime"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.58,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2221.14,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "yflix",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.79,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://enc-dec.app/db/flix/find?tmdb_id=550&type=movie"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://enc-dec.app/db/flix/find?tmdb_id=550&type=movie"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.95,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://enc-dec.app/db/flix/find?tmdb_id=550&type=movie"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2218.75,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://enc-dec.app/db/flix/find?tmdb_id=550&type=movie"
+      ]
+    }
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "adimoviebox",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 12.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://moviebox.ph/wefeed-h5-bff/web/subject/search"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.56,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3",
+        "https://moviebox.ph/wefeed-h5-bff/web/subject/search"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.78,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2204.37,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=b030404650f279792a8d3287232358e3"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "vegamovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.67,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US",
+        "https://vegamovies.navy/search.php?q=Fight%20Club&page=1&per_page=20"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US",
+        "https://vegamovies.navy/search.php?q=Fight%20Club&page=1&per_page=20"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.86,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.97,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "movieshunt",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.26,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 4,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US",
+        "https://movieshunt.run/?s=Fight%20Club",
+        "https://movieshunt.run/?s=Fight",
+        "https://movieshunt.run/?s=Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.55,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 4,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US",
+        "https://movieshunt.run/?s=Fight%20Club",
+        "https://movieshunt.run/?s=Fight",
+        "https://movieshunt.run/?s=Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 12.51,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.64,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&language=en-US"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "biavox",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.72,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids&language=fr-FR",
+        "https://biavox.com/2mg51giq8mspc/home/biavox"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 72.31,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids&language=fr-FR",
+        "https://biavox.com/2mg51giq8mspc/home/biavox"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 34.77,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids&language=fr-FR",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://biavox.com/2mg51giq8mspc/home/biavox"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2199.85,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids&language=fr-FR"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "cinemm",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 53.34,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinemm.com"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 28.35,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinemm.com"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 25.69,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinemm.com"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2199.63,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "peachify",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 22.17,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 6,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://uwu.eat-peach.sbs/moviebox/movie/550",
+        "https://usa.eat-peach.sbs/air/movie/550",
+        "https://usa.eat-peach.sbs/holly/movie/550",
+        "https://usa.eat-peach.sbs/multi/movie/550"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 17.78,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 6,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://uwu.eat-peach.sbs/moviebox/movie/550",
+        "https://usa.eat-peach.sbs/air/movie/550",
+        "https://usa.eat-peach.sbs/holly/movie/550",
+        "https://usa.eat-peach.sbs/multi/movie/550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.01,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 6,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://uwu.eat-peach.sbs/moviebox/movie/550",
+        "https://usa.eat-peach.sbs/air/movie/550",
+        "https://usa.eat-peach.sbs/holly/movie/550",
+        "https://usa.eat-peach.sbs/multi/movie/550"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.63,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 6,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://uwu.eat-peach.sbs/moviebox/movie/550",
+        "https://usa.eat-peach.sbs/air/movie/550",
+        "https://usa.eat-peach.sbs/holly/movie/550",
+        "https://usa.eat-peach.sbs/multi/movie/550"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "moviesdrive",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 46.01,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 4,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://new3.moviesdrives.my/search.php?q=tt0137523&per_page=10",
+        "https://new3.moviesdrives.my/search.php?q=Fight%20Club&per_page=10"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 30.15,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 4,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://new3.moviesdrives.my/search.php?q=tt0137523&per_page=10",
+        "https://new3.moviesdrives.my/search.php?q=Fight%20Club&per_page=10"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.02,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://new3.moviesdrives.my/search.php?q=550&per_page=10"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.66,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "animetsu",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 26.66,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/SaurabhKaperwan/Utils/refs/heads/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 26.37,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/SaurabhKaperwan/Utils/refs/heads/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 14.44,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/SaurabhKaperwan/Utils/refs/heads/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.24,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/SaurabhKaperwan/Utils/refs/heads/main/urls.json"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "anikototv",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 15,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://arm.haglund.dev/api/v2/tmdb?id=550",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://graphql.anilist.co"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.56,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://arm.haglund.dev/api/v2/tmdb?id=550",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://graphql.anilist.co"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://arm.haglund.dev/api/v2/tmdb?id=550",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.89,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://arm.haglund.dev/api/v2/tmdb?id=550"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "zinkmovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 15.35,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://zinkmovies.wtf/?s=Fight%20Club",
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://gemma416okl.com/play/tt0137523"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://zinkmovies.wtf/?s=Fight%20Club",
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://gemma416okl.com/play/tt0137523"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.05,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.9,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "kisskh",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.55,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49",
+        "https://kisskh.nl/api/DramaList/Search?q=Fight%20Club&type=0",
+        "https://kisskh.nl/api/DramaList/Search?q=Fight%20Club&type=0"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.6,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49",
+        "https://kisskh.nl/api/DramaList/Search?q=Fight%20Club&type=0",
+        "https://kisskh.nl/api/DramaList/Search?q=Fight%20Club&type=0"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.89,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.35,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "cinefreak",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.37,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinefreak.nl/wp-json/wp/v2/search?search=Fight%20Club&per_page=10",
+        "https://cinefreak.nl/wp-json/wp/v2/search?search=Fight%20Club%201999&per_page=10"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 21.09,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://cinefreak.nl/wp-json/wp/v2/search?search=Fight%20Club&per_page=10",
+        "https://cinefreak.nl/wp-json/wp/v2/search?search=Fight%20Club%201999&per_page=10"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 6.91,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2202.01,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hdfilme",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 14.77,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://meinecloud.click/movie/tt0137523"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 7.01,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://meinecloud.click/movie/tt0137523"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 11.92,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.06,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550/external_ids?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "playimdb",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 6.85,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://streamdata.vaplayer.ru/api.php?tmdb=550&type=movie"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.2,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://streamdata.vaplayer.ru/api.php?tmdb=550&type=movie"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.04,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://streamdata.vaplayer.ru/api.php?tmdb=550&type=movie"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.54,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://streamdata.vaplayer.ru/api.php?tmdb=550&type=movie"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "4khdhub",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 22.07,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json?t=1795735631998",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://4khdhub.one/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 8.44,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json?t=1795735632020",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c",
+        "https://4khdhub.one/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json?t=1795735632030",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2202.74,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json?t=1795735632034"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hindmovie",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.59,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://hindmovie.icu/wp-json/wp/v2/posts?search=tt0137523&per_page=100",
+        "https://hindmovie.icu/wp-json/wp/v2/posts?search=Fight%20Club&per_page=100"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.99,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 3,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://hindmovie.icu/wp-json/wp/v2/posts?search=tt0137523&per_page=100",
+        "https://hindmovie.icu/wp-json/wp/v2/posts?search=Fight%20Club&per_page=100"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.91,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://hindmovie.icu/wp-json/wp/v2/posts?search=550&per_page=100"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2204.16,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hdhub4u",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 19.13,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://search.pingora.fyi/collections/post/documents/search?q=fight%20club&query_by=post_title,category,stars,director,imdb_id&query_by_weights=4,2,2,2,4&sort_by=sort_by_date:desc&limit=30&highlight_fields=none&use_cache=true&page=1",
+        "https://search.pingora.fyi/collections/post/documents/search?q=tt0137523&query_by=post_title,category,stars,director,imdb_id&query_by_weights=4,2,2,2,4&sort_by=sort_by_date:desc&limit=30&highlight_fields=none&use_cache=true&page=1",
+        "https://new2.hdhub4u.cl"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.57,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://search.pingora.fyi/collections/post/documents/search?q=fight%20club&query_by=post_title,category,stars,director,imdb_id&query_by_weights=4,2,2,2,4&sort_by=sort_by_date:desc&limit=30&highlight_fields=none&use_cache=true&page=1",
+        "https://search.pingora.fyi/collections/post/documents/search?q=tt0137523&query_by=post_title,category,stars,director,imdb_id&query_by_weights=4,2,2,2,4&sort_by=sort_by_date:desc&limit=30&highlight_fields=none&use_cache=true&page=1",
+        "https://new2.hdhub4u.cl"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.73,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 4,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json",
+        "https://api.themoviedb.org/3/movie/550?api_key=439c478a771f35c05022f9feabcca01c&append_to_response=external_ids",
+        "https://search.pingora.fyi/collections/post/documents/search?q=550&query_by=post_title,category,stars,director,imdb_id&query_by_weights=4,2,2,2,4&sort_by=sort_by_date:desc&limit=30&highlight_fields=none&use_cache=true&page=1",
+        "https://new2.hdhub4u.cl"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2199.8,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://raw.githubusercontent.com/PirateZoro9/asura-providers/main/urls.json"
+      ]
+    }
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "uhdmovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.16,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49",
+        "https://uhdmovies.casa/?s=Fight%20Club%201999"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 3.61,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49",
+        "https://uhdmovies.casa/?s=Fight%20Club%201999"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 1.79,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.44,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1865f43a0549ca50d341dd9ab8b29f49"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilmv",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.71,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilmv.lc"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.15,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilmv.lc"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.17,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilmv.lc"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.91,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilblasters",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.78,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilblasters.business/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 2.59,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilblasters.business/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 26.97,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://www.1tamilblasters.business/?s=550"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.79,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilian",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 35.57,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://embedojo.net/tamil/tmdb/550",
+        "https://embedojo.net/english/tmdb/550",
+        "https://embedojo.net/hindi/tmdb/550",
+        "https://embedojo.net/telugu/tmdb/550"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 26.35,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://embedojo.net/tamil/tmdb/550",
+        "https://embedojo.net/english/tmdb/550",
+        "https://embedojo.net/hindi/tmdb/550",
+        "https://embedojo.net/telugu/tmdb/550"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 21.69,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://embedojo.net/tamil/tmdb/550",
+        "https://embedojo.net/english/tmdb/550",
+        "https://embedojo.net/hindi/tmdb/550",
+        "https://embedojo.net/telugu/tmdb/550"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.68,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "moviesda",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 86.93,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://moviesda15.com/tamil-1999-movies/",
+        "https://moviesda15.com/fight-club-1999-tamil-movie/",
+        "https://moviesda15.com/fight-club-1999-tamil-movie/",
+        "https://moviesda15.com/fight-club-2026-tamil-movie/"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 25.96,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://moviesda15.com/tamil-1999-movies/",
+        "https://moviesda15.com/fight-club-1999-tamil-movie/",
+        "https://moviesda15.com/fight-club-1999-tamil-movie/",
+        "https://moviesda15.com/fight-club-2026-tamil-movie/"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 10.7,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 10,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://moviesda15.com/tamil-2026-movies/",
+        "https://moviesda15.com/tamil-2025-movies/",
+        "https://moviesda15.com/tamil-2024-movies/",
+        "https://moviesda15.com/550-2026-tamil-movie/"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.96,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "movies4u",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 16.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://movies4u.fans/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 6.64,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://movies4u.fans/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 19.11,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://movies4u.fans/?s=550"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.52,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "isaidub",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 78.76,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 14,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://isaidub.love/movie/fight-club-1999-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-720p-hd-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-720p-hd-tamil-dubbed-movie/"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 13.2,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 14,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://isaidub.love/movie/fight-club-1999-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-720p-hd-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/fight-club-720p-hd-tamil-dubbed-movie/"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 9.95,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 8,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://isaidub.love/movie/550-tamil-dubbed-movie/",
+        "https://isaidub.love/movie/550-720p-hd-tamil-dubbed-movie/",
+        "https://isaidub.love/",
+        "https://isaidub.love/tamil-2026-dubbed-movies/"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.94,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "toonhub",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 16.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://toonhub4u.co/?s=Fight%20Club",
+        "https://toonstream.one/home/?s=Fight%20Club",
+        "https://toonhub4u.co/?s=Fight",
+        "https://toonhub4u.co/?s=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.91,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://toonhub4u.co/?s=Fight%20Club",
+        "https://toonstream.one/home/?s=Fight%20Club",
+        "https://toonhub4u.co/?s=Fight",
+        "https://toonhub4u.co/?s=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 6.54,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 5,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://toonhub4u.co/?s=550",
+        "https://toonstream.one/home/?s=550",
+        "https://toonhub4u.co/?s=550",
+        "https://toonhub4u.co/?s=550"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.57,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "animelok",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 5.86,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://animelok.to/search?keyword=Fight%20Club"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.42,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://animelok.to/search?keyword=Fight%20Club"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2200.46,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44",
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.71,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "xdmovies",
+    "nuvio_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 4.72,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44&append_to_response=external_ids",
+        "https://xdmovies.site/php/search_api.php?query=Fight%20Club&fuzzy=true"
+      ]
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 1.73,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 2,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44&append_to_response=external_ids",
+        "https://xdmovies.site/php/search_api.php?query=Fight%20Club&fuzzy=true"
+      ]
+    },
+    "nuvio_fail": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 0.94,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44&append_to_response=external_ids"
+      ]
+    },
+    "nuvio_slow": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "harness_timeout",
+      "exec_err": "Error: HARNESS_TIMEOUT",
+      "latency_ms": 2201.47,
+      "timed_out": true,
+      "result_type": null,
+      "result_count": null,
+      "outbound_count": 1,
+      "outbound_sample": [
+        "https://api.themoviedb.org/3/movie/550?api_key=1b3113663c9004682ed61086cf967c44&append_to_response=external_ids"
+      ]
+    }
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "dramafull",
+    "nuvio_fast": {
+      "load_ok": false,
+      "load_err": "Error: Module 'axios' is not available",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "Error: Module 'axios' is not available",
+      "latency_ms": 1.37,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "node_fast": {
+      "load_ok": true,
+      "load_err": null,
+      "has_getStreams": true,
+      "exec_status": "ok",
+      "exec_err": null,
+      "latency_ms": 1.66,
+      "timed_out": false,
+      "result_type": "array",
+      "result_count": 0,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_fail": {
+      "load_ok": false,
+      "load_err": "Error: Module 'axios' is not available",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "Error: Module 'axios' is not available",
+      "latency_ms": 0.6,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    },
+    "nuvio_slow": {
+      "load_ok": false,
+      "load_err": "Error: Module 'axios' is not available",
+      "has_getStreams": false,
+      "exec_status": "load_failed",
+      "exec_err": "Error: Module 'axios' is not available",
+      "latency_ms": 0.4,
+      "timed_out": false,
+      "outbound_count": 0,
+      "outbound_sample": []
+    }
+  }
+]

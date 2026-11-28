@@ -1,0 +1,2394 @@
+{
+  "name": "NiakVIO v5.21.184",
+  "version": "5.21.184",
+  "description": "NiakVIO Provider v3 production artifacts. One Provider JS per provider/version for TV, Mobile and Desktop; client manifests only project these same bytes.",
+  "scrapers": [
+    {
+      "id": "anime-sama",
+      "name": "🐍 Anime-Sama",
+      "description": "Un des plus gros catalogues français, très actif, sorties du jour.",
+      "version": "1.1.199",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/anime-sama--nuvio--478cbfbaa246a9ed.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/anime-sama.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "purstream",
+      "name": "💧 Purstream",
+      "description": "Films and series in French (VF) / subtitled French (VOSTFR) / multi-language (MULTI) from purstream.art.",
+      "version": "3.0.170",
+      "author": "wooodyhood",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/purstream--nuvio--155fa6af853c1b2c.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/purstream.webp",
+      "contentLanguage": [
+        "en",
+        "fr"
+      ],
+      "disabledPlatforms": []
+    },
+    {
+      "id": "flemmix",
+      "name": "🔥 Flemmix",
+      "description": "Films et séries en streaming VF/VOSTFR sur Flemmix.",
+      "version": "1.0.130",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/flemmix--nuvio--f566b8ccafacb3aa.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/flemmix.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "uhdmovies",
+      "name": "📺 UHDMovies",
+      "description": "UHD Movies streaming with multiple resolution",
+      "version": "1.0.111",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "provider-disabled/uhdmovies--nuvio--2288620ddd544268.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/uhdmovies.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "movieshunt",
+      "name": "🎬 MoviesHunt",
+      "description": "Hollywood & Bollywood Movies in Multi Language",
+      "version": "1.0.112",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "provider-disabled/movieshunt--nuvio--0d724a8db0e3c095.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/movieshunt.webp",
+      "contentLanguage": [
+        "hi",
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "HINDMOVIEZ",
+      "name": "🇮🇳 HindMoviez",
+      "description": "HindMoviez - Hindi & English Movies and Series (480p / 720p / 1080p / 4K)",
+      "version": "1.0.174",
+      "author": "Sanchit (@S4NCHITT) — Murph's Streams",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hindmoviez--nuvio--76c8bc4a9f9f66cb.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/hindmoviez.webp",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "disabledPlatforms": []
+    },
+    {
+      "id": "4KHDHUB",
+      "name": "📺 4KHDHub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.105",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/4khdhub--nuvio--c36aa30eaa709878.js",
+      "enabled": false,
+      "formats": [
+        "mkv"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/4khdhub.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "persianstremio",
+      "name": "🌸 PersianStremio",
+      "description": "Persian Stremio plugin for movies, series,and Persian media content in Iranian & English.",
+      "version": "1.4.114",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/persianstremio--nuvio--9b47f3ce6c384c07.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/persianstremio.webp",
+      "contentLanguage": [
+        "en",
+        "pe"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "kehflix",
+      "name": "🎬 Kehflix",
+      "description": "Kehflix provider géré par NiakVIO via son hub officiel et son domaine terminal.",
+      "version": "1.0.99",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/kehflix.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [],
+      "hasSettings": false,
+      "filename": "provider-disabled/kehflix--nuvio--88901229b69124f4.js",
+      "enabled": false,
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "ANIKOTOTV",
+      "name": "📺 AnikotoTV",
+      "description": "Anime provider for AnikotoTV.to via Mapper API + Native Extractor",
+      "version": "1.0.192",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/anikototv--nuvio--08e339d4ac0cf330.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/anikototv.webp",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ],
+      "disabledPlatforms": [],
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "ANIMEKAI",
+      "name": "🐉 AnimeKai",
+      "description": "AnimeKai TV episodes via AnimeKai servers",
+      "version": "1.0.120",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animekai--nuvio--345fa9166ae73ef5.js",
+      "enabled": false,
+      "hasSettings": true,
+      "limited": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animekai.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "animesalt",
+      "name": "🧂 AnimeSalt",
+      "description": "AnimeSalt India",
+      "version": "1.0.92",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animesalt--nuvio--d52f0307383a61cc.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animesalt.webp",
+      "contentLanguage": [
+        "hi",
+        "en",
+        "ja"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "animesama-co",
+      "name": "🐍 AnimeSama.co (DLE Mirror)",
+      "description": "Animes VF et VOSTFR en streaming sur AnimeSama.co (miroir DLE).",
+      "version": "1.0.122",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animesama-co--nuvio--5539a8514eec84ed.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animesama-co.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "animesultra",
+      "name": "🚀 AnimesUltra",
+      "description": "Animes en streaming VOSTFR et VF.",
+      "version": "1.0.123",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animesultra--nuvio--7fab3872ae437175.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animesultra.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "animevostfr",
+      "name": "🇫🇷 AnimeVOSTFR",
+      "description": "Animes VF et VOSTFR en streaming gratuit sur AnimeVOSTFR.",
+      "version": "1.1.153",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animevostfr--nuvio--16f430998bd11e96.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animevostfr.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "castle",
+      "name": "🏰 Castle",
+      "description": "Multi Lang provider",
+      "version": "2.0.167",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/castle--nuvio--693b2a3f8d7b993b.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/castle.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": []
+    },
+    {
+      "id": "coflix",
+      "name": "🎥 Coflix",
+      "description": "Films et séries en streaming VF/VOSTFR sur Coflix.wiki.",
+      "version": "1.0.129",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/coflix--nuvio--b91ea1216034d130.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/coflix.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "FRENCH-MANGA",
+      "name": "🇫🇷 French-Manga",
+      "description": "Animes VF et VOSTFR en streaming sur French-Manga.net",
+      "version": "1.0.189",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/french-manga--nuvio--419e88882512d514.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/french-manga.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "KURAGE",
+      "name": "🪼 Kurage",
+      "description": "Kurage.live anime streaming with tRPC API and multi-server proxy support",
+      "version": "1.0.102",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/kurage--nuvio--653c37b0d4352c36.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/kurage.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "moviesmod",
+      "name": "🛠️ MoviesMod",
+      "description": "Movie and TV show streams from MoviesMod with multiple quality options",
+      "version": "1.0.95",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/moviesmod--nuvio--5f6249d3d8efc0ea.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/moviesmod.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "mugiwarastream",
+      "name": "👒 Mugiwara-no-Streaming",
+      "description": "Streaming gratuit d'animes et scans en bonne qualite via API Next.js.",
+      "version": "1.0.182",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/mugiwarastream--nuvio--4ea3303849427adf.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/mugiwarastream.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "neko-sama",
+      "name": "🐱 Neko-Sama",
+      "description": "Anime VF et VOSTFR en streaming sur animes-sama.su (via neko-sama.lol).",
+      "version": "0.0.119",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/neko-sama--nuvio--4fe6e00c7303946e.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/neko-sama.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "papadustream",
+      "name": "🍿 Papadustream",
+      "description": "Films et séries TV en streaming HLS via Papadustream.",
+      "version": "1.0.145",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/papadustream--nuvio--9a1a4908d4777b68.js",
+      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/papadustream.webp",
+      "contentLanguage": [
+        "fr",
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "PLAYIMDB",
+      "name": "▶️ PlayIMDb",
+      "description": "High-Speed Direct Streaming for Movies (IMDb ID Extract)",
+      "version": "2.0.126",
+      "author": "PirateZoro9",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/playimdb--nuvio--70748fe545c9681e.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/playimdb.webp",
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "sekai",
+      "name": "🌏 Sekai",
+      "description": "Fournisseur spécialisé sur les gros animes. Streams directs très rapides sans iFrames.",
+      "version": "1.0.140",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/sekai--nuvio--2b380ed1d91b6bc5.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/sekai.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "canonicalSupportedTypes": [
+        "anime"
+      ],
+      "disabledReason": "auto_off_current_wrong_content",
+      "disabledAt": "2026-11-19",
+      "purgeAfter": "2026-11-26",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "streamzo",
+      "name": "🌊 StreamZo",
+      "description": "Films et séries en streaming VF/VOSTFR sur Streamzo.fr (SPA, iframe injecté, multi-serveurs).",
+      "version": "1.0.177",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/streamzo--nuvio--583a1fdc826d779c.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/streamzo.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true,
+      "disabledReason": "auto_off_current_wrong_content",
+      "disabledAt": "2026-11-20",
+      "purgeAfter": "2026-11-27",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "VIDFAST",
+      "name": "⚡ VidFast",
+      "description": "Stream movies and TV shows from vidfast.pro.",
+      "version": "1.0.86",
+      "author": "Dustincos",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/vidfast--nuvio--177fa2f62fb34e93.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vidfast.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "VIDROCK",
+      "name": "🪨 VidRock",
+      "description": "VidRock - 1080p 480p and 360p",
+      "version": "1.0.122",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/vidrock--nuvio--5d90f291dc66d601.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vidrock.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "voiranime",
+      "name": "👁️ VoirAnime",
+      "description": "Un des plus gros catalogues français d'animes.",
+      "version": "1.2.133",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/voiranime--nuvio--3a975c32e8632841.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/voiranime.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "voiranime-homes",
+      "name": "🏠 VoirAnime.homes",
+      "description": "Animes VF et VOSTFR en streaming sur voiranime.homes (moteur DLE, miroir French-Manga).",
+      "version": "0.0.118",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/voiranime-homes--nuvio--3121af19024f1f37.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/voiranime-homes.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "voiranime-rip",
+      "name": "👁️ VoirAnime.rip",
+      "description": "Animes VF et VOSTFR en streaming sur VoirAnime.rip (site DLE).",
+      "version": "1.0.125",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/voiranime-rip--nuvio--3053949c679b347d.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/voiranime-rip.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "vostfree",
+      "name": "🆓 Vostfree",
+      "description": "Animes VF et VOSTFR en streaming et téléchargement.",
+      "version": "1.1.137",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/vostfree--nuvio--0db9a4fe4e45088c.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vostfree.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "mkv"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "wookafr",
+      "name": "🇫🇷 Wookafr",
+      "description": "Films et séries en streaming VF sur Wookafr.",
+      "version": "1.0.153",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/wookafr--nuvio--c9d61c4e59fd5794.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/wookafr.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "yflix",
+      "name": "🇾 YFlix",
+      "description": "YFlix streaming",
+      "version": "1.1.84",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/yflix--nuvio--d9a87c04b9e1aa32.js",
+      "enabled": false,
+      "limited": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/yflix.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "manual_off_zero_playable_movie_tv_2026-11-14",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "ALLANIME",
+      "name": "🌐 AllAnime",
+      "description": "AllAnime - Anime and Manga content streaming",
+      "version": "1.0.77",
+      "author": "",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/allanime--nuvio--0539ecc5f76224b0.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/allanime.webp",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "manual_off_zero_playable_anime_2026-11-14_cohort2",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "ALLWISH",
+      "name": "🌟 All-Wish",
+      "description": "All-Wish TV episodes via All-Wish servers",
+      "version": "1.0.115",
+      "author": "Kabir",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/allwish--nuvio--e067beed64be354d.js",
+      "enabled": false,
+      "hasSettings": true,
+      "limited": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/allwish.webp",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "ANIME-ULTIME",
+      "name": "🔥 Anime-Ultime",
+      "description": "Animes VOSTFR et VF en streaming sur v5.anime-ultime.net (séries licenciées exclues par le site).",
+      "version": "0.0.114",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/anime-ultime--nuvio--a4c9aed162c187c4.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/anime-ultime.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "ANIMEVOST-FR",
+      "name": "🇫🇷 AnimeVOST.fr",
+      "description": "Anime VOSTFR 1080p en streaming via animevost.fr (API JSON, catalogue en croissance).",
+      "version": "0.0.81",
+      "author": "Gowaru",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/animevost-fr--nuvio--a47f44cd69693435.js",
+      "enabled": false,
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animevost-fr.webp",
+      "contentLanguage": [
+        "fr"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": false,
+      "disabledReason": "manual_off_zero_playable_anime_2026-11-14",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "MALLUMV",
+      "name": "🌴 MalluMV",
+      "description": "MalluMV direct links with support for Tamil, Telugu, Hindi, Malayalam, and Kannada movies",
+      "version": "1.0.131",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "provider-disabled/mallumv--nuvio--2f3b735df87106ef.js",
+      "enabled": false,
+      "formats": [
+        "mkv",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/mallumv.webp",
+      "contentLanguage": [
+        "ta",
+        "te",
+        "hi",
+        "ml",
+        "kn"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "manual_off_zero_playable_movie_2026-11-14_cohort2",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "moviebox",
+      "name": "📦 MovieBox",
+      "description": "MovieBox - Hindi, Tamil, Telugu & English Movies/Series with multi-quality streams",
+      "version": "1.0.73",
+      "author": "Xyr0nX",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/moviebox--nuvio--ad33248868d15bc2.js",
+      "enabled": false,
+      "hasSettings": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/moviebox.webp",
+      "contentLanguage": [
+        "en",
+        "hi",
+        "ta",
+        "te"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "vidlove",
+      "name": "❤️ VidLove",
+      "description": "Movie and TV show streams from MovieBox, LookMovie, VidnNest etc",
+      "version": "1.0.116",
+      "author": "Jeff",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/vidlove--nuvio--90e05ff6c956501e.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vidlove.webp",
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "disabledReason": "auto_off_current_architecture_regression",
+      "disabledAt": "2026-11-14",
+      "purgeAfter": "2026-11-21",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "sflix",
+      "name": "🎬 SFlix",
+      "description": "Candidate from user-supplied NiakVIO inventory; score 90, priority A.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/sflix--nuvio--d52e0d1ac3e00bea.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/sflix.webp"
+    },
+    {
+      "id": "rivestream",
+      "name": "🔗 Rive",
+      "description": "Candidate from user-supplied NiakVIO inventory; score 93, priority A.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/rivestream--nuvio--9e9a9a7868a593f1.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/rivestream.webp"
+    },
+    {
+      "id": "vidsrc2",
+      "name": "🔗 VidSrcProvider",
+      "description": "Candidate from user-supplied NiakVIO inventory; score 90, priority A.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/vidsrc2--nuvio--cd0631f6bcb6e8f2.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vidsrc2.webp"
+    },
+    {
+      "id": "asiaflix",
+      "name": "🎬 AsiaFlixProvider",
+      "description": "Candidate from user-supplied NiakVIO inventory; score 87, priority A-.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/asiaflix--nuvio--20710bcb86621f65.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/asiaflix.webp"
+    },
+    {
+      "id": "INTERNET-ARCHIVE",
+      "name": "🔗 Internet Archive — Public Domain",
+      "description": "Internet Archive movie provider restricted to items with explicit public-domain license metadata.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/internet-archive--nuvio--f609a3b750ca16aa.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/internet-archive.webp"
+    },
+    {
+      "id": "CORSFLIX",
+      "name": "🎬 CorsFlix",
+      "description": "CorsFlix provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/corsflix--nuvio--8a061633312e36c1.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/corsflix.webp"
+    },
+    {
+      "id": "EMNEXMOVIES",
+      "name": "🎬 EmnexMovies",
+      "description": "EmnexMovies provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/emnexmovies--nuvio--cb7434dff716bfe3.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/emnexmovies.webp"
+    },
+    {
+      "id": "LATESTMOVIES",
+      "name": "🎬 LatestMovies",
+      "description": "LatestMovies provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/latestmovies--nuvio--b276187ca57b7ac2.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/latestmovies.webp"
+    },
+    {
+      "id": "MOVY",
+      "name": "🔗 Movy",
+      "description": "Movy provider managed by NiakVIO.",
+      "version": "1.0.12",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/movy--nuvio--66c4187eda282cd2.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/movy.webp",
+      "disabledReason": "auto_off_current_wrong_content",
+      "disabledAt": "2026-11-18",
+      "purgeAfter": "2026-11-25",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "ARROWTV",
+      "name": "📺 ArrowTV",
+      "description": "ArrowTV provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/arrowtv--nuvio--e880008d62b0f2d9.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/arrowtv.webp"
+    },
+    {
+      "id": "chillflix",
+      "name": "🎬 Chillflix",
+      "description": "Chillflix provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/chillflix-32ceb4b6c511b1cb.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/chillflix.webp",
+      "disabledReason": "auto_off_current_architecture_nonfunctional",
+      "disabledAt": "2026-11-16",
+      "purgeAfter": "2026-11-23",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "NEONFLIX",
+      "name": "🎬 Neonflix",
+      "description": "Neonflix provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/neonflix--nuvio--daac838895380b4f.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/neonflix.webp"
+    },
+    {
+      "id": "BOREDFLIX",
+      "name": "🎬 BoredFlix",
+      "description": "BoredFlix provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/boredflix--nuvio--c557d733f2d837d6.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/boredflix.webp"
+    },
+    {
+      "id": "SHUTTLETV",
+      "name": "📺 ShuttleTV",
+      "description": "ShuttleTV provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/shuttletv--nuvio--689bc4f0aa921695.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/shuttletv.webp"
+    },
+    {
+      "id": "PRIMEWIRE",
+      "name": "🔗 PrimeWire",
+      "description": "PrimeWire provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/primewire--nuvio--81ee0287ce650b13.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/primewire.webp"
+    },
+    {
+      "id": "67MOVIES",
+      "name": "🎬 67Movies",
+      "description": "67Movies provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/67movies--nuvio--f3e78ead7922f1e2.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/67movies.webp"
+    },
+    {
+      "id": "WATCH-CARTOON-ONLINE",
+      "name": "🔗 Watch Cartoon Online",
+      "description": "Watch Cartoon Online provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/watch-cartoon-online--nuvio--911229a5c3559731.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/watch-cartoon-online.webp"
+    },
+    {
+      "id": "CINEMABZ",
+      "name": "🎬 Cinema BZ",
+      "description": "Cinema BZ provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/cinemabz--nuvio--de1864f497994bf7.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/cinemabz.webp"
+    },
+    {
+      "id": "FLIXER",
+      "name": "🎬 Flixer",
+      "description": "Flixer provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/flixer--nuvio--dcaa90656ad067b3.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/flixer.webp"
+    },
+    {
+      "id": "CINEGRAM",
+      "name": "🎬 Cinegram",
+      "description": "Cinegram provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/cinegram--nuvio--40a30a726147a83d.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/cinegram.webp"
+    },
+    {
+      "id": "MOVISH",
+      "name": "🔗 Movish",
+      "description": "Movish provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/movish--nuvio--27b47b4f53cfaa92.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/movish.webp"
+    },
+    {
+      "id": "VUFLIX",
+      "name": "🎬 Vuflix",
+      "description": "Vuflix provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/vuflix--nuvio--fea646281a37e0ce.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vuflix.webp"
+    },
+    {
+      "id": "RIVESTREAM-APP",
+      "name": "▶️ Rive / RiveStream",
+      "description": "Rive / RiveStream provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/rivestream-app--nuvio--4dd2721c83bd0c79.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/rivestream-app.webp"
+    },
+    {
+      "id": "OVERLOOK",
+      "name": "🔗 Overlook",
+      "description": "Overlook provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/overlook--nuvio--773e7a78b37887a8.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/overlook.webp"
+    },
+    {
+      "id": "HEXA",
+      "name": "🔗 Hexa",
+      "description": "Hexa provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/hexa--nuvio--7322e327aee69ded.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/hexa.webp"
+    },
+    {
+      "id": "RIVESTREAM-RU",
+      "name": "🔗 Rive alt RU",
+      "description": "Rive alt RU provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/rivestream-ru--nuvio--bf6ceaac652c0fbb.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/rivestream-ru.webp"
+    },
+    {
+      "id": "MOVIEBITE",
+      "name": "🎬 MovieBite",
+      "description": "MovieBite provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/moviebite--nuvio--0ca34f7c636a028e.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/moviebite.webp"
+    },
+    {
+      "id": "PSTREAM",
+      "name": "▶️ PStream",
+      "description": "PStream provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/pstream--nuvio--ac96c824edc42d81.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/pstream.webp"
+    },
+    {
+      "id": "IHAVENOTV",
+      "name": "📺 IHaveNoTV",
+      "description": "IHaveNoTV provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/ihavenotv--nuvio--718a7a758f899cf5.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/ihavenotv.webp"
+    },
+    {
+      "id": "REANIME-TO",
+      "name": "🌸 Re:ANIME",
+      "description": "Re:ANIME provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/reanime-to--nuvio--944219e4a4f61e7a.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/reanime-to.webp",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "FLIXHQ",
+      "name": "🎬 FlixHQ",
+      "description": "FlixHQ provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/flixhq--nuvio--9f6e2189e4591578.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/flixhq.webp"
+    },
+    {
+      "id": "TOPCARTOONS",
+      "name": "🧸 TopCartoons",
+      "description": "TopCartoons provider managed by NiakVIO.",
+      "version": "1.0.29",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "provider-disabled/topcartoons--nuvio--c7702656d086e3fa.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/topcartoons.webp",
+      "disabledReason": "auto_off_current_wrong_content",
+      "disabledAt": "2026-11-18",
+      "purgeAfter": "2026-11-25",
+      "lifecycleState": "disabled-retained"
+    },
+    {
+      "id": "VIDEASY",
+      "name": "▶️ VidEasy",
+      "description": "VidEasy provider managed by NiakVIO.",
+      "version": "1.0.160",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/videasy--nuvio--1645390ea47e21c1.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en",
+        "de",
+        "it",
+        "fr",
+        "hi",
+        "es",
+        "pt"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/videasy.webp"
+    },
+    {
+      "id": "VIDLINK",
+      "name": "🔗 VidLink",
+      "description": "VidLink provider managed by NiakVIO.",
+      "version": "1.0.73",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/vidlink--nuvio--354ecadb7790b29c.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/vidlink.webp"
+    },
+    {
+      "id": "DOCUMENTARY-AREA",
+      "name": "🔗 Documentary Area",
+      "description": "Documentary Area provider managed by NiakVIO.",
+      "version": "1.0.43",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/documentary-area--nuvio--e0d1a2cb7e7a4519.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/documentary-area.webp"
+    },
+    {
+      "id": "FSHARETV",
+      "name": "📺 FshareTV",
+      "description": "FshareTV provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/fsharetv--nuvio--07fc92ebd8af9d46.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/fsharetv.webp"
+    },
+    {
+      "id": "ANIFLIX-UNO",
+      "name": "🎬 AniFlix",
+      "description": "AniFlix provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/aniflix-uno--nuvio--0d77ee877bf91cd7.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/aniflix-uno.webp",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "ANIDB",
+      "name": "🗃️ AniDB",
+      "description": "AniDB provider managed by NiakVIO.",
+      "version": "1.0.73",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/anidb--nuvio--54f5ed5e2adb31d4.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/anidb.webp",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "RAREFILMM",
+      "name": "🎬 Rarefilmm",
+      "description": "Rarefilmm provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/rarefilmm--nuvio--b1b0d68ba7d04d00.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/rarefilmm.webp"
+    },
+    {
+      "id": "WATCHOTT",
+      "name": "🔗 Watchott",
+      "description": "Watchott provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/watchott--nuvio--695076a5b462ed5e.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/watchott.webp"
+    },
+    {
+      "id": "ANIMEJLPROVIDER",
+      "name": "🌸 AnimeJL",
+      "description": "AnimeJL provider managed by NiakVIO.",
+      "version": "1.0.42",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "providers/animejlprovider--nuvio--4267c5a78b8fe228.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/animejlprovider.webp",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    },
+    {
+      "id": "flickystream",
+      "name": "▶️ FlickyStream",
+      "description": "FlickyStream provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/flickystream--nuvio--f28eae3a3924e7fd.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/flickystream.webp"
+    },
+    {
+      "id": "flikhub",
+      "name": "🔗 FlikHub",
+      "description": "FlikHub provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/flikhub--nuvio--5d929df0daf11858.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/flikhub.webp"
+    },
+    {
+      "id": "diostream",
+      "name": "▶️ DioStream",
+      "description": "DioStream provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/diostream--nuvio--fa27bdcae92258a1.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/diostream.webp"
+    },
+    {
+      "id": "nomorflix",
+      "name": "🎬 Nomorflix",
+      "description": "Nomorflix provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/nomorflix--nuvio--b3c20bbf4f91b2b0.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/nomorflix.webp"
+    },
+    {
+      "id": "svstream",
+      "name": "▶️ SvStream",
+      "description": "SvStream provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/svstream--nuvio--999c4d63bb54b17b.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/svstream.webp"
+    },
+    {
+      "id": "kisskh",
+      "name": "💋 KissKH",
+      "description": "KissKH provider managed by NiakVIO.",
+      "version": "1.0.63",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/kisskh--nuvio--aff51fafc3d2a599.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/kisskh.webp"
+    },
+    {
+      "id": "cinejoy",
+      "name": "🎬 Cinejoy",
+      "description": "Cinejoy provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/cinejoy--nuvio--f7d127a537713b8d.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/cinejoy.webp"
+    },
+    {
+      "id": "MEOWTV",
+      "name": "📺 MeowTV",
+      "description": "MeowTV provider managed by NiakVIO.",
+      "version": "1.0.37",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/meowtv--nuvio--4eb483a0c37c68aa.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/meowtv.webp"
+    },
+    {
+      "id": "willow",
+      "name": "🔗 Willow",
+      "description": "Willow provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/willow--nuvio--75040f38d5a519d5.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/willow.webp"
+    },
+    {
+      "id": "7movies",
+      "name": "🎬 7Movies",
+      "description": "7Movies provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/7movies--nuvio--091b1bea5b39e579.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/7movies.webp"
+    },
+    {
+      "id": "all-you-can-watch",
+      "name": "🔗 All You Can Watch",
+      "description": "All You Can Watch provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/all-you-can-watch--nuvio--0bf00884fa7723e0.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/all-you-can-watch.webp"
+    },
+    {
+      "id": "bcine",
+      "name": "🎬 bCine",
+      "description": "bCine provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "provider-disabled/bcine--nuvio--601aac600d644a2e.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/bcine.webp"
+    },
+    {
+      "id": "kickassanime",
+      "name": "🌸 KickassAnime",
+      "description": "KickassAnime provider managed by NiakVIO.",
+      "version": "1.0.0",
+      "author": "NiakVIO",
+      "supportedTypes": [
+        "anime",
+        "tv"
+      ],
+      "filename": "provider-disabled/kickassanime--nuvio--d3f4e6e47440d3f4.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": [],
+      "contentLanguage": [],
+      "disabledPlatforms": [],
+      "logo": "https://raw.githubusercontent.com/niakw/NiakVIO/main/assets/providers/96x96/kickassanime.webp",
+      "canonicalSupportedTypes": [
+        "anime"
+      ]
+    }
+  ]
+}

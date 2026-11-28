@@ -1,0 +1,1997 @@
+[
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "kisskh",
+    "size_bytes": 5884,
+    "lines": 122,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 1,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "kisskh.ovh",
+      "script.google.com"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "4khdhub",
+    "size_bytes": 12687,
+    "lines": 395,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "atob_btoa": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 1,
+    "catch_count": 4,
+    "http_urls": [],
+    "https_domains": [
+      "4khdhub.fans",
+      "api.themoviedb.org"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "animekai",
+    "size_bytes": 20705,
+    "lines": 489,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "Promise_all": true,
+      "Promise_allSettled": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "animekai.to",
+      "api.themoviedb.org",
+      "enc-dec.app",
+      "graphql.anilist.co"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "castle",
+    "size_bytes": 23597,
+    "lines": 611,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URLSearchParams": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 0,
+    "try_count": 1,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "aesdec.nuvioapp.space",
+      "api.fstcy.com",
+      "api.themoviedb.org"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "cinevibe",
+    "size_bytes": 16086,
+    "lines": 442,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "Promise_allSettled": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 2,
+    "catch_count": 7,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "cinevibe.asia"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "dahmermovies",
+    "size_bytes": 12923,
+    "lines": 356,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 4,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "a.111477.xyz",
+      "api.themoviedb.org"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "dvdplay",
+    "size_bytes": 40679,
+    "lines": 924,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortSignal_timeout": true,
+      "URL": true,
+      "atob_btoa": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 2,
+    "try_count": 10,
+    "catch_count": 27,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "dvdplay.skin",
+      "pixeldrain.net"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "hdhub4u",
+    "size_bytes": 59747,
+    "lines": 1322,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "atob_btoa": true,
+      "Buffer": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 19,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "hdhub4u.frl",
+      "pixeldrain.com",
+      "raw.githubusercontent.com",
+      "v3-cinemeta.strem.io"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "hdrezka",
+    "size_bytes": 16795,
+    "lines": 437,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "URLSearchParams": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 1,
+    "catch_count": 3,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "hdrezka.ag"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "idlix",
+    "size_bytes": 5380,
+    "lines": 133,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URLSearchParams": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 1,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "tv10.idlixku.com"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "mallumv",
+    "size_bytes": 53488,
+    "lines": 1151,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "atob_btoa": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 1,
+    "try_count": 13,
+    "catch_count": 26,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "mallumv.fit",
+      "pixeldrain.net"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "mapple",
+    "size_bytes": 17856,
+    "lines": 482,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "Promise_all": true,
+      "Promise_allSettled": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 2,
+    "catch_count": 7,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "enc-dec.app",
+      "mapple.uk"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 12,
+    "id": "moviebox",
+    "name": "Moviebox",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/moviebox.js",
+    "extra_keys": [],
+    "http_status": 404,
+    "size_bytes": 0,
+    "sha256_16": null,
+    "syntax_ok": null,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/moviebox.js",
+    "missing": true
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "moviesmod",
+    "size_bytes": 40252,
+    "lines": 1069,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "URLSearchParams": true,
+      "atob_btoa": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 0,
+    "try_count": 14,
+    "catch_count": 14,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "driveseed.org",
+      "driveseed.org${finalPath}",
+      "driveseed.org${href}",
+      "driveseed.org${resumeCloudLink}",
+      "links.modpro.blog",
+      "moviesmod.chat",
+      "raw.githubusercontent.com"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "myflixer-extractor",
+    "size_bytes": 18931,
+    "lines": 471,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [
+      "axios",
+      "cheerio",
+      "url"
+    ],
+    "imports": [],
+    "has_getStreams": false,
+    "has_module_exports": true,
+    "apis": {
+      "axios": true,
+      "cheerio": true,
+      "URL": true,
+      "process": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 1,
+    "try_count": 8,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "raw.githubusercontent.com",
+      "script.google.com",
+      "videostr.net",
+      "watch32.sx"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "netmirror",
+    "size_bytes": 31407,
+    "lines": 737,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "document_window_dom": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 10,
+    "try_count": 0,
+    "catch_count": 3,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "imgcdn.media",
+      "net51.cc"
+    ],
+    "secret_hits_count": 5,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c",
+      "233123f803cf02184bf6c67e149cdd50",
+      "233123f803cf02184bf6c67e149cdd50"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "showbox",
+    "size_bytes": 12230,
+    "lines": 313,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "TMDB_API_KEY": true,
+      "SCRAPER_SETTINGS": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 7,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "febapi.nuvioapp.space"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "streamflix",
+    "size_bytes": 16201,
+    "lines": 504,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native",
+      "ws"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 9,
+    "retry_mentions": 0,
+    "try_count": 6,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "api.streamflix.app",
+      "api.themoviedb.org"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "uhdmovies",
+    "size_bytes": 46278,
+    "lines": 1260,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "URLSearchParams": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 1,
+    "try_count": 16,
+    "catch_count": 16,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "driveleech.net",
+      "driveseed.org",
+      "driveseed.org${finalPath}",
+      "driveseed.org${href}",
+      "driveseed.org${resumeCloudLink}",
+      "links.modpro.blog",
+      "raw.githubusercontent.com",
+      "uhdmovies.email"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "videasy",
+    "size_bytes": 21980,
+    "lines": 676,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 2,
+    "catch_count": 6,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "api.videasy.net",
+      "api2.videasy.net",
+      "enc-dec.app",
+      "image.tmdb.org",
+      "videasy.net"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "d131017ccc6e5462a81c9304d21476de"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidlink",
+    "size_bytes": 21614,
+    "lines": 513,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 2,
+    "catch_count": 6,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "enc-dec.app",
+      "vidlink.pro"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "68e094699525b18a70bab2f86b1fa706"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidnest-anime",
+    "size_bytes": 21545,
+    "lines": 537,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "aesdec.nuvioapp.space",
+      "api.ani.zip",
+      "api.themoviedb.org",
+      "backend.vidnest.fun",
+      "graphql.anilist.co",
+      "vidnest.fun"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidnest",
+    "size_bytes": 18214,
+    "lines": 457,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "Buffer": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 8,
+    "http_urls": [],
+    "https_domains": [
+      "aesdec.nuvioapp.space",
+      "api.themoviedb.org",
+      "backend.vidnest.fun",
+      "vidnest.fun"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidrock",
+    "size_bytes": 19783,
+    "lines": 538,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "TextEncoder": true,
+      "Buffer": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 0,
+    "try_count": 2,
+    "catch_count": 9,
+    "http_urls": [
+      "http://localhost:3050/decrypt"
+    ],
+    "https_domains": [
+      "aesdec.nuvioapp.space",
+      "api.themoviedb.org",
+      "vidrock.net"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vidsrc",
+    "size_bytes": 22458,
+    "lines": 510,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "process": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 7,
+    "try_count": 2,
+    "catch_count": 8,
+    "http_urls": [],
+    "https_domains": [
+      "cloudnestra.com",
+      "vidsrc.xyz"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "vixsrc",
+    "size_bytes": 12214,
+    "lines": 324,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 3,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "sub.wyzie.ru",
+      "vixsrc.to"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "68e094699525b18a70bab2f86b1fa706"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "watch32",
+    "size_bytes": 26487,
+    "lines": 635,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "URL": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 1,
+    "try_count": 0,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "raw.githubusercontent.com",
+      "script.google.com",
+      "videostr.net",
+      "watch32.sx"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "xprime",
+    "size_bytes": 36936,
+    "lines": 894,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "URLSearchParams": true,
+      "Promise_all": true,
+      "Promise_allSettled": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 1,
+    "retry_mentions": 0,
+    "try_count": 4,
+    "catch_count": 13,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "backend.xprime.tv",
+      "enc-dec.app",
+      "raw.githubusercontent.com",
+      "xprime.tv"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "yflix",
+    "size_bytes": 13331,
+    "lines": 407,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "Promise_all": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 6,
+    "http_urls": [],
+    "https_domains": [
+      "enc-dec.app",
+      "yflix.to"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "id": "adimoviebox",
+    "size_bytes": 5551,
+    "lines": 126,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "TMDB_API_KEY": true,
+      "console_log": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 1,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "fmoviesunblocked.net",
+      "moviebox.ph"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "b030404650f279792a8d3287232358e3"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "vegamovies",
+    "size_bytes": 14030,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 8,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 3,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "vegamovies.navy"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "movieshunt",
+    "size_bytes": 19707,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 8,
+    "retry_mentions": 0,
+    "try_count": 3,
+    "catch_count": 3,
+    "http_urls": [],
+    "https_domains": [
+      "abhilinks.site",
+      "api.themoviedb.org",
+      "movieshunt.run",
+      "vcloud.zip"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "biavox",
+    "size_bytes": 17476,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 10,
+    "retry_mentions": 1,
+    "try_count": 7,
+    "catch_count": 7,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "biavox.com",
+      "v3-cinemeta.strem.io"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "cinemm",
+    "size_bytes": 17297,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 9,
+    "retry_mentions": 0,
+    "try_count": 9,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "cinemm.com",
+      "v3-cinemeta.strem.io"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "peachify",
+    "size_bytes": 545720,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "URL": true,
+      "Buffer": true,
+      "document_window_dom": true,
+      "setTimeout": true
+    },
+    "timeout_mentions": 12,
+    "retry_mentions": 0,
+    "try_count": 26,
+    "catch_count": 26,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "peachify.top",
+      "usa.eat-peach.sbs",
+      "uwu.eat-peach.sbs"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "moviesdrive",
+    "size_bytes": 16684,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "setTimeout": true
+    },
+    "timeout_mentions": 8,
+    "retry_mentions": 0,
+    "try_count": 9,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "mdrive.lol",
+      "new3.moviesdrives.my",
+      "raw.githubusercontent.com"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "animetsu",
+    "size_bytes": 15515,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 2,
+    "retry_mentions": 3,
+    "try_count": 13,
+    "catch_count": 13,
+    "http_urls": [],
+    "https_domains": [
+      "aiometadata.elfhosted.com",
+      "animetsu.live",
+      "api.themoviedb.org",
+      "api4.thetvdb.com",
+      "graphql.anilist.co",
+      "raw.githubusercontent.com",
+      "swiftstream.top"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "anikototv",
+    "size_bytes": 14257,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "document_window_dom": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 2,
+    "try_count": 16,
+    "catch_count": 16,
+    "http_urls": [],
+    "https_domains": [
+      "aiometadata.elfhosted.com",
+      "api.themoviedb.org",
+      "api4.thetvdb.com",
+      "arm.haglund.dev",
+      "graphql.anilist.co"
+    ],
+    "secret_hits_count": 2,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c",
+      "777140fb-de92-440a-aec2-95eb51e2d7ab"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "zinkmovies",
+    "size_bytes": 15197,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "document_window_dom": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 10,
+    "retry_mentions": 0,
+    "try_count": 10,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "gemma416okl.com",
+      "i-arch-400.keymi417exx.com",
+      "new4.zinkcloud.net",
+      "raw.githubusercontent.com",
+      "zinkmovies.wtf"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "kisskh",
+    "size_bytes": 16850,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true
+    },
+    "timeout_mentions": 2,
+    "retry_mentions": 2,
+    "try_count": 11,
+    "catch_count": 11,
+    "http_urls": [],
+    "https_domains": [
+      "aiometadata.elfhosted.com",
+      "api.themoviedb.org",
+      "api4.thetvdb.com",
+      "kisskh.nl"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "777140fb-de92-440a-aec2-95eb51e2d7ab"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "cinefreak",
+    "size_bytes": 17217,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 2,
+    "retry_mentions": 0,
+    "try_count": 5,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "cinefreak.nl",
+      "new5.cinecloud.site",
+      "pub-"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hdfilme",
+    "size_bytes": 10918,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 5,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "dr0pstream.com",
+      "meinecloud.click"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "playimdb",
+    "size_bytes": 4485,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "setTimeout": true
+    },
+    "timeout_mentions": 4,
+    "retry_mentions": 0,
+    "try_count": 4,
+    "catch_count": 4,
+    "http_urls": [],
+    "https_domains": [
+      "nextgencloudfabric.com",
+      "streamdata.vaplayer.ru"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "4khdhub",
+    "size_bytes": 10275,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "setTimeout": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 6,
+    "retry_mentions": 0,
+    "try_count": 5,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "4khdhub.one",
+      "api.themoviedb.org",
+      "raw.githubusercontent.com"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hindmovie",
+    "size_bytes": 21129,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": true,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "document_window_dom": true,
+      "setTimeout": true
+    },
+    "timeout_mentions": 4,
+    "retry_mentions": 0,
+    "try_count": 7,
+    "catch_count": 7,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "hindmovie.icu",
+      "mvlink.blog"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "439c478a771f35c05022f9feabcca01c"
+    ]
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "hdhub4u",
+    "size_bytes": 21919,
+    "lines": 1,
+    "has_raw_async_fn": true,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "atob_btoa": true,
+      "setTimeout": true
+    },
+    "timeout_mentions": 10,
+    "retry_mentions": 0,
+    "try_count": 6,
+    "catch_count": 6,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "greenmountmotors.com",
+      "new2.hdhub4u.cl",
+      "raw.githubusercontent.com",
+      "search.pingora.fyi"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "id": "uhdmovies",
+    "size_bytes": 22325,
+    "lines": 1,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": false,
+    "apis": {
+      "fetch": true,
+      "TMDB_API_KEY": true
+    },
+    "timeout_mentions": 0,
+    "retry_mentions": 0,
+    "try_count": 1,
+    "catch_count": 1,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "uhdmovies.casa"
+    ],
+    "secret_hits_count": 1,
+    "secret_samples": [
+      "1865f43a0549ca50d341dd9ab8b29f49"
+    ]
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilmv",
+    "size_bytes": 7672,
+    "lines": 7,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "URL": true,
+      "document_window_dom": true,
+      "setTimeout": true,
+      "eval": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 1,
+    "try_count": 10,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "www.1tamilmv.lc"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilblasters",
+    "size_bytes": 14062,
+    "lines": 12,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "URL": true,
+      "Promise_all": true,
+      "Promise_race": true,
+      "setTimeout": true,
+      "eval": true,
+      "console_log": true
+    },
+    "timeout_mentions": 11,
+    "retry_mentions": 1,
+    "try_count": 16,
+    "catch_count": 16,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "www.1tamilblasters.business"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "tamilian",
+    "size_bytes": 5400,
+    "lines": 8,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 4,
+    "retry_mentions": 1,
+    "try_count": 9,
+    "catch_count": 9,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "embedojo.net",
+      "tamilian.io"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "moviesda",
+    "size_bytes": 14965,
+    "lines": 11,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "URL": true,
+      "Promise_race": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 20,
+    "retry_mentions": 0,
+    "try_count": 23,
+    "catch_count": 23,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "moviesda15.com",
+      "play.onestream.watch"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "movies4u",
+    "size_bytes": 9167,
+    "lines": 12,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 0,
+    "try_count": 10,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "m4uplay.com",
+      "movies4u.fans"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "isaidub",
+    "size_bytes": 13815,
+    "lines": 11,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "URL": true,
+      "Promise_all": true,
+      "Promise_race": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 9,
+    "retry_mentions": 0,
+    "try_count": 17,
+    "catch_count": 17,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "isaidub.love"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "toonhub",
+    "size_bytes": 14440,
+    "lines": 8,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "Buffer": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "Promise_race": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 6,
+    "retry_mentions": 0,
+    "try_count": 18,
+    "catch_count": 18,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "toonhub4u.co",
+      "toonstream.one"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "animelok",
+    "size_bytes": 7141,
+    "lines": 9,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "document_window_dom": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 1,
+    "try_count": 10,
+    "catch_count": 10,
+    "http_urls": [],
+    "https_domains": [
+      "animelok.to",
+      "api.themoviedb.org",
+      "as-cdn21.top"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "xdmovies",
+    "size_bytes": 12096,
+    "lines": 7,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "fetch": true,
+      "cheerio": true,
+      "AbortController": true,
+      "URL": true,
+      "atob_btoa": true,
+      "document_window_dom": true,
+      "Promise_all": true,
+      "setTimeout": true,
+      "console_log": true
+    },
+    "timeout_mentions": 4,
+    "retry_mentions": 0,
+    "try_count": 0,
+    "catch_count": 15,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "pixeldrain.com",
+      "xdmovies.site"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "id": "dramafull",
+    "size_bytes": 5499,
+    "lines": 8,
+    "has_raw_async_fn": false,
+    "has_esbuild_async": false,
+    "requires": [
+      "axios",
+      "cheerio-without-node-native"
+    ],
+    "imports": [],
+    "has_getStreams": true,
+    "has_module_exports": true,
+    "apis": {
+      "axios": true,
+      "cheerio": true,
+      "console_log": true
+    },
+    "timeout_mentions": 5,
+    "retry_mentions": 0,
+    "try_count": 5,
+    "catch_count": 5,
+    "http_urls": [],
+    "https_domains": [
+      "api.themoviedb.org",
+      "dramafull.cc"
+    ],
+    "secret_hits_count": 0,
+    "secret_samples": []
+  }
+]

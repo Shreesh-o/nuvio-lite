@@ -1,0 +1,30 @@
+.github/FUNDING.yml
+AIOMetadata Configs/Tamtaro-aiometadata-config-with-anime.json
+AIOMetadata Configs/Tamtaro-aiometadata-config-without-anime.json
+AIOStreams Templates/Tamtaro-complete-setup-template.json
+AIOStreams Templates/Tamtaro-partial-setup-template.json
+AIOStreams-SyncedURLs/Tamtaro-synced-ESE.json
+AIOStreams-SyncedURLs/Tamtaro-synced-ESEs-extended.json
+AIOStreams-SyncedURLs/Tamtaro-synced-ESEs-standard.json
+AIOStreams-SyncedURLs/Tamtaro-synced-ISEs.json
+AIOStreams-SyncedURLs/Tamtaro-synced-PSEs.json
+AIOStreams-SyncedURLs/Tamtaro-synced-excluded-regex.json
+AIOStreams-SyncedURLs/Tamtaro-synced-for-nour-RSE.json
+AIOStreams-SyncedURLs/Tamtaro-synced-for-nour-Regex.json
+AIOStreams-SyncedURLs/Tamtaro-synced-french-RSE.json
+AIOStreams-SyncedURLs/Tamtaro-synced-french-regex.json
+CHANGELOG.md
+README.md
+Tamtaro-All-Templates-for-AIOStreams.json
+images/screenshots/aios tamtaro variant.png
+images/screenshots/aios-variants.png
+images/screenshots/tamtaro.appleTV.jpg
+images/screenshots/tamtaro.chillio.jpg
+images/screenshots/tamtaro.default.png
+images/screenshots/tamtaro.fullRse.png
+images/screenshots/tamtaro.min.png
+logo-aiom.png
+logo.png
+logo/aiom.png
+logo/aioman.png
+logo/aios.png

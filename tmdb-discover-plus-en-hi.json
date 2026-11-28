@@ -1,0 +1,163 @@
+{
+  "configName": "Indian + English Auto Catalogs",
+  "preferences": {
+    "showAdultContent": false,
+    "defaultLanguage": "en",
+    "disableImdbSearch": true,
+    "disableAnilistSearch": true,
+    "disableMalSearch": true,
+    "disableKitsuSearch": true,
+    "disableSimklSearch": true
+  },
+  "catalogs": [
+    {
+      "name": "Hindi — In Cinemas",
+      "type": "movie",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "hi",
+        "countries": ["IN"],
+        "voteCountMin": 0,
+        "datePreset": "last_90_days",
+        "releaseDateFrom": "today-90d",
+        "releaseDateTo": "today",
+        "region": "IN",
+        "releaseTypes": ["2", "3"],
+        "releasedOnly": false
+      }
+    },
+    {
+      "name": "English — In Cinemas",
+      "type": "movie",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "en",
+        "voteCountMin": 10,
+        "datePreset": "last_90_days",
+        "releaseDateFrom": "today-90d",
+        "releaseDateTo": "today",
+        "region": "IN",
+        "releaseTypes": ["2", "3"],
+        "releasedOnly": false
+      }
+    },
+    {
+      "name": "Hindi Movies — Digital / OTT",
+      "type": "movie",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "hi",
+        "voteCountMin": 0,
+        "datePreset": "last_90_days",
+        "releaseDateFrom": "today-90d",
+        "releaseDateTo": "today",
+        "region": "IN",
+        "releaseTypes": ["4"],
+        "releasedOnly": true
+      }
+    },
+    {
+      "name": "Hindi Web Series",
+      "type": "series",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "hi",
+        "excludeGenres": [10766, 10764, 10767, 10763, 10762],
+        "voteCountMin": 5,
+        "datePreset": "last_180_days",
+        "airDateFrom": "today-6mo",
+        "airDateTo": "today",
+        "timezone": "Asia/Kolkata",
+        "releasedOnly": true
+      }
+    },
+    {
+      "name": "K-Drama — Trending",
+      "type": "series",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "ko",
+        "countries": ["KR"],
+        "excludeGenres": [16, 10764, 10767, 10763, 10762, 99, 10766],
+        "voteCountMin": 2,
+        "datePreset": "last_30_days",
+        "airDateFrom": "today-30d",
+        "airDateTo": "today",
+        "timezone": "Asia/Seoul",
+        "releasedOnly": true
+      }
+    },
+    {
+      "name": "K-Drama — New",
+      "type": "series",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "first_air_date.desc",
+        "language": "ko",
+        "countries": ["KR"],
+        "excludeGenres": [16, 10764, 10767, 10763, 10762, 99, 10766],
+        "voteCountMin": 1,
+        "datePreset": "last_90_days",
+        "airDateFrom": "today-90d",
+        "airDateTo": "today",
+        "timezone": "Asia/Seoul",
+        "releasedOnly": true
+      }
+    },
+    {
+      "name": "C-Drama — Trending",
+      "type": "series",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "popularity.desc",
+        "language": "zh",
+        "countries": ["CN"],
+        "excludeGenres": [16, 10764, 10767, 10763, 10762, 99, 10766],
+        "voteCountMin": 2,
+        "datePreset": "last_30_days",
+        "airDateFrom": "today-30d",
+        "airDateTo": "today",
+        "timezone": "Asia/Shanghai",
+        "releasedOnly": true
+      }
+    },
+    {
+      "name": "C-Drama — New",
+      "type": "series",
+      "source": "tmdb",
+      "enabled": true,
+      "filters": {
+        "listType": "discover",
+        "sortBy": "first_air_date.desc",
+        "language": "zh",
+        "countries": ["CN"],
+        "excludeGenres": [16, 10764, 10767, 10763, 10762, 99, 10766],
+        "voteCountMin": 1,
+        "datePreset": "last_90_days",
+        "airDateFrom": "today-90d",
+        "airDateTo": "today",
+        "timezone": "Asia/Shanghai",
+        "releasedOnly": true
+      }
+    }
+  ]
+}

@@ -160,22 +160,58 @@ function fetchAndParseM3U8(playlistUrl, mediaInfo) {
         });
 }
 
+const TMDB_BASES = [
+    "https://api.themoviedb.org/3",
+    "https://api.tmdb.org/3",
+    "https://db.wecollege.net/3"
+];
+
+function fetchTmdbWithFallback(pathSuffix) {
+    let idx = 0;
+    function tryNext(lastErr) {
+        if (idx >= TMDB_BASES.length) {
+            return Promise.reject(lastErr || new Error("TMDB lookup failed"));
+        }
+        const base = TMDB_BASES[idx++];
+        const sep = pathSuffix.includes("?") ? "&" : "?";
+        const url = `${base}${pathSuffix}${base.includes("wecollege") ? "" : `${sep}api_key=${TMDB_API_KEY}`}`;
+        return makeRequest(url)
+            .then(response => response.json())
+            .then(data => {
+                if (!data || data.success === false) {
+                    throw new Error("Invalid TMDB response");
+                }
+                return data;
+            })
+            .catch(err => tryNext(err));
+    }
+    return tryNext(null);
+}
+
 // Helper function to get TMDB info
 function getTmdbInfo(tmdbId, mediaType) {
-    const url = `https://api.themoviedb.org/3/${mediaType === 'tv' ? 'tv' : 'movie'}/${tmdbId}?api_key=${TMDB_API_KEY}`;
-    
-    return makeRequest(url)
-    .then(response => response.json())
-    .then(data => {
-        const title = mediaType === 'tv' ? data.name : data.title;
-        const year = mediaType === 'tv' ? data.first_air_date?.substring(0, 4) : data.release_date?.substring(0, 4);
-        
+    const isTv = mediaType === 'tv' || mediaType === 'series';
+    const endpoint = isTv ? 'tv' : 'movie';
+    const idStr = String(tmdbId || '').trim();
+
+    const fetchPromise = idStr.startsWith('tt')
+        ? fetchTmdbWithFallback(`/find/${encodeURIComponent(idStr)}?external_source=imdb_id`).then(findData => {
+            const list = isTv ? (findData.tv_results || []) : (findData.movie_results || []);
+            if (!list.length) throw new Error('IMDb ID not resolved on TMDB');
+            return list[0];
+        })
+        : fetchTmdbWithFallback(`/${endpoint}/${encodeURIComponent(idStr)}`);
+
+    return fetchPromise.then(data => {
+        const title = isTv ? data.name : data.title;
+        const year = isTv ? data.first_air_date?.substring(0, 4) : data.release_date?.substring(0, 4);
+
         if (!title) {
             throw new Error('Could not extract title from TMDB response');
         }
-        
+
         console.log(`[Vidlink] TMDB Info: "${title}" (${year})`);
-        return { title, year, data };
+        return { title, year, data, resolvedTmdbId: String(data.id || idStr) };
     });
 }
 
@@ -420,18 +456,20 @@ function processVidlinkResponse(data, mediaInfo) {
 
 // Main function to get streams - adapted for Nuvio provider format
 function getStreams(tmdbId, mediaType = 'movie', seasonNum = null, episodeNum = null) {
-    console.log(`[Vidlink] Fetching streams for TMDB ID: ${tmdbId}, Type: ${mediaType}${mediaType === 'tv' ? `, S:${seasonNum}E:${episodeNum}` : ''}`);
+    const isTv = mediaType === 'tv' || mediaType === 'series';
+    const normType = isTv ? 'tv' : 'movie';
+    console.log(`[Vidlink] Fetching streams for TMDB ID: ${tmdbId}, Type: ${mediaType}${isTv ? `, S:${seasonNum}E:${episodeNum}` : ''}`);
     
-    return getTmdbInfo(tmdbId, mediaType)
+    return getTmdbInfo(tmdbId, normType)
     .then(tmdbInfo => {
-        const { title, year } = tmdbInfo;
+        const { title, year, resolvedTmdbId } = tmdbInfo;
         
         // Encrypt TMDB ID
-        return encryptTmdbId(tmdbId)
+        return encryptTmdbId(resolvedTmdbId || tmdbId)
         .then(encryptedId => {
             // Build Vidlink API URL
             let vidlinkUrl;
-            if (mediaType === 'tv' && seasonNum && episodeNum) {
+            if (isTv && seasonNum && episodeNum) {
                 vidlinkUrl = `${VIDLINK_API}/tv/${encryptedId}/${seasonNum}/${episodeNum}`;
             } else {
                 vidlinkUrl = `${VIDLINK_API}/movie/${encryptedId}`;
@@ -451,7 +489,7 @@ function getStreams(tmdbId, mediaType = 'movie', seasonNum = null, episodeNum = 
                 const mediaInfo = {
                     title: title,
                     year: year,
-                    mediaType: mediaType,
+                    mediaType: normType,
                     season: seasonNum,
                     episode: episodeNum
                 };

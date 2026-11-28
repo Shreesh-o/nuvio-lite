@@ -1,0 +1,133 @@
+[
+  {
+    "name": "mux_public_hls_bbb",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "elapsedMs": 232,
+    "bytesTransferred": 4422,
+    "percentDownloaded": null,
+    "requestCount": 2,
+    "measured": {
+      "container": "hls",
+      "playlistKind": "master",
+      "durationSec": 634.567,
+      "durationProvenance": "verified",
+      "video": [
+        {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "audio": [
+        {
+          "groupId": null,
+          "codec": "aac",
+          "language": null,
+          "languageName": null,
+          "languageRaw": null,
+          "provenance": "unknown",
+          "channels": null,
+          "title": "Muxed in variant (unlabelled)",
+          "isDefault": true,
+          "uri": null,
+          "muxedInVariant": true
+        }
+      ],
+      "subtitles": [],
+      "variants": [
+        {
+          "bandwidth": 6221600,
+          "width": 1920,
+          "height": 1080,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "audioGroup": null,
+          "subtitlesGroup": null,
+          "uri": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8"
+        },
+        {
+          "bandwidth": 2149280,
+          "width": 1280,
+          "height": 720,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "audioGroup": null,
+          "subtitlesGroup": null,
+          "uri": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8"
+        },
+        {
+          "bandwidth": 836280,
+          "width": 848,
+          "height": 480,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "audioGroup": null,
+          "subtitlesGroup": null,
+          "uri": "https://test-streams.mux.dev/x36xhzz/url_6/193039199_mp4_h264_aac_hq_7.m3u8"
+        },
+        {
+          "bandwidth": 460560,
+          "width": 512,
+          "height": 288,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "audioGroup": null,
+          "subtitlesGroup": null,
+          "uri": "https://test-streams.mux.dev/x36xhzz/url_4/193039199_mp4_h264_aac_7.m3u8"
+        },
+        {
+          "bandwidth": 246440,
+          "width": 320,
+          "height": 184,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "audioGroup": null,
+          "subtitlesGroup": null,
+          "uri": "https://test-streams.mux.dev/x36xhzz/url_2/193039199_mp4_h264_aac_ld_7.m3u8"
+        }
+      ],
+      "firstVariantUrl": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8",
+      "segments": 64
+    }
+  },
+  {
+    "name": "archive_org_elephants_dream_mp4",
+    "url": "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4",
+    "elapsedMs": 4905,
+    "bytesTransferred": 49152,
+    "totalFileBytes": 47065346,
+    "percentDownloaded": 0.104,
+    "requestCount": 4,
+    "measured": {
+      "container": "mp4",
+      "majorBrand": "isom",
+      "durationSec": 653.792,
+      "fileSizeBytes": 47065346,
+      "video": [
+        {
+          "codec": "h264",
+          "width": 426,
+          "height": 240
+        }
+      ],
+      "audio": [
+        {
+          "codec": "aac",
+          "language": null,
+          "languageName": null,
+          "languageRaw": "und",
+          "provenance": "unknown",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": null
+        }
+      ],
+      "subtitles": [],
+      "tags": {
+        "title": "Elephants Dream - http://www.archive.org/details/ElephantsDream",
+        "comment": "license:  http://creativecommons.org/licenses/by/3.0/us/"
+      },
+      "treeSkippedStbl": true
+    }
+  }
+]

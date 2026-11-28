@@ -1,0 +1,1065 @@
+{
+  "uiRenderingTests": [
+    {
+      "mobilePluginCard": {
+        "platform": "mobile_desktop_plugin",
+        "cardTitle": "DemoProvider 1080p",
+        "cardSubtitle": "1080p • 2.1 GB • Hindi",
+        "fileSizeBadge": null,
+        "renderedBadges": [],
+        "externalSubtitlesSentToPlayer": 2,
+        "renderedSubtitleCountOnCard": 0,
+        "renderedContainerFieldOnCard": null,
+        "renderedCodecFieldOnCard": null,
+        "renderedDurationFieldOnCard": null,
+        "renderedEpisodeBadgeOnCard": null,
+        "droppedTitleBecauseNameSet": true,
+        "droppedInputKeys": [
+          "format",
+          "duration",
+          "codec",
+          "audio",
+          "languages",
+          "season",
+          "episode",
+          "imdbId",
+          "filename",
+          "behaviorHints"
+        ],
+        "droppedParsedPluginKeys": [
+          "provider",
+          "type"
+        ]
+      },
+      "tvPluginCard": {
+        "platform": "tv_plugin",
+        "cardTitle": "DemoProvider 1080p - 1080p",
+        "cardSubtitle": "2.1 GB • Hindi",
+        "fileSizeBadge": null,
+        "renderedBadges": [
+          {
+            "label": "HEVC",
+            "imageURL": "https://example.invalid/hevc.png",
+            "style": "IMAGE"
+          },
+          {
+            "label": "HI",
+            "imageURL": "",
+            "style": "STYLE_LABEL"
+          }
+        ],
+        "externalSubtitlesSentToPlayer": 2,
+        "renderedSubtitleCountOnCard": 0,
+        "droppedTitleBecauseDescriptionSet": true,
+        "droppedInputKeys": [
+          "format",
+          "duration",
+          "codec",
+          "audio",
+          "languages",
+          "season",
+          "episode",
+          "imdbId",
+          "filename"
+        ]
+      },
+      "objectWrapperRejected": true,
+      "stremioAddonMobile": {
+        "platform": "mobile_http_addon",
+        "cardTitle": "AIOStreams | Demo\n1080p",
+        "cardSubtitle": "Show.Alpha.S01E02.1080p.WEB-DL.H264.AAC.Hindi-English.mp4\n2.1 GB • 44m • Hindi / English",
+        "fileSizeBadge": "SIZE 2.10 GB",
+        "filenameUsedForMatching": "Show.Alpha.S01E02.1080p.WEB-DL.H264.AAC.Hindi-English.mp4",
+        "renderedBadges": [],
+        "subtitlesParsedCount": 0,
+        "droppedAddonSubtitles": true,
+        "debridFormatterActive": true,
+        "clientResolveParsedAvailable": true
+      },
+      "stremioAddonTv": {
+        "platform": "tv_http_addon",
+        "cardTitle": "AIOStreams | Demo\n1080p",
+        "cardSubtitle": "Show.Alpha.S01E02.1080p.WEB-DL.H264.AAC.Hindi-English.mp4\n2.1 GB • 44m • Hindi / English",
+        "fileSizeBadge": "SIZE 2.10 GB",
+        "filenameUsedForMatching": "Show.Alpha.S01E02.1080p.WEB-DL.H264.AAC.Hindi-English.mp4",
+        "renderedBadges": [
+          {
+            "label": "HI",
+            "imageURL": "",
+            "style": "STYLE_LABEL"
+          }
+        ],
+        "subtitlesParsedCount": 1,
+        "droppedAddonSubtitles": false,
+        "debridFormatterActive": true,
+        "clientResolveParsedAvailable": true
+      }
+    }
+  ],
+  "probeVsFfprobeTests": [
+    {
+      "fixture": "mp4_fast_s01e02",
+      "totalFileBytes": 22829476,
+      "bytesTransferred": 65536,
+      "percentDownloaded": 0.29,
+      "requestCount": 5,
+      "elapsedMs": 65,
+      "ffprobe": {
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "durationSec": 2649.365333,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "hin"
+          },
+          {
+            "codec": "aac",
+            "language": "eng"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "mov_text",
+            "language": "hin"
+          },
+          {
+            "codec": "mov_text",
+            "language": "eng"
+          }
+        ]
+      },
+      "quickjsMeasured": {
+        "container": "mp4",
+        "durationSec": 2649.37,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "aac",
+            "language": "en",
+            "provenance": "verified"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "mov_text",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "mov_text",
+            "language": "en",
+            "provenance": "verified"
+          }
+        ],
+        "tags": {
+          "title": "Show Alpha - S01E02 - The Signal",
+          "comment": "imdb:tt1234567 tmdb:999001",
+          "show": "Show Alpha",
+          "episode_id": "S01E02",
+          "episode_sort": "2",
+          "season_number": "1"
+        }
+      }
+    },
+    {
+      "fixture": "mp4_moov_end_mar",
+      "totalFileBytes": 12026524,
+      "bytesTransferred": 49788,
+      "percentDownloaded": 0.41,
+      "requestCount": 5,
+      "elapsedMs": 15,
+      "ffprobe": {
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "durationSec": 2649.365333,
+        "video": {
+          "codec": "h264",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "mar"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "mov_text",
+            "language": "mar"
+          }
+        ]
+      },
+      "quickjsMeasured": {
+        "container": "mp4",
+        "durationSec": 2649.37,
+        "video": {
+          "codec": "h264",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "mr",
+            "provenance": "verified"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "mov_text",
+            "language": "mr",
+            "provenance": "verified"
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "fixture": "mp4_trailer",
+      "totalFileBytes": 616752,
+      "bytesTransferred": 49152,
+      "percentDownloaded": 7.97,
+      "requestCount": 4,
+      "elapsedMs": 7,
+      "ffprobe": {
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "durationSec": 120.405333,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "eng"
+          }
+        ],
+        "subtitles": []
+      },
+      "quickjsMeasured": {
+        "container": "mp4",
+        "durationSec": 120.41,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "en",
+            "provenance": "verified"
+          }
+        ],
+        "subtitles": [],
+        "tags": {
+          "title": "Show Alpha - Official Season 1 Trailer"
+        }
+      }
+    },
+    {
+      "fixture": "mkv_multi_h265",
+      "totalFileBytes": 48322113,
+      "bytesTransferred": 16384,
+      "percentDownloaded": 0.03,
+      "requestCount": 2,
+      "elapsedMs": 5,
+      "ffprobe": {
+        "container": "matroska,webm",
+        "durationSec": 2649.386,
+        "video": {
+          "codec": "hevc",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "opus",
+            "language": "hin"
+          },
+          {
+            "codec": "aac",
+            "language": "eng"
+          },
+          {
+            "codec": "ac3",
+            "language": "mar"
+          },
+          {
+            "codec": "opus",
+            "language": null
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "subrip",
+            "language": "hin"
+          },
+          {
+            "codec": "subrip",
+            "language": "eng"
+          },
+          {
+            "codec": "subrip",
+            "language": "mar"
+          }
+        ]
+      },
+      "quickjsMeasured": {
+        "container": "matroska",
+        "durationSec": 2649.39,
+        "video": {
+          "codec": "hevc",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "opus",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "aac",
+            "language": "en",
+            "provenance": "verified"
+          },
+          {
+            "codec": "ac3",
+            "language": "mr",
+            "provenance": "verified"
+          },
+          {
+            "codec": "opus",
+            "language": null,
+            "provenance": "unknown"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "subrip",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "subrip",
+            "language": "en",
+            "provenance": "verified"
+          },
+          {
+            "codec": "subrip",
+            "language": "mr",
+            "provenance": "verified"
+          }
+        ],
+        "tags": {
+          "title": "Show Alpha S01E02 [HEVC Multi]",
+          "episode": "2",
+          "show": "Show Alpha",
+          "season": "1",
+          "encoder": "Lavc63.1.102 libopus",
+          "duration": "00:00:04.000000000",
+          "handler_name": "SoundHandler"
+        }
+      }
+    },
+    {
+      "fixture": "mkv_unlabelled_wrong_ep",
+      "totalFileBytes": 21885550,
+      "bytesTransferred": 16384,
+      "percentDownloaded": 0.07,
+      "requestCount": 2,
+      "elapsedMs": 4,
+      "ffprobe": {
+        "container": "matroska,webm",
+        "durationSec": 2649.386,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": null
+          },
+          {
+            "codec": "aac",
+            "language": null
+          }
+        ],
+        "subtitles": []
+      },
+      "quickjsMeasured": {
+        "container": "matroska",
+        "durationSec": 2649.39,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": null,
+            "provenance": "unknown"
+          },
+          {
+            "codec": "aac",
+            "language": null,
+            "provenance": "unknown"
+          }
+        ],
+        "subtitles": [],
+        "tags": {
+          "title": "Show Alpha S01E03 - Wrong Episode Same Runtime",
+          "encoder": "Lavc63.1.102 libx264",
+          "duration": "00:44:09.386000000",
+          "handler_name": "SoundHandler"
+        }
+      }
+    },
+    {
+      "fixture": "hls_multi_master",
+      "totalFileBytes": null,
+      "bytesTransferred": 13843,
+      "percentDownloaded": null,
+      "requestCount": 2,
+      "elapsedMs": 6,
+      "ffprobe": {
+        "container": "hls",
+        "durationSec": 2640,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "hi"
+          },
+          {
+            "codec": "aac",
+            "language": "en"
+          },
+          {
+            "codec": "aac",
+            "language": "mr"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "webvtt",
+            "language": "hi"
+          },
+          {
+            "codec": "webvtt",
+            "language": "en"
+          },
+          {
+            "codec": "webvtt",
+            "language": "mr"
+          }
+        ]
+      },
+      "quickjsMeasured": {
+        "container": "hls",
+        "durationSec": 2640,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "aac",
+            "language": "en",
+            "provenance": "verified"
+          },
+          {
+            "codec": "aac",
+            "language": "mr",
+            "provenance": "verified"
+          }
+        ],
+        "subtitles": [
+          {
+            "codec": "webvtt",
+            "language": "hi",
+            "provenance": "verified"
+          },
+          {
+            "codec": "webvtt",
+            "language": "en",
+            "provenance": "verified"
+          },
+          {
+            "codec": "webvtt",
+            "language": "mr",
+            "provenance": "verified"
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "fixture": "hls_unlabelled_master",
+      "totalFileBytes": null,
+      "bytesTransferred": 12701,
+      "percentDownloaded": null,
+      "requestCount": 2,
+      "elapsedMs": 5,
+      "ffprobe": {
+        "container": "hls",
+        "durationSec": 2640,
+        "video": {
+          "codec": "h264",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "und"
+          }
+        ],
+        "subtitles": []
+      },
+      "quickjsMeasured": {
+        "container": "hls",
+        "durationSec": 2640,
+        "video": {
+          "codec": "h264",
+          "width": 1280,
+          "height": 720
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": null,
+            "provenance": "unknown"
+          }
+        ],
+        "subtitles": [],
+        "tags": {}
+      }
+    },
+    {
+      "fixture": "hls_trailer_master",
+      "totalFileBytes": null,
+      "bytesTransferred": 1201,
+      "percentDownloaded": null,
+      "requestCount": 2,
+      "elapsedMs": 2,
+      "ffprobe": {
+        "container": "hls",
+        "durationSec": 120,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "en"
+          }
+        ],
+        "subtitles": []
+      },
+      "quickjsMeasured": {
+        "container": "hls",
+        "durationSec": 120,
+        "video": {
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        "audio": [
+          {
+            "codec": "aac",
+            "language": "en",
+            "provenance": "verified"
+          }
+        ],
+        "subtitles": [],
+        "tags": {}
+      }
+    }
+  ],
+  "languageTests": [
+    {
+      "case": "dual_audio_hindi_english_mp4",
+      "tracks": [
+        {
+          "codec": "aac",
+          "language": "hi",
+          "languageName": "Hindi",
+          "languageRaw": "hin",
+          "provenance": "verified",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": null
+        },
+        {
+          "codec": "aac",
+          "language": "en",
+          "languageName": "English",
+          "languageRaw": "eng",
+          "provenance": "verified",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": null
+        }
+      ]
+    },
+    {
+      "case": "marathi_only_moov_end_mp4_with_false_en_declared",
+      "auditedTechnical": {
+        "resolution": {
+          "value": "1280x720",
+          "provenance": "verified",
+          "source": "container"
+        },
+        "videoCodec": {
+          "value": "h264",
+          "provenance": "verified",
+          "source": "container"
+        },
+        "audioCodecs": {
+          "value": [
+            "aac"
+          ],
+          "provenance": "verified",
+          "source": "container"
+        },
+        "containerFormat": {
+          "value": "mp4",
+          "provenance": "verified",
+          "source": "container"
+        },
+        "fileSizeBytes": {
+          "value": 12026524,
+          "provenance": "verified",
+          "source": "http_header"
+        },
+        "durationSec": {
+          "value": 2649.37,
+          "provenance": "verified",
+          "source": "container"
+        },
+        "audioTracks": [
+          {
+            "index": 0,
+            "language": "mr",
+            "languageName": "Marathi",
+            "raw": "mar",
+            "codec": "aac",
+            "channels": 2,
+            "title": null,
+            "provenance": "verified"
+          }
+        ],
+        "subtitleTracks": [
+          {
+            "language": "mr",
+            "languageName": "Marathi",
+            "raw": "mar",
+            "codec": "mov_text",
+            "title": null,
+            "provenance": "verified",
+            "source": "container"
+          }
+        ],
+        "isDualAudio": false,
+        "hasUnlabelledAudio": false
+      }
+    },
+    {
+      "case": "multi_audio_hi_en_mr_plus_und_mkv",
+      "tracks": [
+        {
+          "codec": "opus",
+          "language": "hi",
+          "languageName": "Hindi",
+          "languageRaw": "hin",
+          "provenance": "verified",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": "Hindi"
+        },
+        {
+          "codec": "aac",
+          "language": "en",
+          "languageName": "English",
+          "languageRaw": "eng",
+          "provenance": "verified",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": "English"
+        },
+        {
+          "codec": "ac3",
+          "language": "mr",
+          "languageName": "Marathi",
+          "languageRaw": "mar",
+          "provenance": "verified",
+          "channels": 6,
+          "sampleRate": 48000,
+          "title": "Marathi 5.1"
+        },
+        {
+          "codec": "opus",
+          "language": null,
+          "languageName": null,
+          "languageRaw": "und",
+          "provenance": "unknown",
+          "channels": 2,
+          "sampleRate": 48000,
+          "title": "Track 4 Unlabelled"
+        }
+      ]
+    },
+    {
+      "case": "multi_audio_hls_hi_en_mr",
+      "tracks": [
+        {
+          "groupId": "aud",
+          "codec": "aac",
+          "language": "hi",
+          "languageName": "Hindi",
+          "languageRaw": "hi",
+          "provenance": "verified",
+          "channels": null,
+          "title": "Hindi",
+          "isDefault": true,
+          "uri": "http://127.0.0.1:42539/hls_multi/audio_hi.m3u8"
+        },
+        {
+          "groupId": "aud",
+          "codec": "aac",
+          "language": "en",
+          "languageName": "English",
+          "languageRaw": "en",
+          "provenance": "verified",
+          "channels": null,
+          "title": "English",
+          "isDefault": false,
+          "uri": "http://127.0.0.1:42539/hls_multi/audio_en.m3u8"
+        },
+        {
+          "groupId": "aud",
+          "codec": "aac",
+          "language": "mr",
+          "languageName": "Marathi",
+          "languageRaw": "mr",
+          "provenance": "verified",
+          "channels": null,
+          "title": "Marathi",
+          "isDefault": false,
+          "uri": "http://127.0.0.1:42539/hls_multi/audio_mr.m3u8"
+        }
+      ]
+    },
+    {
+      "case": "unlabelled_audio_mkv",
+      "tracks": [
+        {
+          "index": 0,
+          "language": null,
+          "languageName": null,
+          "raw": "und",
+          "codec": "aac",
+          "channels": 2,
+          "title": "Audio 1",
+          "provenance": "unknown"
+        },
+        {
+          "index": 1,
+          "language": null,
+          "languageName": null,
+          "raw": "und",
+          "codec": "aac",
+          "channels": 2,
+          "title": "Audio 2",
+          "provenance": "unknown"
+        }
+      ]
+    },
+    {
+      "case": "unlabelled_audio_hls",
+      "tracks": [
+        {
+          "index": 0,
+          "language": null,
+          "languageName": null,
+          "raw": null,
+          "codec": "aac",
+          "channels": null,
+          "title": "Audio Track 1",
+          "provenance": "unknown"
+        }
+      ]
+    }
+  ],
+  "episodeVerificationTests": [
+    {
+      "case": "correct_episode_trusted_id_and_container_tags",
+      "expected": "VERIFIED_MATCH",
+      "actual": {
+        "status": "VERIFIED_MATCH",
+        "provenance": "verified",
+        "reasons": [
+          "trusted_id_match",
+          "container_season_episode_match",
+          "runtime_within_tolerance"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": "tt1234567",
+            "tmdbId": "999001",
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": 1,
+        "episode": 2,
+        "runtimeCheck": {
+          "status": "within_tolerance",
+          "expectedSec": 2640,
+          "measuredSec": 2649.365333333333,
+          "ratio": 1.004
+        }
+      }
+    },
+    {
+      "case": "correct_episode_container_tags_only_no_imdb",
+      "expected": "CONTAINER_TAG_MATCH",
+      "actual": {
+        "status": "CONTAINER_TAG_MATCH",
+        "provenance": "verified",
+        "reasons": [
+          "container_season_episode_match",
+          "no_trusted_external_id_in_container"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": 1,
+        "episode": 2,
+        "runtimeCheck": {
+          "status": "within_tolerance",
+          "expectedSec": 2640,
+          "measuredSec": 2649.386,
+          "ratio": 1.004
+        }
+      }
+    },
+    {
+      "case": "wrong_episode_same_runtime_trap_s01e03",
+      "expected": "EPISODE_MISMATCH",
+      "actual": {
+        "status": "EPISODE_MISMATCH",
+        "provenance": "verified",
+        "reasons": [
+          "container_episode_3_expected_2"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": 1,
+        "episode": 3,
+        "runtimeCheck": {
+          "status": "within_tolerance",
+          "expectedSec": 2640,
+          "measuredSec": 2649.386,
+          "ratio": 1.004
+        }
+      }
+    },
+    {
+      "case": "wrong_season_same_runtime_s02e02",
+      "expected": "SEASON_MISMATCH",
+      "actual": {
+        "status": "SEASON_MISMATCH",
+        "provenance": "declared",
+        "reasons": [
+          "declared_season_2_expected_1"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": 2,
+        "episode": 2,
+        "runtimeCheck": {
+          "status": "within_tolerance",
+          "expectedSec": 2640,
+          "measuredSec": 2649.365333333333,
+          "ratio": 1.004
+        }
+      }
+    },
+    {
+      "case": "trailer_mp4_120s",
+      "expected": "LIKELY_TRAILER_OR_CLIP",
+      "actual": {
+        "status": "LIKELY_TRAILER_OR_CLIP",
+        "provenance": "verified",
+        "reasons": [
+          "container_trailer_marker",
+          "title_or_filename_trailer_marker",
+          "short_duration_120s_vs_2640s"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": null,
+        "episode": null,
+        "runtimeCheck": {
+          "status": "trailer_duration",
+          "expectedSec": 2640,
+          "measuredSec": 120.40533333333333,
+          "ratio": 0.046
+        }
+      }
+    },
+    {
+      "case": "trailer_hls_120s_short_duration",
+      "expected": "LIKELY_TRAILER_OR_CLIP",
+      "actual": {
+        "status": "LIKELY_TRAILER_OR_CLIP",
+        "provenance": "verified",
+        "reasons": [
+          "short_duration_120s_vs_2640s"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": null,
+        "episode": null,
+        "runtimeCheck": {
+          "status": "trailer_duration",
+          "expectedSec": 2640,
+          "measuredSec": 120,
+          "ratio": 0.045
+        }
+      }
+    },
+    {
+      "case": "missing_episode_metadata_matching_duration_only",
+      "expected": "UNVERIFIED_MISSING_EPISODE_METADATA",
+      "actual": {
+        "status": "UNVERIFIED_MISSING_EPISODE_METADATA",
+        "provenance": "unknown",
+        "reasons": [
+          "no_season_or_episode_identifier_in_container_or_title",
+          "matching_duration_alone_not_proof"
+        ],
+        "ids": {
+          "container": {
+            "imdbId": null,
+            "tmdbId": null,
+            "tvdbId": null
+          },
+          "provider": {
+            "imdbId": null,
+            "tmdbId": null
+          }
+        },
+        "season": null,
+        "episode": null,
+        "runtimeCheck": {
+          "status": "within_tolerance",
+          "expectedSec": 2640,
+          "measuredSec": 2649.365333333333,
+          "ratio": 1.004
+        }
+      }
+    }
+  ],
+  "desktopBinaryBugSimulation": {
+    "originalSliceLen": 512,
+    "reencodedSliceLen": 553,
+    "byteLengthDelta": 41,
+    "corruptedMp4MoovResult": null
+  },
+  "benchmarks": {
+    "streamBatchCount": 8,
+    "binaryFullPayloadBytes": 166356226,
+    "boundedProbeBytesTotal": 291102,
+    "bandwidthSavingsPercent": 99.83,
+    "localZeroDelayConc4Ms": 39,
+    "heapDeltaBytes": 2969488,
+    "simulatedWan35msRtt": {
+      "blockingSequentialMs": 1065,
+      "blockingConcurrency4Ms": 295,
+      "nonBlockingFirstRenderMs": 0,
+      "nonBlockingBackground4StreamsCompleteMs": 192,
+      "speedupSeqVsConc4": 3.61
+    }
+  }
+}

@@ -48,15 +48,15 @@
 | # | ID | Provider | Version | Types | Languages |
 | :---: | :--- | :--- | :---: | :--- | :--- |
 | 1 | `4khdhub` | **4KHDHub** | `v1.0.2` | `movie`, `tv` | `en` *(+ multi-audio)* |
-| 2 | `castle` | **Castle VIP Streams** | `v1.6.1` | `movie`, `tv` | `hi`, `en`, `ta`, `te` |
-| 3 | `vidlink` | **Vidlink** | `v1.0.0` | `movie`, `tv` | `en` |
-| 4 | `dahmermovies` | **Dahmermovies** | `v1.0.0` | `movie`, `tv` | `en` |
-| 5 | `bingr` | **Bingr Multi-Source** | `v1.6.1` | `movie`, `tv` | `en`, `ja`, `hi`, `multi` |
+| 2 | `bingr` | **Bingr Multi-Source** | `v1.6.1` | `movie`, `tv` | `en`, `ja`, `hi`, `multi` |
+| 3 | `vidlink` | **Vidlink** | `v1.0.1` | `movie`, `tv` | `en` |
+| 4 | `net77` | **NetMirror (Net77)** | `v1.6.1` | `movie`, `tv` | `en`, `hi`, `ta`, `te`, `multi` |
+| 5 | `dahmermovies` | **Dahmermovies** | `v1.0.0` | `movie`, `tv` | `en` |
 | 6 | `movy` | **Movy** | `v1.0.4` | `movie`, `tv` | `en` |
-| 7 | `redflix` | **RedFlix** | `v1.0.0` | `movie`, `tv` | `en` |
-| 8 | `net77` | **NetMirror (Net77)** | `v1.6.1` | `movie`, `tv` | `en`, `hi`, `ta`, `te`, `multi` |
-| 9 | `hdhub4u` | **HDHub4u** | `v1.1.0` | `movie`, `tv` | `en`, `hi` |
-| 10 | `uhdmovies` | **UHDMovies** | `v1.2.1` | `movie`, `tv` | `en` |
+| 7 | `hdhub4u` | **HDHub4u** | `v1.1.0` | `movie`, `tv` | `en`, `hi` |
+| 8 | `uhdmovies` | **UHDMovies** | `v1.2.1` | `movie`, `tv` | `en` |
+| 9 | `castle` | **Castle VIP Streams** | `v1.6.2` | `movie`, `tv` | `hi`, `en`, `ta`, `te` |
+| 10 | `redflix` | **RedFlix** | `v1.0.1` | `movie`, `tv` | `en` |
 | 11 | `movieblast` | **MovieBlast** | `v1.0.0` | `movie`, `tv` | `te`, `hi`, `en` |
 | 12 | `7movies` | **7Movies** | `v1.0.6` | `movie`, `tv` | `en` |
 
@@ -83,7 +83,7 @@
 
 | # | ID | Provider | Version | Types | Languages |
 | :---: | :--- | :--- | :---: | :--- | :--- |
-| 23 | `kisskh` | **Kisskh** | `v1.0.0` | `movie`, `tv` | `en`, `id` |
+| 23 | `kisskh` | **Kisskh** | `v1.0.1` | `movie`, `tv` | `en`, `id` |
 | 24 | `biavox` | **BiaVox** | `v1.0.0` | `movie` | `en`, `fr` |
 | 25 | `toonhub` | **ToonHub** *(QuickJS `atob` patched)* | `v1.0.0` | `movie`, `tv` | `hi`, `en` |
 | 26 | `animelok` | **Animelok** | `v1.0.0` | `tv`, `movie` | `hi`, `ta`, `te`, `ml`, `en`, `ja` |

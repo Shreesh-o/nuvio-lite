@@ -1,0 +1,45 @@
+{
+  "name": "NAMA",
+  "version": "1.3.1",
+  "description": "Multi-audio Indian dub anime and movie providers (Hindi, Tamil, Telugu, Malayalam, Bengali, English, Japanese) in 1080p and 720p.",
+  "author": "nama",
+  "scrapers": [
+    {
+      "id": "animesalt",
+      "name": "AnimeSalt",
+      "description": "animesalt.cx: multi-audio HI/TA/TE/EN/JA, 1080p and 720p HLS",
+      "version": "1.2.1",
+      "author": "nama",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/animesalt.js",
+      "enabled": true,
+      "logo": "https://animesalt.cx/wp-content/uploads/AnimeSaltLong.png",
+      "contentLanguage": ["hi", "ta", "te", "en", "ja"],
+      "formats": ["m3u8"]
+    },
+    {
+      "id": "watchanimeworld",
+      "name": "WatchAnimeWorld",
+      "description": "watchanimeworld.one: multi-audio HI/TA/TE/ML/BN/EN/JA, 1080p and 720p HLS",
+      "version": "1.2.1",
+      "author": "nama",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/watchanimeworld.js",
+      "enabled": true,
+      "contentLanguage": ["hi", "ta", "te", "ml", "bn", "en", "ja"],
+      "formats": ["m3u8"]
+    },
+    {
+      "id": "multimovies",
+      "name": "MultiMovies",
+      "description": "MultiMovies (domain from multimovies.wtf): Vidrift, VidBolt, Filmu, Nexus, VIDOUT; multi-audio 1080p and 720p",
+      "version": "1.3.1",
+      "author": "nama",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/multimovies.js",
+      "enabled": true,
+      "contentLanguage": ["hi", "ta", "te", "en", "ja"],
+      "formats": ["m3u8", "mp4"]
+    }
+  ]
+}

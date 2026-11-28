@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0-audit-proposal",
+  "notes": "Backward-compatible stream object proposal extending Nuvio's PluginRuntimeResult / Stremio Stream schema while distinguishing verified, declared, estimated, and unknown metadata.",
+  "currentPluginOutputDroppedExample": {
+    "name": "DemoProvider 1080p",
+    "title": "Show Alpha S01E02 1080p HEVC [Hindi + English] 2.1 GB",
+    "url": "https://cdn.example.invalid/Show.Alpha.S01E02.1080p.WEB-DL.x264.AAC.Hindi-English.mp4",
+    "quality": "1080p",
+    "size": "2.1 GB",
+    "language": "Hindi",
+    "format": "mp4",
+    "duration": 2640,
+    "season": 1,
+    "episode": 2,
+    "subtitles": [
+      {
+        "url": "https://cdn.example.invalid/subs/hi.vtt",
+        "language": "hi",
+        "name": "Hindi"
+      },
+      {
+        "url": "https://cdn.example.invalid/subs/en.vtt",
+        "language": "en",
+        "name": "English"
+      }
+    ],
+    "nuvioMobileRenderedBehavior": {
+      "cardTitle": "DemoProvider 1080p (title dropped because name != null)",
+      "cardSubtitle": "1080p • 2.1 GB • Hindi",
+      "fileSizeBadge": null,
+      "subtitleCountOnCard": 0,
+      "silentlyDiscardedKeys": ["format", "duration", "season", "episode", "title (in StreamFetchSupport)"]
+    }
+  },
+  "recommendedExtendedStreamResponse": {
+    "name": "DemoProvider",
+    "title": "Show Alpha S01E02 [Hindi + English] 1080p x264 AAC",
+    "url": "https://cdn.example.invalid/Show.Alpha.S01E02.1080p.WEB-DL.x264.AAC.Hindi-English.mp4",
+    "quality": "1080p",
+    "size": "2.10 GB",
+    "language": "hi,en",
+    "type": "direct",
+    "provider": "demoprovider",
+    "headers": {
+      "Referer": "https://cdn.example.invalid/"
+    },
+    "subtitles": [
+      {
+        "url": "https://cdn.example.invalid/subs/hi.vtt",
+        "language": "hi",
+        "name": "Hindi"
+      },
+      {
+        "url": "https://cdn.example.invalid/subs/en.vtt",
+        "language": "en",
+        "name": "English"
+      }
+    ],
+    "behaviorHints": {
+      "filename": "Show.Alpha.S01E02.1080p.WEB-DL.x264.AAC.Hindi-English.mp4",
+      "videoSize": 2254857830,
+      "bingeGroup": "demoprovider-1080p-x264",
+      "notWebReady": true
+    },
+    "media": {
+      "container": {
+        "value": "mp4",
+        "provenance": "verified",
+        "source": "container"
+      },
+      "durationSec": {
+        "value": 2640,
+        "provenance": "verified",
+        "source": "container"
+      },
+      "fileSizeBytes": {
+        "value": 2254857830,
+        "provenance": "verified",
+        "source": "http_header"
+      },
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "resolutionLabel": "1080p",
+        "codec": "h264",
+        "provenance": "verified",
+        "source": "container"
+      },
+      "audioTracks": [
+        {
+          "index": 0,
+          "language": "hi",
+          "languageName": "Hindi",
+          "codec": "aac",
+          "channels": 2,
+          "provenance": "verified"
+        },
+        {
+          "index": 1,
+          "language": "en",
+          "languageName": "English",
+          "codec": "aac",
+          "channels": 2,
+          "provenance": "verified"
+        }
+      ],
+      "subtitleTracks": [
+        {
+          "language": "hi",
+          "languageName": "Hindi",
+          "codec": "mov_text",
+          "source": "container",
+          "provenance": "verified"
+        },
+        {
+          "language": "en",
+          "languageName": "English",
+          "codec": "mov_text",
+          "source": "container",
+          "provenance": "verified"
+        },
+        {
+          "language": "hi",
+          "languageName": "Hindi",
+          "codec": "external",
+          "source": "provider_sidecar",
+          "provenance": "declared"
+        }
+      ]
+    },
+    "verification": {
+      "status": "VERIFIED_MATCH",
+      "provenance": "verified",
+      "trustedIds": {
+        "imdbId": "tt1234567",
+        "tmdbId": "999001"
+      },
+      "season": 1,
+      "episode": 2,
+      "runtimeCheck": {
+        "status": "within_tolerance",
+        "expectedSec": 2640,
+        "measuredSec": 2640,
+        "ratio": 1.0
+      },
+      "reasons": [
+        "trusted_id_match",
+        "container_season_episode_match",
+        "runtime_within_tolerance"
+      ]
+    }
+  }
+}

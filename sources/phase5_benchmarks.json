@@ -1,0 +1,361 @@
+{
+  "cold": [
+    {
+      "architecture": "A_Native_JS",
+      "iterations": 10,
+      "ttfr_median_ms": 24.65,
+      "total_median_ms": 84.05,
+      "total_p95_ms": 116.76,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 9.1,
+      "lang_accuracy_pct": 90.9,
+      "cpu_ms": 314.14,
+      "ram_rss_mb": 77.91
+    },
+    {
+      "architecture": "B_HTTP_Addons",
+      "iterations": 10,
+      "ttfr_median_ms": 28.02,
+      "total_median_ms": 62.76,
+      "total_p95_ms": 65.02,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 14.3,
+      "lang_accuracy_pct": 100,
+      "cpu_ms": 119.89,
+      "ram_rss_mb": 82.73
+    },
+    {
+      "architecture": "C_AIOStreams_Aggregator",
+      "iterations": 10,
+      "ttfr_median_ms": 63.87,
+      "total_median_ms": 63.87,
+      "total_p95_ms": 67.89,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 0,
+      "lang_accuracy_pct": 100,
+      "cpu_ms": 173.09,
+      "ram_rss_mb": 85.37
+    },
+    {
+      "architecture": "D_Minimal_Hybrid",
+      "iterations": 10,
+      "ttfr_median_ms": 32.66,
+      "total_median_ms": 43.54,
+      "total_p95_ms": 44.73,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 40,
+      "lang_accuracy_pct": 80,
+      "cpu_ms": 96.4,
+      "ram_rss_mb": 87.12
+    }
+  ],
+  "warm": [
+    {
+      "architecture": "A_Native_JS_Warm",
+      "iterations": 10,
+      "ttfr_median_ms": 0.2,
+      "total_median_ms": 0.3,
+      "total_p95_ms": 85.21,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 9.1,
+      "lang_accuracy_pct": 90.9,
+      "cpu_ms": 18.64,
+      "ram_rss_mb": 89.18
+    },
+    {
+      "architecture": "B_HTTP_Addons_Warm",
+      "iterations": 10,
+      "ttfr_median_ms": 0.2,
+      "total_median_ms": 0.3,
+      "total_p95_ms": 61.8,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 14.3,
+      "lang_accuracy_pct": 100,
+      "cpu_ms": 6.5,
+      "ram_rss_mb": 89.18
+    },
+    {
+      "architecture": "C_AIOStreams_Aggregator_Warm",
+      "iterations": 10,
+      "ttfr_median_ms": 0.83,
+      "total_median_ms": 0.83,
+      "total_p95_ms": 63.68,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 0,
+      "lang_accuracy_pct": 100,
+      "cpu_ms": 17.43,
+      "ram_rss_mb": 89.35
+    },
+    {
+      "architecture": "D_Minimal_Hybrid_Warm",
+      "iterations": 10,
+      "ttfr_median_ms": 0.2,
+      "total_median_ms": 0.3,
+      "total_p95_ms": 31.25,
+      "success_rate_pct": 100,
+      "timeout_rate_pct": 0,
+      "error_rate_pct": 0,
+      "duplicate_rate_pct": 0,
+      "lang_accuracy_pct": 50,
+      "cpu_ms": 4.41,
+      "ram_rss_mb": 89.75
+    }
+  ],
+  "failures": {
+    "slow_upstream": {
+      "client": {
+        "architecture": "Client_slow_upstream",
+        "iterations": 5,
+        "ttfr_median_ms": 24.26,
+        "total_median_ms": 801.78,
+        "total_p95_ms": 805.97,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 50,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 87.3,
+        "ram_rss_mb": 91.41
+      },
+      "aggregator": {
+        "architecture": "Aggregator_slow_upstream",
+        "iterations": 5,
+        "ttfr_median_ms": 805.01,
+        "total_median_ms": 805.01,
+        "total_p95_ms": 805.53,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 50,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 41.97,
+        "ram_rss_mb": 92.75
+      }
+    },
+    "unavailable": {
+      "client": {
+        "architecture": "Client_unavailable",
+        "iterations": 5,
+        "ttfr_median_ms": 22.19,
+        "total_median_ms": 22.21,
+        "total_p95_ms": 23.36,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 14.63,
+        "ram_rss_mb": 93.39
+      },
+      "aggregator": {
+        "architecture": "Aggregator_unavailable",
+        "iterations": 5,
+        "ttfr_median_ms": 23.98,
+        "total_median_ms": 23.98,
+        "total_p95_ms": 26.32,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 31.56,
+        "ram_rss_mb": 93.73
+      }
+    },
+    "http_403_429_500": {
+      "client": {
+        "architecture": "Client_http_403_429_500",
+        "iterations": 5,
+        "ttfr_median_ms": 22.67,
+        "total_median_ms": 22.69,
+        "total_p95_ms": 24.85,
+        "success_rate_pct": 25,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 75,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 37.77,
+        "ram_rss_mb": 93.84
+      },
+      "aggregator": {
+        "architecture": "Aggregator_http_403_429_500",
+        "iterations": 5,
+        "ttfr_median_ms": 22.33,
+        "total_median_ms": 22.33,
+        "total_p95_ms": 23.2,
+        "success_rate_pct": 25,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 75,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 26.71,
+        "ram_rss_mb": 93.87
+      }
+    },
+    "malformed_json": {
+      "client": {
+        "architecture": "Client_malformed_json",
+        "iterations": 5,
+        "ttfr_median_ms": 22.06,
+        "total_median_ms": 22.07,
+        "total_p95_ms": 22.24,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 19.5,
+        "ram_rss_mb": 93.87
+      },
+      "aggregator": {
+        "architecture": "Aggregator_malformed_json",
+        "iterations": 5,
+        "ttfr_median_ms": 22.49,
+        "total_median_ms": 22.49,
+        "total_p95_ms": 23.67,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 29.93,
+        "ram_rss_mb": 93.87
+      }
+    },
+    "empty_and_invalid_meta": {
+      "client": {
+        "architecture": "Client_empty_and_invalid_meta",
+        "iterations": 5,
+        "ttfr_median_ms": 22.74,
+        "total_median_ms": 22.76,
+        "total_p95_ms": 23.33,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 34.06,
+        "ram_rss_mb": 93.87
+      },
+      "aggregator": {
+        "architecture": "Aggregator_empty_and_invalid_meta",
+        "iterations": 5,
+        "ttfr_median_ms": 22.48,
+        "total_median_ms": 22.48,
+        "total_p95_ms": 22.91,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 32.73,
+        "ram_rss_mb": 94.01
+      }
+    },
+    "network_interrupt": {
+      "client": {
+        "architecture": "Client_network_interrupt",
+        "iterations": 5,
+        "ttfr_median_ms": 24.51,
+        "total_median_ms": 24.54,
+        "total_p95_ms": 25.24,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 61.37,
+        "ram_rss_mb": 94.35
+      },
+      "aggregator": {
+        "architecture": "Aggregator_network_interrupt",
+        "iterations": 5,
+        "ttfr_median_ms": 23.92,
+        "total_median_ms": 23.92,
+        "total_p95_ms": 27.14,
+        "success_rate_pct": 50,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 50,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 85.58,
+        "ram_rss_mb": 92.6
+      }
+    },
+    "expired_media_url": {
+      "client": {
+        "architecture": "Client_expired_media_url",
+        "iterations": 5,
+        "ttfr_median_ms": 16.96,
+        "total_median_ms": 16.98,
+        "total_p95_ms": 17.43,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 0,
+        "cpu_ms": 10.31,
+        "ram_rss_mb": 91.38
+      },
+      "aggregator": {
+        "architecture": "Aggregator_expired_media_url",
+        "iterations": 5,
+        "ttfr_median_ms": 17.7,
+        "total_median_ms": 17.7,
+        "total_p95_ms": 19.34,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 0,
+        "cpu_ms": 25.68,
+        "ram_rss_mb": 91.38
+      }
+    },
+    "duplicates": {
+      "client": {
+        "architecture": "Client_duplicates",
+        "iterations": 5,
+        "ttfr_median_ms": 22.02,
+        "total_median_ms": 26.78,
+        "total_p95_ms": 27.74,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 33.3,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 31.01,
+        "ram_rss_mb": 92.48
+      },
+      "aggregator": {
+        "architecture": "Aggregator_duplicates",
+        "iterations": 5,
+        "ttfr_median_ms": 27.04,
+        "total_median_ms": 27.04,
+        "total_p95_ms": 28.22,
+        "success_rate_pct": 100,
+        "timeout_rate_pct": 0,
+        "error_rate_pct": 0,
+        "duplicate_rate_pct": 0,
+        "lang_accuracy_pct": 100,
+        "cpu_ms": 36.79,
+        "ram_rss_mb": 93.55
+      }
+    }
+  },
+  "expired_media_probe_status": 410
+}

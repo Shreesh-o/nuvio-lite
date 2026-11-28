@@ -1,0 +1,43 @@
+{
+  "name": "aiostreams",
+  "version": "2.38.1",
+  "description": "AIOStreams brings your Stremio addons, debrid services and Usenet together into one list, filtered, sorted and formatted your way, and plays it in Stremio or in its own apps for every screen.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "metadata": "node scripts/generateMetadata.cjs",
+    "update:header-presets": "node scripts/update-header-presets.mjs",
+    "gen:env-docs": "pnpm -F docs run gen:env-docs",
+    "build": "pnpm -F crypto run build && pnpm -F core run build && pnpm -F server run build && pnpm -F frontend run build && pnpm -F web run build",
+    "dev": "pnpm -F core -F server -F frontend -F web --parallel dev",
+    "docs:build": "pnpm -F docs run build",
+    "docs:dev": "pnpm -F docs run dev",
+    "build:watch": "tsc --build --watch",
+    "start": "node --max-semi-space-size=8 packages/server/dist/server",
+    "start:addon": "pnpm run start",
+    "start:dev": "cross-env NODE_ENV=development tsx watch packages/server/src/server.ts",
+    "start:addon:dev": "pnpm run start:dev",
+    "start:frontend:dev": "pnpm -F frontend run dev"
+  },
+  "author": "Viren070",
+  "license": "AGPL-3.0-only",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "prettier": "^3.9.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "packageManager": "pnpm@11.28.13+sha512.d5caa9cdcd6067ac2902f9f44daa00b1288a73babf1e98f4f375b3a7583b1894b4d49f7527da8f5e1530198bb10e03adba321a1f015429dc2946ce8a7a9a8c65",
+  "engines": {
+    "pnpm": ">=11.0.0",
+    "node": ">=24.0.0"
+  }
+}

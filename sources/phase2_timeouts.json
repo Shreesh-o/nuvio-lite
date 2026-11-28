@@ -1,0 +1,128 @@
+[
+  {
+    "id": "michat88/streamflix",
+    "status": "cap_12500ms",
+    "latency_ms": 12503,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/peachify",
+    "status": "cap_12500ms",
+    "latency_ms": 12527.9,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/moviesdrive",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.1,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/animetsu",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.2,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/zinkmovies",
+    "status": "cap_12500ms",
+    "latency_ms": 12501.3,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/playimdb",
+    "status": "ok",
+    "latency_ms": 10070.2,
+    "abortedCount": 0,
+    "errMsg": null
+  },
+  {
+    "id": "asura/4khdhub",
+    "status": "ok",
+    "latency_ms": 10071,
+    "abortedCount": 0,
+    "errMsg": null
+  },
+  {
+    "id": "asura/hindmovie",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.8,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "asura/hdhub4u",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.1,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/tamilmv",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.6,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/tamilblasters",
+    "status": "cap_12500ms",
+    "latency_ms": 12502.8,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/tamilian",
+    "status": "cap_12500ms",
+    "latency_ms": 12501.3,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/moviesda",
+    "status": "cap_12500ms",
+    "latency_ms": 12511.1,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/movies4u",
+    "status": "cap_12500ms",
+    "latency_ms": 12508.6,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/isaidub",
+    "status": "cap_12500ms",
+    "latency_ms": 12506.2,
+    "abortedCount": 3,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/toonhub",
+    "status": "cap_12500ms",
+    "latency_ms": 12507.3,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/animelok",
+    "status": "cap_12500ms",
+    "latency_ms": 12506.8,
+    "abortedCount": 1,
+    "errMsg": "CAP"
+  },
+  {
+    "id": "abinanthankv/xdmovies",
+    "status": "cap_12500ms",
+    "latency_ms": 12505.4,
+    "abortedCount": 0,
+    "errMsg": "CAP"
+  }
+]

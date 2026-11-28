@@ -1,0 +1,1690 @@
+[
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 0,
+    "id": "kisskh",
+    "name": "Kisskh",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "id"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/kisskh.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 5884,
+    "sha256_16": "dc65e41145ed629c",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/kisskh.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 1,
+    "id": "4khdhub",
+    "name": "4khdhub",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/4khdhub.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 12687,
+    "sha256_16": "ca2dcdffcc595d93",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/4khdhub.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 2,
+    "id": "animekai",
+    "name": "Animekai",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/animekai.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 20705,
+    "sha256_16": "740ca2273c5861ce",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/animekai.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 3,
+    "id": "castle",
+    "name": "Castle",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/castle.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 23597,
+    "sha256_16": "f59e1249bf2fdea8",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/castle.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 4,
+    "id": "cinevibe",
+    "name": "Cinevibe",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/cinevibe.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 16086,
+    "sha256_16": "e1549e3093c7b378",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/cinevibe.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 5,
+    "id": "dahmermovies",
+    "name": "Dahmermovies",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/dahmermovies.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 12923,
+    "sha256_16": "ac03399c1f73da43",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/dahmermovies.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 6,
+    "id": "dvdplay",
+    "name": "Dvdplay",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/dvdplay.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 40679,
+    "sha256_16": "89d82f6a9c30bdf1",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/dvdplay.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 7,
+    "id": "hdhub4u",
+    "name": "Hdhub4u",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/hdhub4u.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 59747,
+    "sha256_16": "eb859d79ac773aab",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/hdhub4u.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 8,
+    "id": "hdrezka",
+    "name": "Hdrezka",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/hdrezka.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 16795,
+    "sha256_16": "779f12c90398db99",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/hdrezka.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 9,
+    "id": "idlix",
+    "name": "Idlix",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/idlix.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 5380,
+    "sha256_16": "8e3e9dcb3193ab44",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/idlix.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 10,
+    "id": "mallumv",
+    "name": "Mallumv",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/mallumv.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 53488,
+    "sha256_16": "8888a8bb04a45ede",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/mallumv.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 11,
+    "id": "mapple",
+    "name": "Mapple",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/mapple.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 17856,
+    "sha256_16": "14968f2d18988414",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/mapple.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 12,
+    "id": "moviebox",
+    "name": "Moviebox",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/moviebox.js",
+    "extra_keys": [],
+    "http_status": 404,
+    "size_bytes": 0,
+    "sha256_16": null,
+    "syntax_ok": null,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/moviebox.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 13,
+    "id": "moviesmod",
+    "name": "Moviesmod",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/moviesmod.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 40252,
+    "sha256_16": "634568eb4b60067b",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/moviesmod.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 14,
+    "id": "myflixer-extractor",
+    "name": "Myflixer-extractor",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/myflixer-extractor.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 18931,
+    "sha256_16": "a045d0f1e4052151",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/myflixer-extractor.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 15,
+    "id": "netmirror",
+    "name": "Netmirror",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/netmirror.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 31407,
+    "sha256_16": "46fa41ba18133eff",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/netmirror.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 16,
+    "id": "showbox",
+    "name": "Showbox",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/showbox.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 12230,
+    "sha256_16": "6eebb38207354bf6",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/showbox.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 17,
+    "id": "streamflix",
+    "name": "Streamflix",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/streamflix.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 16201,
+    "sha256_16": "a9e7deb56fd5b3c9",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/streamflix.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 18,
+    "id": "uhdmovies",
+    "name": "Uhdmovies",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/uhdmovies.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 46278,
+    "sha256_16": "7310c6630caf8dbe",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/uhdmovies.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 19,
+    "id": "videasy",
+    "name": "Videasy",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/videasy.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 21980,
+    "sha256_16": "0bd96ebb17fee813",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/videasy.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 20,
+    "id": "vidlink",
+    "name": "Vidlink",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vidlink.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 21614,
+    "sha256_16": "800ac6139e6d970c",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidlink.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 21,
+    "id": "vidnest-anime",
+    "name": "Vidnest-anime",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vidnest-anime.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 21545,
+    "sha256_16": "eda4a296ec7120c3",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidnest-anime.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 22,
+    "id": "vidnest",
+    "name": "Vidnest",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vidnest.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 18214,
+    "sha256_16": "408aad3b5efb3511",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidnest.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 23,
+    "id": "vidrock",
+    "name": "Vidrock",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vidrock.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 19783,
+    "sha256_16": "85a7eae0eaf82d87",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidrock.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 24,
+    "id": "vidsrc",
+    "name": "Vidsrc",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vidsrc.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 22458,
+    "sha256_16": "e8d8be37c2226201",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vidsrc.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 25,
+    "id": "vixsrc",
+    "name": "Vixsrc",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/vixsrc.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 12214,
+    "sha256_16": "f3a4107c2a43d3e2",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/vixsrc.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 26,
+    "id": "watch32",
+    "name": "Watch32",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/watch32.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 26487,
+    "sha256_16": "4abb62d44f52d305",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/watch32.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 27,
+    "id": "xprime",
+    "name": "Xprime",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/xprime.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 36936,
+    "sha256_16": "279882bcb321cde7",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/xprime.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 28,
+    "id": "yflix",
+    "name": "Yflix",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/yflix.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 13331,
+    "sha256_16": "5984face41213bef",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/yflix.js"
+  },
+  {
+    "repo": "michat88/nuvio-providers",
+    "repo_key": "michat88",
+    "index": 29,
+    "id": "adimoviebox",
+    "name": "Adimoviebox",
+    "version": "1.0.0",
+    "author": "Michat88",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "m3u8"
+    ],
+    "filename": "providers/adimoviebox.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 5551,
+    "sha256_16": "9eebb822223a88f6",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/michat88/adimoviebox.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 0,
+    "id": "vegamovies",
+    "name": "VegaMovies",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv",
+      "m3u8"
+    ],
+    "filename": "providers/vegamovies.js",
+    "extra_keys": [
+      "limited"
+    ],
+    "http_status": 200,
+    "size_bytes": 14030,
+    "sha256_16": "b735ad26d231427a",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/vegamovies.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 1,
+    "id": "movieshunt",
+    "name": "MoviesHunt",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "enabled": true,
+    "formats": [
+      "mkv",
+      "mp4"
+    ],
+    "filename": "providers/movieshunt.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 19707,
+    "sha256_16": "4351c5be00230248",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/movieshunt.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 2,
+    "id": "biavox",
+    "name": "BiaVox",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "en",
+      "fr"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8"
+    ],
+    "filename": "providers/biavox.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 17476,
+    "sha256_16": "7cf9e6c63dc4072f",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/biavox.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 3,
+    "id": "cinemm",
+    "name": "CineMM",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv"
+    ],
+    "filename": "providers/cinemm.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 17297,
+    "sha256_16": "c83973bfe3a27730",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/cinemm.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 4,
+    "id": "peachify",
+    "name": "Peachify",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8",
+      "mp4"
+    ],
+    "filename": "providers/peachify.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 545720,
+    "sha256_16": "c445081d1a8cae77",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/peachify.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 5,
+    "id": "moviesdrive",
+    "name": "MoviesDrive",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv"
+    ],
+    "filename": "providers/moviesdrive.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 16684,
+    "sha256_16": "5dc3d2b093c88d06",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/moviesdrive.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 6,
+    "id": "animetsu",
+    "name": "Animetsu",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8"
+    ],
+    "filename": "providers/animetsu.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 15515,
+    "sha256_16": "ed004e723f6ecd1a",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/animetsu.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 7,
+    "id": "anikototv",
+    "name": "AnikotoTV",
+    "version": "1.0.5",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "anime"
+    ],
+    "contentLanguage": [
+      "en",
+      "ja"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4"
+    ],
+    "filename": "providers/anikototv.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 14257,
+    "sha256_16": "efc38b4eaa97fc0f",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/anikototv.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 8,
+    "id": "zinkmovies",
+    "name": "ZinkMovies",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi",
+      "ta",
+      "te",
+      "bn"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv",
+      "m3u8"
+    ],
+    "filename": "providers/zinkmovies.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 15197,
+    "sha256_16": "f53b66274dadac57",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/zinkmovies.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 9,
+    "id": "kisskh",
+    "name": "KissKH",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8",
+      "mp4"
+    ],
+    "filename": "providers/kisskh.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 16850,
+    "sha256_16": "7e5988c501f4fc82",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/kisskh.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 10,
+    "id": "cinefreak",
+    "name": "CineFreak",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mkv",
+      "mp4"
+    ],
+    "filename": "providers/cinefreak.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 17217,
+    "sha256_16": "34f587c52bdbf647",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/cinefreak.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 11,
+    "id": "hdfilme",
+    "name": "HDFilme",
+    "version": "1.0.0",
+    "author": "krimek",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "de"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8"
+    ],
+    "filename": "providers/hdfilme.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 10918,
+    "sha256_16": "2786f91cfe6b4358",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hdfilme.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 12,
+    "id": "playimdb",
+    "name": "PlayIMDb",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "m3u8"
+    ],
+    "filename": "providers/playimdb.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 4485,
+    "sha256_16": "c27febd722731732",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/playimdb.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 13,
+    "id": "4khdhub",
+    "name": "4KHDHub",
+    "version": "1.0.1",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mkv",
+      "mp4"
+    ],
+    "filename": "providers/4khdhub.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 10275,
+    "sha256_16": "81cdad75c19ffc90",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/4khdhub.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 14,
+    "id": "hindmovie",
+    "name": "HindMovie",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv",
+      "m3u8"
+    ],
+    "filename": "providers/hindmovie.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 21129,
+    "sha256_16": "9efab7e599bcc98e",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hindmovie.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 15,
+    "id": "hdhub4u",
+    "name": "HDHub4u",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": [
+      "mkv",
+      "mp4"
+    ],
+    "filename": "providers/hdhub4u.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 21919,
+    "sha256_16": "1240415519364882",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/hdhub4u.js"
+  },
+  {
+    "repo": "PirateZoro9/asura-providers",
+    "repo_key": "asura",
+    "index": 16,
+    "id": "uhdmovies",
+    "name": "UHDMovies",
+    "version": "1.0.0",
+    "author": "piratezoro9",
+    "supportedTypes": [
+      "movie",
+      "tv",
+      "series"
+    ],
+    "contentLanguage": [
+      "en"
+    ],
+    "enabled": true,
+    "formats": [
+      "mp4",
+      "mkv"
+    ],
+    "filename": "providers/uhdmovies.js",
+    "extra_keys": [],
+    "http_status": 200,
+    "size_bytes": 22325,
+    "sha256_16": "b356c24dce22d012",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/asura/uhdmovies.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 0,
+    "id": "tamilmv",
+    "name": "TamilMV",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "ta",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/tamilmv.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 7672,
+    "sha256_16": "4e97437b58db5805",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilmv.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 1,
+    "id": "tamilblasters",
+    "name": "Tamilblasters",
+    "version": "1.0.1",
+    "author": "User",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ta",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/tamilblasters.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 14062,
+    "sha256_16": "856a531b667e9f84",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilblasters.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 2,
+    "id": "tamilian",
+    "name": "Tamilian",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "ta",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/tamilian.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 5400,
+    "sha256_16": "7caffe484a1f0090",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/tamilian.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 3,
+    "id": "moviesda",
+    "name": "Moviesda",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "ta",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/moviesda.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 14965,
+    "sha256_16": "50e0df0e49fd0374",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/moviesda.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 4,
+    "id": "movies4u",
+    "name": "Movies4u",
+    "version": "1.0.1",
+    "author": "User",
+    "supportedTypes": [
+      "movie"
+    ],
+    "contentLanguage": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/movies4u.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 9167,
+    "sha256_16": "bcca643a2d0a9c81",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/movies4u.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 5,
+    "id": "isaidub",
+    "name": "Isaidub",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "ta",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/isaidub.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 13815,
+    "sha256_16": "9480e4359f8c6630",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/isaidub.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 6,
+    "id": "toonhub",
+    "name": "ToonHub",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "hi",
+      "en"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/toonhub.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 14440,
+    "sha256_16": "4e08875e833fd933",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/toonhub.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 7,
+    "id": "animelok",
+    "name": "Animelok",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "tv",
+      "movie"
+    ],
+    "contentLanguage": [
+      "hi",
+      "ta",
+      "te",
+      "ml",
+      "en",
+      "ja"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/animelok.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 7141,
+    "sha256_16": "83aafc7deb8de5a1",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/animelok.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 8,
+    "id": "xdmovies",
+    "name": "XDmovies",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "hi"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/xdmovies.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 12096,
+    "sha256_16": "f5214dda1b0e7e04",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/xdmovies.js"
+  },
+  {
+    "repo": "Abinanthankv/NuvioRepo",
+    "repo_key": "abinanthankv",
+    "index": 9,
+    "id": "dramafull",
+    "name": "DramaFull",
+    "version": "1.0.0",
+    "author": "User",
+    "supportedTypes": [
+      "movie",
+      "tv"
+    ],
+    "contentLanguage": [
+      "en",
+      "ko",
+      "zh",
+      "ja"
+    ],
+    "enabled": true,
+    "formats": null,
+    "filename": "src/providers/dramafull.js",
+    "extra_keys": [
+      "supportsExternalPlayer"
+    ],
+    "http_status": 200,
+    "size_bytes": 5499,
+    "sha256_16": "72b920268aaf2027",
+    "syntax_ok": true,
+    "syntax_err": null,
+    "local_path": "/home/shreesh/nuvio-audit/sources/providers/abinanthankv/dramafull.js"
+  }
+]

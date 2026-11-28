@@ -23,70 +23,6 @@
       "logo": "https://www.google.com/s2/favicons?domain=4khdhub.click&sz=128"
     },
     {
-      "id": "castle",
-      "name": "🏰 Castle VIP Streams",
-      "description": "Direct Castle VIP Bollywood, Hollywood & TV series in 1080p with Multi-Audio (Hindi, English, Tamil, Telugu, etc.)",
-      "version": "1.6.1",
-      "author": "ModFlix Team",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/castle.js",
-      "enabled": true,
-      "formats": [
-        "m3u8",
-        "mp4"
-      ],
-      "contentLanguage": [
-        "hi",
-        "en",
-        "ta",
-        "te"
-      ],
-      "logo": "https://img.icons8.com/color/96/castle.png"
-    },
-    {
-      "id": "vidlink",
-      "name": "Vidlink",
-      "description": "Vidlink provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/vidlink.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
-      "id": "dahmermovies",
-      "name": "Dahmermovies",
-      "description": "Dahmermovies provider for Nuvio-Lite (from michat88/nuvio-providers).",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/dahmermovies.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
       "id": "bingr",
       "name": "⚡ Bingr Multi-Source",
       "description": "Multi-source streaming provider for movies, TV shows, and anime aggregated from Bingr endpoints with multi-audio support",
@@ -111,36 +47,16 @@
       "logo": "https://img.icons8.com/color/96/film-reel.png"
     },
     {
-      "id": "movy",
-      "name": "Movy",
-      "description": "movy.sx sources (wecollege API, mvm1-decrypted) - direct HLS up to 4K with subtitles",
-      "version": "1.0.4",
-      "author": "Anh Pham",
+      "id": "vidlink",
+      "name": "Vidlink",
+      "description": "Vidlink provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.1",
+      "author": "Michat88",
       "supportedTypes": [
         "movie",
         "tv"
       ],
-      "filename": "providers/movy.js",
-      "enabled": true,
-      "formats": [
-        "m3u8"
-      ],
-      "contentLanguage": [
-        "en"
-      ],
-      "logo": "https://www.google.com/s2/favicons?domain=movy.sx&sz=128"
-    },
-    {
-      "id": "redflix",
-      "name": "RedFlix",
-      "description": "RedFlix stream provider",
-      "version": "1.0.0",
-      "author": "Chole Bhature",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/redflix.js",
+      "filename": "providers/vidlink.js",
       "enabled": true,
       "formats": [
         "mp4",
@@ -177,6 +93,46 @@
         "multi"
       ],
       "logo": "https://net77.cc/favicon.ico"
+    },
+    {
+      "id": "dahmermovies",
+      "name": "Dahmermovies",
+      "description": "Dahmermovies provider for Nuvio-Lite (from michat88/nuvio-providers).",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/dahmermovies.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
+      "id": "movy",
+      "name": "Movy",
+      "description": "movy.sx sources (wecollege API, mvm1-decrypted) - direct HLS up to 4K with subtitles",
+      "version": "1.0.4",
+      "author": "Anh Pham",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/movy.js",
+      "enabled": true,
+      "formats": [
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "logo": "https://www.google.com/s2/favicons?domain=movy.sx&sz=128"
     },
     {
       "id": "hdhub4u",
@@ -219,6 +175,50 @@
         "en"
       ],
       "logo": "https://www.google.com/s2/favicons?domain=uhdmovies.pink&sz=128"
+    },
+    {
+      "id": "castle",
+      "name": "🏰 Castle VIP Streams",
+      "description": "Direct Castle VIP Bollywood, Hollywood & TV series in 1080p with Multi-Audio (Hindi, English, Tamil, Telugu, etc.)",
+      "version": "1.6.2",
+      "author": "ModFlix Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/castle.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "hi",
+        "en",
+        "ta",
+        "te"
+      ],
+      "logo": "https://img.icons8.com/color/96/castle.png"
+    },
+    {
+      "id": "redflix",
+      "name": "RedFlix",
+      "description": "RedFlix stream provider",
+      "version": "1.0.1",
+      "author": "Chole Bhature",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/redflix.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "movieblast",
@@ -489,7 +489,7 @@
       "id": "kisskh",
       "name": "Kisskh",
       "description": "Asian Drama & Anime streaming",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Michat88",
       "supportedTypes": [
         "movie",
